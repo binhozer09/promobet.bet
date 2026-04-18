@@ -1,0 +1,215 @@
+RewriteEngine On
+
+# Redirecionar para HTTPS (descomente se necessário)
+#RewriteCond %{HTTPS} off
+#RewriteRule ^ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteBase /
+
+# -----------------------------------------------------------------
+# | Tratamento de erros 403 (Forbidden) e 404 (Not Found)          |
+# -----------------------------------------------------------------
+# Redirecionar o erro 403 para a página inicial
+ErrorDocument 403 /index.php?error=403&redirect=1
+
+# Redirecionar o erro 404 para a página inicial
+ErrorDocument 404 /index.php?error=404&redirect=1
+
+# -----------------------------------------------------------------
+# | Regras especiais para a página de depósito                     |
+# -----------------------------------------------------------------
+# Permitir que a página de depósito seja acessada mesmo após refresh
+# Salvar parâmetros do PIX na sessão
+<Files "pixqr.php">
+    # Permitir iframe: remover X-Frame-Options e definir CSP adequado
+    <IfModule mod_headers.c>
+        Header unset X-Frame-Options
+        Header set Content-Security-Policy "frame-ancestors *"
+        Header set Access-Control-Allow-Origin "*"
+        Header set X-XSS-Protection "1; mode=block"
+    </IfModule>
+
+    # Permitir acesso de qualquer origem
+    Order Allow,Deny
+    Allow from all
+
+    # Permitir métodos GET e POST
+    <LimitExcept GET POST>
+        Deny from all
+    </LimitExcept>
+</Files>
+
+# Permitir que a página de detalhes de depósito seja acessada
+<Files "deposit-details">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+# Regras para a API
+# Exceção: pixqr.php deve ser servido diretamente (carregado em iframe)
+RewriteRule ^api/v1/pixqr\.php$ - [L]
+RewriteRule ^api/(.*)$ api/v1/api.php [QSA,L]
+RewriteRule ^gold_api(.*)$ callback/game_callback [QSA,L]
+RewriteRule ^infinitysoft_api(.*)$ callback/game_callback [QSA,L]
+RewriteRule ^igamewin(.*)$ callback/igamewin [QSA,L]
+
+# -----------------------------------------------------------------
+# | Regra especial para preservar parâmetros de depósito           |
+# -----------------------------------------------------------------
+# Redireciona requisições para a página de depósito com URL expirada
+RewriteCond %{QUERY_STRING} payUrl [NC]
+RewriteCond %{REQUEST_URI} ^/deposit-details$ [NC]
+# Verifica se é um refresh (pode verificar o cabeçalho Referer)
+RewriteCond %{HTTP:Referer} ^https?://%{HTTP_HOST}/deposit-details [NC]
+RewriteRule ^deposit-details$ /index.php?page=deposit [R=302,L]
+
+# Se o arquivo ou diretório não existir, redirecione para o index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+# Regras adicionais para segurança e configuração
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+</IfModule>
+
+# ----------------------------------------------------------------------
+# | Anti- Clickjacking                                                  |
+# ----------------------------------------------------------------------
+<IfModule mod_headers.c>
+    <FilesMatch "\.(html|htm)$">
+        Header set X-Frame-Options "ALLOW"
+    </FilesMatch>
+</IfModule>
+
+# ----------------------------------------------------------------------
+# | Negando acesso aos diretórios                                       |
+# ----------------------------------------------------------------------
+<IfModule mod_autoindex.c>
+    Options -Indexes
+</IfModule>
+
+# ----------------------------------------------------------------------
+# | Bloqueando arquivos sensíveis                                       |
+# ----------------------------------------------------------------------
+<FilesMatch "(^#.*#|\.(bak|conf|dist|fla|in[ci]|log|psd|sh|sql|sw[op])|~)$">
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+        Satisfy All
+    </IfModule>
+</FilesMatch>
+
+# ----------------------------------------------------------------------
+# | Bloqueando arquivos zip/rar e outros                               |
+# ----------------------------------------------------------------------
+<FilesMatch "\.(zip|rar|7z|tar|gz|tar\.gz|tar\.bz2|tar\.xz|cab|iso|dmg|exe|msi)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# ----------------------------------------------------------------------
+# | Proteção contra execução de scripts em diretórios não permitidos   |
+# ----------------------------------------------------------------------
+#<Directory "/uploads/">
+#    # Bloquear execução de scripts PHP
+#    php_flag engine off
+#    <FilesMatch "\.php$">
+#        Order Deny,Allow
+#        Deny from all
+#    </FilesMatch>
+#</Directory>
+
+# ----------------------------------------------------------------------
+# | Proteção contra SQL Injection e XSS                                |
+# ----------------------------------------------------------------------
+RewriteCond %{QUERY_STRING} (\|%3B|\%3B|%3C|%3E|%22|%27|%00|\-\-|\%2F) [NC]
+RewriteRule .* - [F,L]
+
+# ----------------------------------------------------------------------
+# | Melhorias de segurança adicionais                                  |
+# ----------------------------------------------------------------------
+<IfModule mod_headers.c>
+    # Proteção contra ataques XSS
+    Header set X-XSS-Protection "1; mode=block"
+    # Proteção contra ataques de clickjacking
+    Header set X-Content-Type-Options "nosniff"
+    # Proteção contra MIME-sniffing
+    Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+    # Ajuste da política de segurança para permitir scripts inline
+    # Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'nonce-<?= $nonce ?>' https://accounts.google.com https://connect.facebook.net; object-src 'none'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;"
+
+</IfModule>
+
+
+# ----------------------------------------------------------------------
+# | Bloqueando acesso ao arquivo .htaccess                             |
+# ----------------------------------------------------------------------
+<Files .htaccess>
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# ----------------------------------------------------------------------
+# | Ativar Compressão Gzip (reduzir o tamanho dos arquivos transferidos)|
+# ----------------------------------------------------------------------
+<IfModule mod_deflate.c>
+    # Compressão de arquivos CSS, JavaScript, HTML, XML e outros
+    AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css application/javascript application/x-javascript application/xml application/json
+</IfModule>
+
+# ----------------------------------------------------------------------
+# | Configuração de Cache de Navegador para Arquivos Estáticos          |
+# ----------------------------------------------------------------------
+<IfModule mod_expires.c>
+    # Definir cabeçalhos de expiração para recursos estáticos
+    ExpiresActive On
+
+    # Imagens: cache por 1 ano
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+
+    # Arquivos CSS: cache por 1 mês
+    ExpiresByType text/css "access plus 1 month"
+
+    # Arquivos JavaScript: cache por 1 mês
+    ExpiresByType application/javascript "access plus 1 month"
+
+    # Fontes: cache por 1 ano
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType font/ttf "access plus 1 year"
+    ExpiresByType font/otf "access plus 1 year"
+    ExpiresByType application/font-woff2 "access plus 1 year"
+
+    # Arquivos PDF: cache por 1 mês
+    ExpiresByType application/pdf "access plus 1 month"
+</IfModule>
+
+# ----------------------------------------------------------------------
+# | Cache para outros tipos de arquivos (imagens, fontes, etc.)        |
+# ----------------------------------------------------------------------
+<IfModule mod_headers.c>
+    # Definir cabeçalhos para evitar cache em conteúdo dinâmico
+    <FilesMatch "\.(php|html|htm|xml)$">
+        Header set Cache-Control "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        Header set Pragma "no-cache"
+    </FilesMatch>
+    
+    # Para arquivos estáticos (como imagens e fontes), podemos permitir cache mais longo
+    <FilesMatch "\.(jpg|jpeg|png|gif|webp|svg|css|js|woff|woff2|ttf|otf|eot|pdf)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+
+    # Uploads dinâmicos (logos, favicons, etc) - cache curto para permitir atualizações
+    <Directory "uploads">
+        <FilesMatch "\.(jpg|jpeg|png|gif|webp|svg)$">
+            Header set Cache-Control "public, max-age=60, must-revalidate"
+        </FilesMatch>
+    </Directory>
+</IfModule>
