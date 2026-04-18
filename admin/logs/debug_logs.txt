@@ -1,0 +1,20 @@
+[2025-07-16 11:54:19] Iniciando verificações do sistema[2025-07-16 11:54:19] Diretório atual | Data: /www/wwwroot/Chinesas/r1-versace/admin/logs[2025-07-16 11:54:19] Arquivo atual | Data: /www/wwwroot/Chinesas/r1-versace/admin/logs/registrar_logs.php[2025-07-16 11:54:19] Caminho do database.php | Data: ../services/database.php[2025-07-16 11:54:19] Caminho completo do database.php | Data: /www/wwwroot/Chinesas/r1-versace/admin/services/database.php[2025-07-16 11:54:19] SUCCESS: Arquivo database.php encontrado[2025-07-16 11:54:19] Permissões do arquivo database.php | Data: 0644[2025-07-16 11:54:19] SUCCESS: Arquivo database.php tem permissão de leitura[2025-07-16 11:54:19] Tentando incluir: ../services/database.php[2025-07-16 00:54:19] SUCCESS: database.php incluído com sucesso[2025-07-16 00:54:19] Verificando variáveis de conexão disponíveis[2025-07-16 00:54:19] Variável de conexão encontrada | Data: mysqli[2025-07-16 00:54:19] SUCCESS: Conexão disponível[2025-07-16 00:54:19] Tipo de conexão | Data: mysqli[2025-07-16 00:54:19] SUCCESS: Conexão MySQLi funcionando[2025-07-16 00:54:19] Executando teste da função registrarLog[2025-07-16 00:54:19] Iniciando registrarLog | Data: Array
+(
+    [email] => teste@exemplo.com
+    [action] => Teste de debug
+    [connection_type] => mysqli
+)
+[2025-07-16 00:54:19] SUCCESS: Tabela 'logs' existe[2025-07-16 00:54:19] Estrutura da tabela logs | Data: Array
+(
+    [0] => id
+    [1] => user_id
+    [2] => email
+    [3] => action
+    [4] => timestamp
+)
+[2025-07-16 00:54:19] SQL preparado | Data: INSERT INTO logs (email, action) VALUES (?, ?)[2025-07-16 00:54:19] SUCCESS: Statement preparado[2025-07-16 00:54:19] Parâmetros vinculados | Data: Array
+(
+    [email] => teste@exemplo.com
+    [action] => Teste de debug
+)
+[2025-07-16 00:54:19] SUCCESS: Log registrado com sucesso[2025-07-16 00:54:19] ID do registro inserido | Data: 657[2025-07-16 00:54:19] SUCCESS: Teste da função passou[2025-07-16 00:54:19] Fim do debug
