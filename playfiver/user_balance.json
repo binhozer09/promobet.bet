@@ -1,0 +1,152 @@
+[
+    {
+        "timestamp": "2024-11-29 07:31:55",
+        "request": {
+            "user_code": "fivegaming"
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 1
+        }
+    },
+    {
+        "timestamp": "2024-11-29 07:32:00",
+        "request": {
+            "user_code": "fivegaming"
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 1.4
+        }
+    },
+    {
+        "timestamp": "2024-11-29 07:32:02",
+        "request": {
+            "user_code": "fivegaming"
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 1.4
+        }
+    },
+    {
+        "timestamp": "2024-11-29 07:32:04",
+        "request": {
+            "user_code": "fivegaming"
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 1
+        }
+    },
+    {
+        "timestamp": "2024-11-29 07:32:05",
+        "request": {
+            "user_code": "fivegaming"
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 0.6
+        }
+    },
+    {
+        "timestamp": "2024-11-29 07:32:13",
+        "request": {
+            "user_code": "fivegaming"
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 0.44
+        }
+    },
+    {
+        "timestamp": "2024-11-29 07:32:15",
+        "request": {
+            "user_code": "fivegaming"
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 0.68
+        }
+    },
+    {
+        "timestamp": "2024-11-29 07:32:17",
+        "request": {
+            "user_code": "fivegaming"
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 0.52
+        }
+    },
+    {
+        "timestamp": "2024-11-29 07:32:17",
+        "request": {
+            "user_code": "fivegaming"
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 0.12
+        }
+    },
+    {
+        "timestamp": "2024-11-29 18:31:07",
+        "request": {
+            "user_code": "yarkan"
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 29
+        }
+    },
+    {
+        "timestamp": "2024-11-29 18:31:10",
+        "request": {
+            "user_code": "yarkan"
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 28.2
+        }
+    },
+    {
+        "timestamp": "2024-11-30 09:23:43",
+        "request": {
+            "user_code": "teste1"
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 16
+        }
+    },
+    {
+        "timestamp": "2024-11-30 09:25:53",
+        "request": {
+            "user_code": "teste2"
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 16
+        }
+    },
+    {
+        "timestamp": "2024-12-09 14:56:52",
+        "request": {
+            "user_code": "mayconfeu"
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 3.96
+        }
+    },
+    {
+        "timestamp": "2024-12-09 14:56:56",
+        "request": {
+            "user_code": "mayconfeu"
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 3.56
+        }
+    }
+]

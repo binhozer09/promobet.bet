@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="WWW-Pago">
+    <link rel="apple-touch-icon" href="/static/images/logo.png">
+    <title>WWW-Pago</title>
+    <link href="/static/css/pix/style.css" rel="stylesheet">
+    <link href="/static/js/libs/toastr.css" rel="stylesheet">
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root">
+    <section>
+        <div class="main">
+            <div class="title">Use o QR Code do Pix para pagar</div>
+            <div class="main-content">
+                <div id="j_qrcode" class="codeBox">
+                </div>
+                <p class="amount">R$ <span id="j_amount"></span></p>
+                <div class="expireAt"><p>Expiração: <span id="j_expire_at"></span></p></div>
+            </div>
+            <div class="footer">
+                <button id="j_copy" class="button">COPIAR CÓDIGO PIX</button>
+            </div>
+            <div class="tips">
+                <div>Abra o app com sua chave PIX cadastrada, escolha Pagar com Pix e escaneie o QR Code ou copie e cole
+                    o código.
+                </div>
+                <div>Este código QR só pode ser pago uma vez, se você precisar pagar novamente, solicite novamente
+                    COPIAR CÓDIGO PIX
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<script type="text/javascript" src="/static/js/libs/jquery.min.js"></script>
+<script type="text/javascript" src="/static/js/libs/qrcode.min.js"></script>
+<script type="text/javascript" src="/static/js/libs/toastr.js"></script>
+<script type="text/javascript" src="/static/js/common.js"></script>
+<script type="text/javascript" src="/static/js/trade.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        var parameters = parseURLQueryParameters();
+        $('#j_trade_no').html(parameters.tradeNo);
+        $('#j_amount').html(formatBRLAmount(parameters.amount));
+        $('#j_expire_at').html(parameters.expiredAt);
+
+        var qrcode = new QRCode('j_qrcode', {
+            text: parameters.raw,
+            width: '190',
+            height: '190',
+            colorLight: '#fff',
+            correctLevel: QRCode.CorrectLevel.L,
+        });
+
+        $('#j_copy').on('click', function () {
+            copy(parameters.raw, 'Copiado com sucesso');
+        });
+
+        pollingTrade(parameters.tradeNo);
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+{
+  "status": true,
+  "data": {
+    "d": [
+      {
+        "id": "21",
+        "music_name": "Silver Scrapes",
+        "size": "184000",
+        "src": "/br-music/05445701-8160-41b0-8972-cddb764f2bac.mp3",
+        "sort": 0,
+        "status": 0,
+        "update_name": "",
+        "update_at": 0,
+        "create_at": 0
+      },
+      {
+        "id": "22",
+        "music_name": "Move Your Body",
+        "size": "386000",
+        "src": "/br-music/b76e008a-903d-4bb4-8638-a498ec82a8fb.mp3",
+        "sort": 0,
+        "status": 0,
+        "update_name": "",
+        "update_at": 0,
+        "create_at": 0
+      },
+      {
+        "id": "23",
+        "music_name": "Dusk Till Dawn",
+        "size": "416000",
+        "src": "/br-music/c53e7d1c-0165-42a5-8939-24f44397ddca.mp3",
+        "sort": 0,
+        "status": 0,
+        "update_name": "",
+        "update_at": 0,
+        "create_at": 0
+      },
+      {
+        "id": "24",
+        "music_name": "Cheap Thrills",
+        "size": "331000",
+        "src": "/br-music/4323379c-1862-4129-b051-9946b05606ae.mp3",
+        "sort": 0,
+        "status": 0,
+        "update_name": "",
+        "update_at": 0,
+        "create_at": 0
+      },
+      {
+        "id": "25",
+        "music_name": "Chandelier",
+        "size": "94000",
+        "src": "/br-music/de150fb8-3e77-4940-91cf-afeeedf140d5.mp3",
+        "sort": 0,
+        "status": 0,
+        "update_name": "",
+        "update_at": 0,
+        "create_at": 0
+      },
+      {
+        "id": "26",
+        "music_name": "Shape of You",
+        "size": "364000",
+        "src": "/br-music/862a2b66-d8ed-4a72-b763-595d53af3787.mp3",
+        "sort": 0,
+        "status": 0,
+        "update_name": "",
+        "update_at": 0,
+        "create_at": 0
+      },
+      {
+        "id": "27",
+        "music_name": "Whenever Wherever",
+        "size": "308600",
+        "src": "/br-music/d7104a87-3f3c-4171-b5c5-1ab79b5a29b2.mp3",
+        "sort": 0,
+        "status": 0,
+        "update_name": "",
+        "update_at": 0,
+        "create_at": 0
+      },
+      {
+        "id": "28",
+        "music_name": "Try Everything",
+        "size": "316000",
+        "src": "/br-music/3861bc50-cf3c-47fa-9056-ae528ef830e1.mp3",
+        "sort": 0,
+        "status": 0,
+        "update_name": "",
+        "update_at": 0,
+        "create_at": 0
+      },
+      {
+        "id": "29",
+        "music_name": "Waka Waka",
+        "size": "386000",
+        "src": "/br-music/add9bff1-5201-4e95-b36c-db7e784beebc.mp3",
+        "sort": 0,
+        "status": 0,
+        "update_name": "",
+        "update_at": 0,
+        "create_at": 0
+      },
+      {
+        "id": "30",
+        "music_name": "Seve",
+        "size": "330000",
+        "src": "/br-music/fb13c066-c82a-4315-918d-b565d8d5b7ab.mp3",
+        "sort": 0,
+        "status": 0,
+        "update_name": "",
+        "update_at": 0,
+        "create_at": 0
+      },
+      {
+        "id": "31",
+        "music_name": "Set Fire to the Rain",
+        "size": "717000",
+        "src": "/br-music/a5fede86-e0c8-4d9f-bb1d-feb87dc92bc3.mp3",
+        "sort": 0,
+        "status": 0,
+        "update_name": "",
+        "update_at": 0,
+        "create_at": 0
+      }
+    ],
+    "t": 31,
+    "config": {
+      "player_switch": 1,
+      "player_autoplay": 0
+    }
+  }
+}

@@ -1,0 +1,4499 @@
+[
+    {
+        "timestamp": "2025-06-11 11:38:34",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 947,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994e996ddc",
+                    "bet": 5,
+                    "win": 0.9999999999999999,
+                    "txn_id": "1f046d1c-0428-65ea-8737-025ff25f5c27",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 947,
+                    "user_after_balance": 943,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:38:37",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 943,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994ecd0bec",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1c-2307-6600-b5b2-1edb7b144137",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 943,
+                    "user_after_balance": 938,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:38:37",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 943,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994ecd0bec",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1c-2307-6600-b5b2-1edb7b144137",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 943,
+                    "user_after_balance": 938,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:38:38",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 938,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994ee431ca",
+                    "bet": 5,
+                    "win": 0.9999999999999999,
+                    "txn_id": "1f046d1c-3091-6da2-8ffd-9abc0a71858e",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 938,
+                    "user_after_balance": 934,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:38:38",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 938,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994ee431ca",
+                    "bet": 5,
+                    "win": 0.9999999999999999,
+                    "txn_id": "1f046d1c-3091-6da2-8ffd-9abc0a71858e",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 938,
+                    "user_after_balance": 934,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:38:39",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 934,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994eea7634",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1c-347c-69bc-acd8-2af6a30eb705",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 934,
+                    "user_after_balance": 934,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:38:39",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 934,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994eea7634",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1c-347c-69bc-acd8-2af6a30eb705",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 934,
+                    "user_after_balance": 934,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:38:41",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 934,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994f17667e",
+                    "bet": 5,
+                    "win": 5,
+                    "txn_id": "1f046d1c-4f2f-6020-a90e-faad033621dd",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 934,
+                    "user_after_balance": 934,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:38:41",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 934,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994f17667e",
+                    "bet": 5,
+                    "win": 5,
+                    "txn_id": "1f046d1c-4f2f-6020-a90e-faad033621dd",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 934,
+                    "user_after_balance": 934,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:38:42",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 934,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994f1db647",
+                    "bet": 0,
+                    "win": 5,
+                    "txn_id": "1f046d1c-5320-6dfa-a22c-de1e95f7ed62",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 934,
+                    "user_after_balance": 939,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:38:42",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 934,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994f1db647",
+                    "bet": 0,
+                    "win": 5,
+                    "txn_id": "1f046d1c-5320-6dfa-a22c-de1e95f7ed62",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 934,
+                    "user_after_balance": 939,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:38:46",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 939,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994f4b6d8c",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1c-6e4f-6a7c-9e30-9ae10065e0ad",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 939,
+                    "user_after_balance": 939,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:38:46",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 939,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994f4b6d8c",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1c-6e4f-6a7c-9e30-9ae10065e0ad",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 939,
+                    "user_after_balance": 939,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:38:52",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 939,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994faa5a70",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1c-a6dc-621e-bc64-52ecbd7a697b",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 939,
+                    "user_after_balance": 939,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:38:52",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 939,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994faa5a70",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1c-a6dc-621e-bc64-52ecbd7a697b",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 939,
+                    "user_after_balance": 939,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:38:52",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 939,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994fc7c08b",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1c-b84e-6c2c-a39b-7e56e4575664",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 939,
+                    "user_after_balance": 934,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:38:52",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 939,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994fc7c08b",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1c-b84e-6c2c-a39b-7e56e4575664",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 939,
+                    "user_after_balance": 934,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:38:54",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 934,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994fddadf2",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1c-c58c-68ee-9197-9ae10065e0ad",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 934,
+                    "user_after_balance": 929,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:38:54",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 934,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994fddadf2",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1c-c58c-68ee-9197-9ae10065e0ad",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 934,
+                    "user_after_balance": 929,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:38:55",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 929,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994ff563b4",
+                    "bet": 5,
+                    "win": 0.9999999999999999,
+                    "txn_id": "1f046d1c-d370-6f3c-98f7-2af6a30eb705",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 929,
+                    "user_after_balance": 925,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:38:55",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 929,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994ff563b4",
+                    "bet": 5,
+                    "win": 0.9999999999999999,
+                    "txn_id": "1f046d1c-d370-6f3c-98f7-2af6a30eb705",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 929,
+                    "user_after_balance": 925,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:38:56",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 925,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994ffa5506",
+                    "bet": 0,
+                    "win": 1.9999999999999998,
+                    "txn_id": "1f046d1c-d687-6c84-998c-2284d5130d55",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 925,
+                    "user_after_balance": 927,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:38:56",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 925,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684994ffa5506",
+                    "bet": 0,
+                    "win": 1.9999999999999998,
+                    "txn_id": "1f046d1c-d687-6c84-998c-2284d5130d55",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 925,
+                    "user_after_balance": 927,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:38:58",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 927,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849950286371",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1c-f1ed-6028-8d25-520cc9cd5d5f",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 927,
+                    "user_after_balance": 927,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:38:58",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 927,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849950286371",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1c-f1ed-6028-8d25-520cc9cd5d5f",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 927,
+                    "user_after_balance": 927,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:01",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 927,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849950561146",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-0d15-6df0-85bd-aa80e0536efb",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 927,
+                    "user_after_balance": 922,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:01",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 927,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849950561146",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-0d15-6df0-85bd-aa80e0536efb",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 927,
+                    "user_after_balance": 922,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:03",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 922,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "68499506c0e1c",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-1a5d-64d6-ac24-7ed7d01aa6dd",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 922,
+                    "user_after_balance": 917,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:03",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 922,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "68499506c0e1c",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-1a5d-64d6-ac24-7ed7d01aa6dd",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 922,
+                    "user_after_balance": 917,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:04",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 917,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684995082a90e",
+                    "bet": 5,
+                    "win": 2.5,
+                    "txn_id": "1f046d1d-2790-6f4a-a209-dacc96ae6ae5",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 917,
+                    "user_after_balance": 914.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:04",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 917,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684995082a90e",
+                    "bet": 5,
+                    "win": 2.5,
+                    "txn_id": "1f046d1d-2790-6f4a-a209-dacc96ae6ae5",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 917,
+                    "user_after_balance": 914.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:04",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 914.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684995088b424",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1d-2b57-6e30-9f2d-b20e8acf8980",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 914.5,
+                    "user_after_balance": 914.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:04",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 914.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684995088b424",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1d-2b57-6e30-9f2d-b20e8acf8980",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 914.5,
+                    "user_after_balance": 914.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:07",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 914.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849950b73856",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-4706-6b90-952a-a2dac94d7ff7",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 914.5,
+                    "user_after_balance": 909.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:07",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 914.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849950b73856",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-4706-6b90-952a-a2dac94d7ff7",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 914.5,
+                    "user_after_balance": 909.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:09",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 909.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849950cc2895",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-53a6-6486-b3b5-6edee4b2bab3",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 909.5,
+                    "user_after_balance": 904.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:09",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 909.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849950cc2895",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-53a6-6486-b3b5-6edee4b2bab3",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 909.5,
+                    "user_after_balance": 904.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:11",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 904.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849950e6fa1b",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-637c-60b8-bb18-66f97ebaeb04",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 904.5,
+                    "user_after_balance": 899.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:11",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 904.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849950e6fa1b",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-637c-60b8-bb18-66f97ebaeb04",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 904.5,
+                    "user_after_balance": 899.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:12",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 899.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684995103a138",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-7477-64e4-a550-7ed7d01aa6dd",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 899.5,
+                    "user_after_balance": 894.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:12",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 899.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684995103a138",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-7477-64e4-a550-7ed7d01aa6dd",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 899.5,
+                    "user_after_balance": 894.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:14",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 894.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849951199be6",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-81bd-6680-85c9-9ae10065e0ad",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 894.5,
+                    "user_after_balance": 889.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:14",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 894.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849951199be6",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-81bd-6680-85c9-9ae10065e0ad",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 894.5,
+                    "user_after_balance": 889.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:15",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 889.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684995130d70f",
+                    "bet": 5,
+                    "win": 1.5,
+                    "txn_id": "1f046d1d-8f55-62ca-b4cd-2af6a30eb705",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 889.5,
+                    "user_after_balance": 886,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:15",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 889.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684995130d70f",
+                    "bet": 5,
+                    "win": 1.5,
+                    "txn_id": "1f046d1d-8f55-62ca-b4cd-2af6a30eb705",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 889.5,
+                    "user_after_balance": 886,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:16",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 886,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "68499513762d5",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1d-936c-6886-953f-323a9e74db59",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 886,
+                    "user_after_balance": 886,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:16",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 886,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "68499513762d5",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1d-936c-6886-953f-323a9e74db59",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 886,
+                    "user_after_balance": 886,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:18",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 886,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684995163ae7e",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-adb8-60be-a710-025ff25f5c27",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 886,
+                    "user_after_balance": 881,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:18",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 886,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684995163ae7e",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-adb8-60be-a710-025ff25f5c27",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 886,
+                    "user_after_balance": 881,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:20",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 881,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684995179f136",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-bb2b-625a-85f8-de1e95f7ed62",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 881,
+                    "user_after_balance": 876,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:20",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 881,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684995179f136",
+                    "bet": 5,
+                    "win": 0,
+                    "txn_id": "1f046d1d-bb2b-625a-85f8-de1e95f7ed62",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 881,
+                    "user_after_balance": 876,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:21",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 876,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849951913191",
+                    "bet": 5,
+                    "win": 10,
+                    "txn_id": "1f046d1d-c8c6-62f2-a211-7ed7d01aa6dd",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 876,
+                    "user_after_balance": 881,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:21",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 876,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849951913191",
+                    "bet": 5,
+                    "win": 10,
+                    "txn_id": "1f046d1d-c8c6-62f2-a211-7ed7d01aa6dd",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 876,
+                    "user_after_balance": 881,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:21",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 881,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849951965988",
+                    "bet": 0,
+                    "win": 10,
+                    "txn_id": "1f046d1d-cbff-6284-8c19-56f9c98367eb",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 881,
+                    "user_after_balance": 891,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:21",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 881,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849951965988",
+                    "bet": 0,
+                    "win": 10,
+                    "txn_id": "1f046d1d-cbff-6284-8c19-56f9c98367eb",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 881,
+                    "user_after_balance": 891,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:24",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 891,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849951c45866",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1d-e75a-6aba-ab98-7a0dc77b0dc2",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 891,
+                    "user_after_balance": 891,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:24",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 891,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849951c45866",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1d-e75a-6aba-ab98-7a0dc77b0dc2",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 891,
+                    "user_after_balance": 891,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:31",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 891,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "68499521ec34c",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1e-1d8c-684a-99d6-de1e95f7ed62",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 891,
+                    "user_after_balance": 891,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:31",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 891,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "68499521ec34c",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1e-1d8c-684a-99d6-de1e95f7ed62",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 891,
+                    "user_after_balance": 891,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:32",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 891,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684995238e089",
+                    "bet": 5,
+                    "win": 3,
+                    "txn_id": "1f046d1e-2cf1-6998-a1a4-ce67e29868d6",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 891,
+                    "user_after_balance": 889,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:32",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 891,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "684995238e089",
+                    "bet": 5,
+                    "win": 3,
+                    "txn_id": "1f046d1e-2cf1-6998-a1a4-ce67e29868d6",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 891,
+                    "user_after_balance": 889,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:32",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 889,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "68499523dfee8",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1e-3024-698a-972c-56f9c98367eb",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 889,
+                    "user_after_balance": 889,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:32",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 889,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "68499523dfee8",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1e-3024-698a-972c-56f9c98367eb",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 889,
+                    "user_after_balance": 889,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:36",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 889,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "68499527a7fcc",
+                    "bet": 5,
+                    "win": 1.5,
+                    "txn_id": "1f046d1e-541a-6c36-8a58-1e70033eb5a8",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 889,
+                    "user_after_balance": 885.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:36",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 889,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "68499527a7fcc",
+                    "bet": 5,
+                    "win": 1.5,
+                    "txn_id": "1f046d1e-541a-6c36-8a58-1e70033eb5a8",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 889,
+                    "user_after_balance": 885.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:37",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 885.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849952876637",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1e-5bb4-62ee-b3cb-1e734d641e48",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 885.5,
+                    "user_after_balance": 885.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:37",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 885.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849952876637",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d1e-5bb4-62ee-b3cb-1e734d641e48",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 885.5,
+                    "user_after_balance": 885.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:39",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 885.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849952b47ced",
+                    "bet": 5,
+                    "win": 3.9999999999999996,
+                    "txn_id": "1f046d1e-767e-696c-a6c7-3a3928c9c016",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 885.5,
+                    "user_after_balance": 884.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:39",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 885.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849952b47ced",
+                    "bet": 5,
+                    "win": 3.9999999999999996,
+                    "txn_id": "1f046d1e-767e-696c-a6c7-3a3928c9c016",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 885.5,
+                    "user_after_balance": 884.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:40",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 884.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849952b9febf",
+                    "bet": 0,
+                    "win": 3,
+                    "txn_id": "1f046d1e-79ef-6bbe-b121-de1e95f7ed62",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 884.5,
+                    "user_after_balance": 887.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:40",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 884.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849952b9febf",
+                    "bet": 0,
+                    "win": 3,
+                    "txn_id": "1f046d1e-79ef-6bbe-b121-de1e95f7ed62",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 884.5,
+                    "user_after_balance": 887.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:39:43",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 887.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849952e8e61c",
+                    "bet": 0,
+                    "win": 10,
+                    "txn_id": "1f046d1e-95dc-68d6-8cfb-b20e8acf8980",
+                    "txn_type": "bonus",
+                    "user_before_balance": 887.5,
+                    "user_after_balance": 897.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:39:43",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 887.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "57",
+                    "type": "BASE",
+                    "round_id": "6849952e8e61c",
+                    "bet": 0,
+                    "win": 10,
+                    "txn_id": "1f046d1e-95dc-68d6-8cfb-b20e8acf8980",
+                    "txn_type": "bonus",
+                    "user_before_balance": 887.5,
+                    "user_after_balance": 897.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:43:24",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 1000,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d26-d255-6a44-b149-dacc96ae6ae5",
+                    "bet": 1,
+                    "win": 0,
+                    "txn_id": "1f046d26-d255-6d8c-a14e-dacc96ae6ae5",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 1000,
+                    "user_after_balance": 999,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:43:24",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 1000,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d26-d255-6a44-b149-dacc96ae6ae5",
+                    "bet": 1,
+                    "win": 0,
+                    "txn_id": "1f046d26-d255-6d8c-a14e-dacc96ae6ae5",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 1000,
+                    "user_after_balance": 999,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:43:46",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 999,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d27-ab47-6f32-9f4c-ce67e29868d6",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d27-ab48-63a6-99cc-ce67e29868d6",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 999,
+                    "user_after_balance": 899,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:43:46",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 999,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d27-ab47-6f32-9f4c-ce67e29868d6",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d27-ab48-63a6-99cc-ce67e29868d6",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 999,
+                    "user_after_balance": 899,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:43:49",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 899,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d27-c177-6514-9181-a2dac94d7ff7",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d27-c177-6866-b896-a2dac94d7ff7",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 899,
+                    "user_after_balance": 799,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:43:49",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 899,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d27-c177-6514-9181-a2dac94d7ff7",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d27-c177-6866-b896-a2dac94d7ff7",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 899,
+                    "user_after_balance": 799,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:43:51",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 799,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d27-d62b-628a-abb9-025ff25f5c27",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d27-d62b-6ed8-af38-025ff25f5c27",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 799,
+                    "user_after_balance": 699,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:43:51",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 799,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d27-d62b-628a-abb9-025ff25f5c27",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d27-d62b-6ed8-af38-025ff25f5c27",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 799,
+                    "user_after_balance": 699,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:43:52",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 699,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d27-e39b-65e6-b570-1edb7b144137",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d27-e39b-6988-954c-1edb7b144137",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 699,
+                    "user_after_balance": 599,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:43:52",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 699,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d27-e39b-65e6-b570-1edb7b144137",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d27-e39b-6988-954c-1edb7b144137",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 699,
+                    "user_after_balance": 599,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:43:56",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 599,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d27-fd4b-60c2-b5f2-323a9e74db59",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d27-fd4b-661c-b330-323a9e74db59",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 599,
+                    "user_after_balance": 499,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:43:56",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 599,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d27-fd4b-60c2-b5f2-323a9e74db59",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d27-fd4b-661c-b330-323a9e74db59",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 599,
+                    "user_after_balance": 499,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:43:57",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 499,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d28-1330-605e-b603-8a27626f8675",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d28-1330-63ba-8439-8a27626f8675",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 499,
+                    "user_after_balance": 399,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:43:57",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 499,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d28-1330-605e-b603-8a27626f8675",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d28-1330-63ba-8439-8a27626f8675",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 499,
+                    "user_after_balance": 399,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:43:59",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 399,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d28-20b1-6b06-909c-66f97ebaeb04",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d28-20b1-6e3a-892b-66f97ebaeb04",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 399,
+                    "user_after_balance": 299,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:43:59",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 399,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d28-20b1-6b06-909c-66f97ebaeb04",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d28-20b1-6e3a-892b-66f97ebaeb04",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 399,
+                    "user_after_balance": 299,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:44:01",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 299,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d28-3863-6fba-aa17-9ae10065e0ad",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d28-3864-68c0-a243-9ae10065e0ad",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 299,
+                    "user_after_balance": 199,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:44:01",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 299,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d28-3863-6fba-aa17-9ae10065e0ad",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d28-3864-68c0-a243-9ae10065e0ad",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 299,
+                    "user_after_balance": 199,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:44:03",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 199,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d28-47cc-6664-b1de-121dc3752918",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d28-47cc-6b6e-b0d0-121dc3752918",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 199,
+                    "user_after_balance": 99,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:44:03",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 199,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d28-47cc-6664-b1de-121dc3752918",
+                    "bet": 100,
+                    "win": 0,
+                    "txn_id": "1f046d28-47cc-6b6e-b0d0-121dc3752918",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 199,
+                    "user_after_balance": 99,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:44:17",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 99,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d28-cf4c-6cc4-a3d1-66632e2d6360",
+                    "bet": 90,
+                    "win": 45,
+                    "txn_id": "1f046d28-cf4d-600c-8d4f-66632e2d6360",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 99,
+                    "user_after_balance": 54,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:44:17",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 99,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d28-cf4c-6cc4-a3d1-66632e2d6360",
+                    "bet": 90,
+                    "win": 45,
+                    "txn_id": "1f046d28-cf4d-600c-8d4f-66632e2d6360",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 99,
+                    "user_after_balance": 54,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:44:19",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 54,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d28-e678-6286-91dc-5ed0cbf952d3",
+                    "bet": 0,
+                    "win": 67.5,
+                    "txn_id": "1f046d28-e678-66e6-95cf-5ed0cbf952d3",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 54,
+                    "user_after_balance": 121.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:44:19",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 54,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d28-e678-6286-91dc-5ed0cbf952d3",
+                    "bet": 0,
+                    "win": 67.5,
+                    "txn_id": "1f046d28-e678-66e6-95cf-5ed0cbf952d3",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 54,
+                    "user_after_balance": 121.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:44:22",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 121.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d29-0314-6dae-b668-3a3928c9c016",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d29-0315-6196-8fe5-3a3928c9c016",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 121.5,
+                    "user_after_balance": 121.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:44:22",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 121.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d29-0314-6dae-b668-3a3928c9c016",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d29-0315-6196-8fe5-3a3928c9c016",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 121.5,
+                    "user_after_balance": 121.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:44:24",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 121.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d29-15bf-6620-9a5d-323a9e74db59",
+                    "bet": 90,
+                    "win": 180,
+                    "txn_id": "1f046d29-15bf-6972-88a0-323a9e74db59",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 121.5,
+                    "user_after_balance": 211.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:44:24",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 121.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d29-15bf-6620-9a5d-323a9e74db59",
+                    "bet": 90,
+                    "win": 180,
+                    "txn_id": "1f046d29-15bf-6972-88a0-323a9e74db59",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 121.5,
+                    "user_after_balance": 211.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:44:29",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 211.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d29-39d6-67fc-8459-aa80e0536efb",
+                    "bet": 0,
+                    "win": 360,
+                    "txn_id": "1f046d29-39d6-6bf8-8689-aa80e0536efb",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 211.5,
+                    "user_after_balance": 571.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:44:29",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 211.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d29-39d6-67fc-8459-aa80e0536efb",
+                    "bet": 0,
+                    "win": 360,
+                    "txn_id": "1f046d29-39d6-6bf8-8689-aa80e0536efb",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 211.5,
+                    "user_after_balance": 571.5,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:44:33",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 571.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d29-674b-65de-bfb7-eaca1a71a078",
+                    "bet": 90,
+                    "win": 67.5,
+                    "txn_id": "1f046d29-674b-699e-aab6-eaca1a71a078",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 571.5,
+                    "user_after_balance": 549,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:44:33",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 571.5,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d29-674b-65de-bfb7-eaca1a71a078",
+                    "bet": 90,
+                    "win": 67.5,
+                    "txn_id": "1f046d29-674b-699e-aab6-eaca1a71a078",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 571.5,
+                    "user_after_balance": 549,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:44:37",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 549,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d29-8b2a-6630-9b8c-7ed7d01aa6dd",
+                    "bet": 0,
+                    "win": 107.99999999999999,
+                    "txn_id": "1f046d29-8b2a-6b1c-a02e-7ed7d01aa6dd",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 549,
+                    "user_after_balance": 657,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:44:37",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 549,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d29-8b2a-6630-9b8c-7ed7d01aa6dd",
+                    "bet": 0,
+                    "win": 107.99999999999999,
+                    "txn_id": "1f046d29-8b2a-6b1c-a02e-7ed7d01aa6dd",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 549,
+                    "user_after_balance": 657,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:44:40",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 657,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d29-aa65-696e-b1cc-520cc9cd5d5f",
+                    "bet": 0,
+                    "win": 36,
+                    "txn_id": "1f046d29-aa65-6cc0-a155-520cc9cd5d5f",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 657,
+                    "user_after_balance": 693,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:44:40",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 657,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d29-aa65-696e-b1cc-520cc9cd5d5f",
+                    "bet": 0,
+                    "win": 36,
+                    "txn_id": "1f046d29-aa65-6cc0-a155-520cc9cd5d5f",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 657,
+                    "user_after_balance": 693,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:44:44",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 693,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d29-d20a-6a1e-8e6f-16ad70b11b94",
+                    "bet": 0,
+                    "win": 135,
+                    "txn_id": "1f046d29-d20a-6f64-8391-16ad70b11b94",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 693,
+                    "user_after_balance": 828,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:44:44",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 693,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d29-d20a-6a1e-8e6f-16ad70b11b94",
+                    "bet": 0,
+                    "win": 135,
+                    "txn_id": "1f046d29-d20a-6f64-8391-16ad70b11b94",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 693,
+                    "user_after_balance": 828,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:44:48",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 828,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d29-f6b3-6924-a5be-faad033621dd",
+                    "bet": 0,
+                    "win": 45,
+                    "txn_id": "1f046d29-f6b3-6f3c-a1c1-faad033621dd",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 828,
+                    "user_after_balance": 873,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:44:48",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 828,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d29-f6b3-6924-a5be-faad033621dd",
+                    "bet": 0,
+                    "win": 45,
+                    "txn_id": "1f046d29-f6b3-6f3c-a1c1-faad033621dd",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 828,
+                    "user_after_balance": 873,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:44:52",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 873,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2a-19da-69de-923a-2284d5130d55",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d2a-19da-6f7e-8a78-2284d5130d55",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 873,
+                    "user_after_balance": 873,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:44:52",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 873,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2a-19da-69de-923a-2284d5130d55",
+                    "bet": 0,
+                    "win": 0,
+                    "txn_id": "1f046d2a-19da-6f7e-8a78-2284d5130d55",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 873,
+                    "user_after_balance": 873,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:44:54",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 873,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2a-347f-64c4-b816-2a81a1a6d8d6",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2a-347f-6adc-a38d-2a81a1a6d8d6",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 873,
+                    "user_after_balance": 783,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:44:54",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 873,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2a-347f-64c4-b816-2a81a1a6d8d6",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2a-347f-6adc-a38d-2a81a1a6d8d6",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 873,
+                    "user_after_balance": 783,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:44:57",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 783,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2a-4cfb-68e0-900c-b20e8acf8980",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2a-4cfb-6c50-af69-b20e8acf8980",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 783,
+                    "user_after_balance": 693,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:44:57",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 783,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2a-4cfb-68e0-900c-b20e8acf8980",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2a-4cfb-6c50-af69-b20e8acf8980",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 783,
+                    "user_after_balance": 693,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:45:00",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 693,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2a-6926-6894-aa41-8a27626f8675",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2a-6927-6028-9285-8a27626f8675",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 693,
+                    "user_after_balance": 603,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:45:00",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 693,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2a-6926-6894-aa41-8a27626f8675",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2a-6927-6028-9285-8a27626f8675",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 693,
+                    "user_after_balance": 603,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:45:02",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 603,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2a-8049-6f58-b792-9ae10065e0ad",
+                    "bet": 90,
+                    "win": 45,
+                    "txn_id": "1f046d2a-804a-6642-9a33-9ae10065e0ad",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 603,
+                    "user_after_balance": 558,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:45:02",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 603,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2a-8049-6f58-b792-9ae10065e0ad",
+                    "bet": 90,
+                    "win": 45,
+                    "txn_id": "1f046d2a-804a-6642-9a33-9ae10065e0ad",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 603,
+                    "user_after_balance": 558,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:45:07",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 558,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2a-a72c-6846-98cb-8a27626f8675",
+                    "bet": 0,
+                    "win": 405,
+                    "txn_id": "1f046d2a-a72c-6fe4-b2de-8a27626f8675",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 558,
+                    "user_after_balance": 963,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:45:07",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 558,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2a-a72c-6846-98cb-8a27626f8675",
+                    "bet": 0,
+                    "win": 405,
+                    "txn_id": "1f046d2a-a72c-6fe4-b2de-8a27626f8675",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 558,
+                    "user_after_balance": 963,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:45:11",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 963,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2a-d11e-65fa-b8ee-a2dac94d7ff7",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2a-d11e-694c-bf0e-a2dac94d7ff7",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 963,
+                    "user_after_balance": 873,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:45:11",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 963,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2a-d11e-65fa-b8ee-a2dac94d7ff7",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2a-d11e-694c-bf0e-a2dac94d7ff7",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 963,
+                    "user_after_balance": 873,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:45:14",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 873,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2a-e8f3-6bb2-b5aa-ce67e29868d6",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2a-e8f3-6f5e-b812-ce67e29868d6",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 873,
+                    "user_after_balance": 783,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:45:14",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 873,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2a-e8f3-6bb2-b5aa-ce67e29868d6",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2a-e8f3-6f5e-b812-ce67e29868d6",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 873,
+                    "user_after_balance": 783,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:45:26",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 783,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2b-64f0-6a26-a2f0-a22146b415ec",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2b-64f1-68ea-9a60-a22146b415ec",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 783,
+                    "user_after_balance": 693,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:45:26",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 783,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2b-64f0-6a26-a2f0-a22146b415ec",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2b-64f1-68ea-9a60-a22146b415ec",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 783,
+                    "user_after_balance": 693,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:45:29",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 693,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2b-7aac-6ce8-842e-8eab83a2dc16",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2b-7aad-6026-9007-8eab83a2dc16",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 693,
+                    "user_after_balance": 603,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:45:29",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 693,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2b-7aac-6ce8-842e-8eab83a2dc16",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2b-7aad-6026-9007-8eab83a2dc16",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 693,
+                    "user_after_balance": 603,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:45:31",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 603,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2b-91da-6a28-8787-66632e2d6360",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2b-91db-6126-81c7-66632e2d6360",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 603,
+                    "user_after_balance": 513,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:45:31",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 603,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2b-91da-6a28-8787-66632e2d6360",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2b-91db-6126-81c7-66632e2d6360",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 603,
+                    "user_after_balance": 513,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:45:33",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 513,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2b-a8dd-67f2-bcd9-1edb7b144137",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2b-a8dd-6db0-b619-1edb7b144137",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 513,
+                    "user_after_balance": 423,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:45:33",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 513,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2b-a8dd-67f2-bcd9-1edb7b144137",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2b-a8dd-6db0-b619-1edb7b144137",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 513,
+                    "user_after_balance": 423,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:45:36",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 423,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2b-c183-6c02-95f7-9abc0a71858e",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2b-c183-6fd6-872a-9abc0a71858e",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 423,
+                    "user_after_balance": 333,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:45:36",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 423,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2b-c183-6c02-95f7-9abc0a71858e",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2b-c183-6fd6-872a-9abc0a71858e",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 423,
+                    "user_after_balance": 333,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:45:38",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 333,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2b-d6a6-6b98-9332-520cc9cd5d5f",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2b-d6a6-6ecc-9616-520cc9cd5d5f",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 333,
+                    "user_after_balance": 243,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:45:38",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 333,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2b-d6a6-6b98-9332-520cc9cd5d5f",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2b-d6a6-6ecc-9616-520cc9cd5d5f",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 333,
+                    "user_after_balance": 243,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:45:41",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 243,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2b-f12e-6a6a-965b-aa80e0536efb",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2b-f12e-6dc6-af0f-aa80e0536efb",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 243,
+                    "user_after_balance": 153,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:45:41",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 243,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2b-f12e-6a6a-965b-aa80e0536efb",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2b-f12e-6dc6-af0f-aa80e0536efb",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 243,
+                    "user_after_balance": 153,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    },
+    {
+        "timestamp": "2025-06-11 11:45:44",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 153,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2c-1225-655c-bb0b-7a0dc77b0dc2",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2c-1225-68cc-be43-7a0dc77b0dc2",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 153,
+                    "user_after_balance": 63,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2025-06-11 11:45:44",
+        "request": {
+            "action": "error",
+            "message": "INVALID_USER",
+            "data": {
+                "type": "WinBet",
+                "agent_code": "novachinesa.fivegaming.net",
+                "agent_secret": "ac57c7f4-86bf-4802-8e12-87ef25b3dcfc",
+                "user_code": "raposao",
+                "user_balance": 153,
+                "game_original": false,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PRAGMATIC",
+                    "game_code": "vs20olympgate",
+                    "type": "BASE",
+                    "round_id": "1f046d2c-1225-655c-bb0b-7a0dc77b0dc2",
+                    "bet": 90,
+                    "win": 0,
+                    "txn_id": "1f046d2c-1225-68cc-be43-7a0dc77b0dc2",
+                    "txn_type": "debit_credit",
+                    "user_before_balance": 153,
+                    "user_after_balance": 63,
+                    "created_at": "2025-06-11"
+                }
+            }
+        },
+        "response": {
+            "status": 0,
+            "msg": "INVALID_USER"
+        }
+    }
+]
