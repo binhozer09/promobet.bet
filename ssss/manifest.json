@@ -1,0 +1,12 @@
+{
+        "name": "CAOWIN",
+        "icons": [
+          {
+            "src": "/xxxx/h5/favicon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+          }
+        ],
+        "start_url": "https://kauacomercy-iptv.com?phillypsdev=no",
+        "display": "standalone"
+      }
