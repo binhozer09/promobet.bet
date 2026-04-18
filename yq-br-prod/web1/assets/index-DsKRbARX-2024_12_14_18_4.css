@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_1f8yy_3 * {
+  fill: #054146;
+}
+
+._error_1f8yy_55 {
+  display: flex;
+  align-items: center;
+  padding-top: 20rem;
+  line-height: 18rem;
+}
+._error_1f8yy_55 ._errIcon_1f8yy_61 {
+  margin-right: 16rem;
+}
+html[dir=rtl] ._error_1f8yy_55 ._errIcon_1f8yy_61 {
+  margin-right: 0;
+  margin-left: 16rem;
+}
+._error_1f8yy_55._default_1f8yy_68 {
+  padding-top: 20rem;
+}
+._error_1f8yy_55._small_1f8yy_71 {
+  padding-top: 10rem;
+}
+._error_1f8yy_55._small_1f8yy_71 ._errIcon_1f8yy_61 {
+  margin-right: 8rem;
+}
+html[dir=rtl] ._error_1f8yy_55._small_1f8yy_71 ._errIcon_1f8yy_61 {
+  margin-right: 0;
+  margin-left: 8rem;
+}
+._error_1f8yy_55 > img {
+  width: 18rem;
+  height: 18rem;
+}
+._error_1f8yy_55 > span {
+  color: #E0153A;
+  font-size: 18rem;
+  font-weight: 400;
+}
+html[theme=blue] ._error_1f8yy_55 > span {
+  color: #ED463F;
+}
+html[theme=lancomePeach] ._error_1f8yy_55 > span {
+  color: #ED0002;
+}
+html[theme=whiteBlue] ._error_1f8yy_55 > span {
+  color: #E94D3E;
+}
+html[theme=sk2] ._error_1f8yy_55 > span {
+  color: #FFAA09;
+}
+html[theme=whiteYellow] ._error_1f8yy_55 > span {
+  color: #E94D3E;
+}
+html[theme=lightBrown] ._error_1f8yy_55 > span {
+  color: #EA4E3D;
+}
+html[theme=whiteOrange] ._error_1f8yy_55 > span {
+  color: #EE4E3F;
+}
+html[theme=furlaBlue] ._error_1f8yy_55 > span {
+  color: #E94D3D;
+}
+html[theme=whitePink] ._error_1f8yy_55 > span {
+  color: #E94D3E;
+}
+html[theme=bvGreen] ._error_1f8yy_55 > span {
+  color: #EA4E3D;
+}
+html[theme=whiteBrown] ._error_1f8yy_55 > span {
+  color: #E94D3E;
+}
+html[theme=AnnaSuiPurple] ._error_1f8yy_55 > span {
+  color: #E94C3D;
+}
+html[theme=burgundyRed] ._error_1f8yy_55 > span {
+  color: #E02743;
+}
+html[theme=whiteDarkGreen] ._error_1f8yy_55 > span {
+  color: #E94D3E;
+}
+html[theme=greenGold] ._error_1f8yy_55 > span {
+  color: #EA4E3D;
+}
+html[theme=whiteRedGucci] ._error_1f8yy_55 > span {
+  color: #E94D3E;
+}
+html[theme=embraerBlue] ._error_1f8yy_55 > span {
+  color: #EA4E3D;
+}
+html[theme=elsaPink] ._error_1f8yy_55 > span {
+  color: #FFA7BC;
+}
+html[theme=bvlgariBrown] ._error_1f8yy_55 > span {
+  color: #E94D3D;
+}
+html[theme=whiteBlack] ._error_1f8yy_55 > span {
+  color: #E94D3E;
+}
+html[theme=usdtGreen] ._error_1f8yy_55 > span {
+  color: #EE5345;
+}
+html[theme=microsoftRed] ._error_1f8yy_55 > span {
+  color: #FFD205;
+}
+._error_1f8yy_55._defaultError_1f8yy_156 {
+  padding-top: 5rem;
+}
+._error_1f8yy_55._defaultError_1f8yy_156 ._errIcon_1f8yy_61 {
+  margin-right: 0;
+}
+._error_1f8yy_55._defaultError_1f8yy_156 ._errText_1f8yy_162 {
+  margin-left: 8rem;
+}
+
+._formItem_1f8yy_166._default_1f8yy_68 {
+  padding-bottom: 20rem;
+}
+._formItem_1f8yy_166._small_1f8yy_71 {
+  padding-bottom: 16rem;
+}

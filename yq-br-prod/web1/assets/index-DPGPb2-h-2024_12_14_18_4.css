@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_1al4v_3 * {
+  fill: #054146;
+}
+
+._language_selector_1al4v_55 {
+  position: absolute;
+  border-radius: 10rem;
+  overflow: hidden;
+  z-index: 150;
+  font-size: 22rem;
+  padding: 12rem 0;
+  background-color: var(--theme-template-color);
+  border: 1rem solid var(--theme-light-line-color);
+}
+._language_selector_1al4v_55 ._item_1al4v_65 {
+  width: 248rem;
+  height: 80rem;
+  line-height: 80rem;
+  padding: 0 12rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--theme-tips);
+}
+._language_selector_1al4v_55 ._item_1al4v_65 img {
+  width: 30rem;
+  height: 30rem;
+  margin-right: 16rem;
+}
+html[dir=rtl] ._language_selector_1al4v_55 ._item_1al4v_65 img {
+  margin-right: 0;
+  margin-left: 16rem;
+}
+._language_selector_1al4v_55 ._active_1al4v_84 {
+  background-color: var(--theme-header-color);
+  color: var(--theme-main-color);
+}
+
+._language_selector_right_1al4v_89 {
+  left: 306rem;
+}

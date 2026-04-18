@@ -1,0 +1,2365 @@
+@charset "UTF-8";
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_1zsq3_3 * {
+  fill: #054146;
+}
+
+._HeadTabPage_1zsq3_55 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+._HeadTabPage_1zsq3_55 ._HeadTabPage_body_1zsq3_60 {
+  overflow-y: scroll;
+  height: calc(100% - 90rem - (120rem + env(safe-area-inset-bottom)));
+  background-size: 90rem;
+}
+html[theme=whiteOrange] ._HeadTabPage_1zsq3_55 ._HeadTabPage_body_1zsq3_60 {
+  background-color: #f3f3f3;
+}
+html[theme=furlaBlue] ._HeadTabPage_1zsq3_55 ._HeadTabPage_body_1zsq3_60 {
+  background-color: #8EABFA;
+}
+html[theme=whiteYellow] ._HeadTabPage_1zsq3_55 ._HeadTabPage_body_1zsq3_60 {
+  background-color: #FAFAFA;
+}
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_1w7g8_3 * {
+  fill: #054146;
+}
+._HeadTabs_1w7g8_55 {
+  width: 100%;
+  padding: 0 20rem;
+  position: relative;
+  border-bottom-width: 2rem;
+  border-bottom-style: solid;
+  border-color: var(--theme-light-line-color);
+  background-color: var(--theme-header-color);
+}
+._HeadTabs_1w7g8_55 ._left_icon_1w7g8_64, ._HeadTabs_1w7g8_55 ._right_icon_1w7g8_64 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(-180deg);
+  cursor: pointer;
+}
+._HeadTabs_1w7g8_55 ._left_icon_1w7g8_64 svg, ._HeadTabs_1w7g8_55 ._right_icon_1w7g8_64 svg {
+  width: 24rem;
+  height: 24rem;
+}
+._HeadTabs_1w7g8_55 ._left_icon_1w7g8_64 svg *, ._HeadTabs_1w7g8_55 ._right_icon_1w7g8_64 svg * {
+  fill: var(--theme-main-color);
+}
+._HeadTabs_1w7g8_55 ._right_icon_1w7g8_64 {
+  position: absolute;
+  left: auto;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 {
+  width: 100%;
+  overflow-x: scroll;
+}
+._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._HeadTab_item_1w7g8_95 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  height: 90rem;
+  font-size: 24rem;
+  white-space: nowrap;
+  color: var(--theme-tite-color);
+}
+._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._HeadTab_item_active_1w7g8_106 {
+  border-bottom-width: 3rem;
+  border-bottom-style: solid;
+  color: var(--theme-main-color);
+  border-color: var(--theme-main-color);
+}
+._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  position: absolute;
+  border-radius: 13rem 13rem 13rem 0;
+  text-align: center;
+  width: 35rem;
+  height: 26rem;
+  line-height: 26rem;
+  right: -37rem;
+  top: 15rem;
+  font-size: 18rem;
+  color: #fff;
+  background: #e0153a;
+}
+._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(100%);
+  width: 0;
+  height: 0;
+  border-right: 10.5rem solid transparent;
+  border-bottom: 6rem solid transparent;
+  border-top: 6rem solid;
+}
+._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #e0153a;
+}
+html[theme=oilyGreen] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #ea4e3d;
+}
+html[theme=oilyGreen] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #ea4e3d;
+}
+html[theme=whiteGreen] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #ea4e3d;
+}
+html[theme=whiteGreen] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #ea4e3d;
+}
+html[theme=versaceYellow] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #ea4e3d;
+}
+html[theme=versaceYellow] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #ea4e3d;
+}
+html[theme=hermesOrange] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #f00;
+}
+html[theme=hermesOrange] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #f00;
+}
+html[theme=whiteRed] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #e94d3e;
+}
+html[theme=whiteRed] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #e94d3e;
+}
+html[theme=whiteBlue] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #e94d3e;
+}
+html[theme=whiteBlue] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #e94d3e;
+}
+html[theme=whiteYellow] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #e94d3e;
+}
+html[theme=whiteYellow] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #e94d3e;
+}
+html[theme=lancomePeach] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #ed0002;
+}
+html[theme=lancomePeach] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #ed0002;
+}
+html[theme=sk2] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #ffaa09;
+}
+html[theme=sk2] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #ffaa09;
+}
+html[theme=lightBrown] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #ea4e3d;
+}
+html[theme=lightBrown] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #ea4e3d;
+}
+html[theme=furlaBlue] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #e94d3d;
+}
+html[theme=furlaBlue] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #e94d3d;
+}
+html[theme=whiteOrange] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #ee4e3f;
+}
+html[theme=whiteOrange] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #ee4e3f;
+}
+html[theme=whitePink] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #ee4e3f;
+}
+html[theme=whitePink] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #ee4e3f;
+}
+html[theme=bvGreen] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #ea4e3d;
+}
+html[theme=bvGreen] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #ea4e3d;
+}
+html[theme=whiteBrown] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #e94d3e;
+}
+html[theme=whiteBrown] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #e94d3e;
+}
+html[theme=AnnaSuiPurple] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #e94c3d;
+}
+html[theme=AnnaSuiPurple] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #e94c3d;
+}
+html[theme=whitePurple] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #e94d3e;
+}
+html[theme=whitePurple] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #e94d3e;
+}
+html[theme=whiteBrownLauren] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #FD5048;
+}
+html[theme=whiteBrownLauren] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #FD5048;
+}
+html[theme=whiteRedGucci] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #E94D3E;
+}
+html[theme=whiteRedGucci] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #E94D3E;
+}
+html[theme=embraerBlue] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #EA4E3D;
+}
+html[theme=embraerBlue] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #EA4E3D;
+}
+html[theme=elsaPink] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #FFA7BC;
+}
+html[theme=elsaPink] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #FFA7BC;
+}
+html[theme=bvlgariBrown] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #E94D3D;
+}
+html[theme=bvlgariBrown] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #E94D3D;
+}
+html[theme=whiteBlueFendi] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112 {
+  background: #E94D3E;
+}
+html[theme=whiteBlueFendi] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._tips_1w7g8_112::before {
+  border-top-color: #E94D3E;
+}
+._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._HeadTab_item_1w7g8_95 + ._HeadTab_item_1w7g8_95 {
+  margin-left: 60rem;
+}
+html[dir=rtl] ._HeadTabs_1w7g8_55 ._HeadTabs_scroll_1w7g8_85 ._HeadTabs_container_1w7g8_89 ._HeadTab_item_1w7g8_95 + ._HeadTab_item_1w7g8_95 {
+  margin-left: 0;
+  margin-right: 60rem;
+}
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_12g6i_3 * {
+  fill: #054146;
+}
+
+._container_12g6i_55 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+html[theme=whiteBlack] ._container_12g6i_55 {
+  background-color: #fafafa;
+}
+
+._has_bar_12g6i_64 {
+  padding-bottom: calc(120rem + env(safe-area-inset-bottom) - 20rem);
+}
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_tecje_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_tecje_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_tecje_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_tecje_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_tecje_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_tecje_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_tecje_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_tecje_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_tecje_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_tecje_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_tecje_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_tecje_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_tecje_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_tecje_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_tecje_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_tecje_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_tecje_3 * {
+  fill: #054146;
+}
+html[theme=blue] ._homebarsBoxBg_tecje_55, html[theme=blue] ._homebarsBox_tecje_55 {
+  background-color: #015ED4;
+  box-shadow: 0 -19rem 39rem rgba(0, 0, 0, 0.4);
+}
+html[theme=whiteGreen] ._homebarsBoxBg_tecje_55, html[theme=whiteGreen] ._homebarsBox_tecje_55 {
+  background-color: white;
+  color: #999;
+  border-top: 1rem solid #e5e5e5;
+  box-shadow: 0 -19rem 39rem #e5e5e5;
+}
+html[theme=purple] ._homebarsBoxBg_tecje_55, html[theme=purple] ._homebarsBox_tecje_55 {
+  background-color: #060730;
+  box-shadow: 0 -19rem 39rem rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.6);
+}
+html[theme=oilyGreen] ._homebarsBoxBg_tecje_55, html[theme=oilyGreen] ._homebarsBox_tecje_55 {
+  background-color: #067831;
+  box-shadow: 0 -19rem 39rem rgba(0, 0, 0, 0.4);
+  color: #87D1A2;
+}
+html[theme=whiteRed] ._homebarsBoxBg_tecje_55, html[theme=whiteRed] ._homebarsBox_tecje_55 {
+  background-color: #F6F6F6;
+  color: #9D9D9D;
+}
+html[theme=versaceYellow] ._homebarsBoxBg_tecje_55, html[theme=versaceYellow] ._homebarsBox_tecje_55 {
+  background-color: #F4B305;
+}
+html[theme=lancomePeach] ._homebarsBoxBg_tecje_55, html[theme=lancomePeach] ._homebarsBox_tecje_55 {
+  background-color: #DF6061;
+  color: rgba(255, 255, 255, 0.6);
+}
+html[theme=hermesOrange] ._homebarsBoxBg_tecje_55, html[theme=hermesOrange] ._homebarsBox_tecje_55 {
+  background-color: #F26305;
+  color: #FFBE8B;
+}
+html[theme=whiteBlue] ._homebarsBoxBg_tecje_55, html[theme=whiteBlue] ._homebarsBox_tecje_55 {
+  background-color: #fff;
+  color: #9D9D9D;
+}
+html[theme=sk2] ._homebarsBoxBg_tecje_55, html[theme=sk2] ._homebarsBox_tecje_55 {
+  background-color: #330215;
+  color: #FFC5C8;
+}
+html[theme=whiteYellow] ._homebarsBoxBg_tecje_55, html[theme=whiteYellow] ._homebarsBox_tecje_55 {
+  background-color: #fff;
+  color: #9D9D9D;
+}
+html[theme=lightBrown] ._homebarsBoxBg_tecje_55, html[theme=lightBrown] ._homebarsBox_tecje_55 {
+  background-color: #8C7A66;
+  color: #E7D2C2;
+}
+html[theme=whiteOrange] ._homebarsBoxBg_tecje_55, html[theme=whiteOrange] ._homebarsBox_tecje_55 {
+  background-color: #fff;
+  color: #9A9A9A;
+}
+html[theme=furlaBlue] ._homebarsBoxBg_tecje_55, html[theme=furlaBlue] ._homebarsBox_tecje_55 {
+  background-color: #4969C2;
+  color: #D4DDFE;
+}
+html[theme=whitePink] ._homebarsBoxBg_tecje_55, html[theme=whitePink] ._homebarsBox_tecje_55 {
+  background-color: #fff;
+  color: #9D9D9D;
+}
+html[theme=bvGreen] ._homebarsBoxBg_tecje_55, html[theme=bvGreen] ._homebarsBox_tecje_55 {
+  background-color: #5C780B;
+  color: #D1E676;
+}
+html[theme=whiteBrown] ._homebarsBoxBg_tecje_55, html[theme=whiteBrown] ._homebarsBox_tecje_55 {
+  background-color: #fff;
+  color: #9D9D9D;
+}
+html[theme=AnnaSuiPurple] ._homebarsBoxBg_tecje_55, html[theme=AnnaSuiPurple] ._homebarsBox_tecje_55 {
+  background-color: #58418C;
+  color: #BFA9CC;
+}
+html[theme=whitePurple] ._homebarsBoxBg_tecje_55, html[theme=whitePurple] ._homebarsBox_tecje_55 {
+  background-color: #fff;
+  color: #9D9D9D;
+}
+html[theme=burgundyRed] ._homebarsBoxBg_tecje_55, html[theme=burgundyRed] ._homebarsBox_tecje_55 {
+  background-color: #630B20;
+  color: #E08EA3;
+  box-shadow: 0 -19rem 39rem rgba(0, 0, 0, 0.2);
+}
+html[theme=whiteDarkGreen] ._homebarsBoxBg_tecje_55, html[theme=whiteDarkGreen] ._homebarsBox_tecje_55 {
+  background-color: #fff;
+  color: #9D9D9D;
+}
+html[theme=greenGold] ._homebarsBoxBg_tecje_55, html[theme=greenGold] ._homebarsBox_tecje_55 {
+  background-color: #00352F;
+  color: #039685;
+}
+html[theme=whiteBrownLauren] ._homebarsBoxBg_tecje_55, html[theme=whiteBrownLauren] ._homebarsBox_tecje_55 {
+  background-color: #F9F9F9;
+  color: #9A9A9B;
+}
+html[theme=whiteRedGucci] ._homebarsBoxBg_tecje_55, html[theme=whiteRedGucci] ._homebarsBox_tecje_55 {
+  background-color: #F6F6F6;
+  color: #9D9D9D;
+}
+html[theme=embraerBlue] ._homebarsBoxBg_tecje_55, html[theme=embraerBlue] ._homebarsBox_tecje_55 {
+  background-color: #092C71;
+  color: #6F97EB;
+}
+html[theme=elsaPink] ._homebarsBoxBg_tecje_55, html[theme=elsaPink] ._homebarsBox_tecje_55 {
+  background-color: #C3607C;
+  color: rgba(255, 255, 255, 0.6);
+}
+html[theme=bvlgariBrown] ._homebarsBoxBg_tecje_55, html[theme=bvlgariBrown] ._homebarsBox_tecje_55 {
+  background-color: #3B2317;
+  color: rgba(255, 255, 255, 0.6);
+}
+html[theme=whiteBlack] ._homebarsBoxBg_tecje_55, html[theme=whiteBlack] ._homebarsBox_tecje_55 {
+  background-color: #F6F6F6;
+  color: #9D9D9D;
+}
+html[theme=whiteBlueFendi] ._homebarsBoxBg_tecje_55, html[theme=whiteBlueFendi] ._homebarsBox_tecje_55 {
+  background-color: #fff;
+  box-shadow: 0 0 39rem rgba(0, 0, 0, 0.2);
+  color: #9D9D9D;
+}
+html[theme=venetaGrey] ._homebarsBoxBg_tecje_55, html[theme=venetaGrey] ._homebarsBox_tecje_55 {
+  background-color: #648872;
+  box-shadow: 0 0 39rem rgba(0, 0, 0, 0.2);
+  color: #A0D3B3;
+}
+html[theme=martinPurple] ._homebarsBoxBg_tecje_55, html[theme=martinPurple] ._homebarsBox_tecje_55 {
+  background-color: #F3F3F3;
+  box-shadow: 0 0 39rem rgba(0, 0, 0, 0.2);
+  color: #9A9A9B;
+}
+html[theme=usdtGreen] ._homebarsBoxBg_tecje_55, html[theme=usdtGreen] ._homebarsBox_tecje_55 {
+  background-color: #21A57D;
+  box-shadow: 0 0 39rem rgba(0, 0, 0, 0.2);
+  color: #89F1CD;
+}
+html[theme=whiteGreenCindy] ._homebarsBoxBg_tecje_55, html[theme=whiteGreenCindy] ._homebarsBox_tecje_55 {
+  background-color: #FFF;
+  box-shadow: 0 0 39rem rgba(0, 0, 0, 0.2);
+  color: #9D9D9D;
+}
+html[theme=microsoftRed] ._homebarsBoxBg_tecje_55, html[theme=microsoftRed] ._homebarsBox_tecje_55 {
+  background-color: #D14D28;
+  color: rgba(255, 255, 255, 0.6);
+}
+html[theme=celineBrownWhite] ._homebarsBoxBg_tecje_55, html[theme=celineBrownWhite] ._homebarsBox_tecje_55 {
+  background-color: #FFF;
+  color: #9D9D9D;
+}
+html[theme=ferrariBlack] ._homebarsBoxBg_tecje_55, html[theme=ferrariBlack] ._homebarsBox_tecje_55 {
+  background-color: #1B1E22;
+  color: #68707B;
+}
+html[theme=burberryBlueWhite] ._homebarsBoxBg_tecje_55, html[theme=burberryBlueWhite] ._homebarsBox_tecje_55 {
+  background-color: #F6F6F6;
+  color: #68707B;
+}
+._homebarsBox_tecje_55 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: calc(120rem + env(safe-area-inset-bottom));
+  background-color: #161D29;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 20;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: 24rem;
+  padding-right: 24rem;
+  background-color: var(--theme-template-color);
+  box-shadow: 0 -19rem 39rem rgba(0, 0, 0, 0.4);
+  color: var(--theme-tips);
+}
+._homebarsBox_tecje_55 > div {
+  width: 110rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 18rem;
+  cursor: pointer;
+  font-weight: 400;
+}
+._homebarsBox_tecje_55 > div:active {
+  transform: scale(0.95);
+  background-color: transparent;
+}
+._homebarsBox_tecje_55 > div svg {
+  width: 48rem;
+  height: 48rem;
+  margin-bottom: 5rem;
+}
+._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: var(--theme-tips);
+}
+._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: var(--theme-tips);
+}
+html[theme=blue] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: rgba(255, 255, 255, 0.6);
+}
+html[theme=blue] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: rgba(255, 255, 255, 0.6);
+}
+html[theme=whiteGreen] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #999999;
+}
+html[theme=whiteGreen] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #999999;
+}
+html[theme=purple] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: rgba(255, 255, 255, 0.6);
+}
+html[theme=purple] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: rgba(255, 255, 255, 0.6);
+}
+html[theme=oilyGreen] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #87D1A2;
+}
+html[theme=oilyGreen] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #87D1A2;
+}
+html[theme=versaceYellow] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #FFF0C1;
+}
+html[theme=versaceYellow] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #FFF0C1;
+}
+html[theme=lancomePeach] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #FEE0E0;
+}
+html[theme=lancomePeach] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #FEE0E0;
+}
+html[theme=whiteRed] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #9D9D9D;
+}
+html[theme=whiteRed] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #9D9D9D;
+}
+html[theme=hermesOrange] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #FFBE8B;
+}
+html[theme=hermesOrange] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #FFBE8B;
+}
+html[theme=whiteBlue] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #999;
+}
+html[theme=whiteBlue] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #999;
+}
+html[theme=sk2] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #FFC5C8;
+}
+html[theme=sk2] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #FFC5C8;
+}
+html[theme=whiteYellow] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: none;
+}
+html[theme=whiteYellow] ._homebarsBox_tecje_55 > div svg *[fill] {
+  stroke: none;
+}
+html[theme=lightBrown] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #E7D2C2;
+}
+html[theme=lightBrown] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #E7D2C2;
+}
+html[theme=whiteOrange] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #9A9A9A;
+}
+html[theme=whiteOrange] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #9A9A9A;
+}
+html[theme=furlaBlue] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #D4DDFE;
+}
+html[theme=furlaBlue] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #D4DDFE;
+}
+html[theme=whitePink] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #999999;
+}
+html[theme=whitePink] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #999999;
+}
+html[theme=bvGreen] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #D1E676;
+}
+html[theme=bvGreen] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #D1E676;
+}
+html[theme=whiteBrown] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #999;
+}
+html[theme=whiteBrown] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #999;
+}
+html[theme=AnnaSuiPurple] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #BFA9CC;
+}
+html[theme=AnnaSuiPurple] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #BFA9CC;
+}
+html[theme=whitePurple] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #999;
+}
+html[theme=whitePurple] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #999;
+}
+html[theme=burgundyRed] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #E08EA3;
+}
+html[theme=burgundyRed] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #E08EA3;
+}
+html[theme=whiteDarkGreen] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #9D9D9D;
+}
+html[theme=whiteDarkGreen] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #9D9D9D;
+}
+html[theme=greenGold] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #039685;
+}
+html[theme=greenGold] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #039685;
+}
+html[theme=whiteBrownLauren] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #9C6638;
+}
+html[theme=whiteBrownLauren] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #9A9A9B;
+}
+html[theme=whiteRedGucci] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #520E23;
+}
+html[theme=whiteRedGucci] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #9D9D9D;
+}
+html[theme=elsaPink] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #FFF0BC;
+}
+html[theme=elsaPink] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: rgba(255, 255, 255, 0.6);
+}
+html[theme=bvlgariBrown] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #FFD581;
+}
+html[theme=bvlgariBrown] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: rgba(255, 255, 255, 0.6);
+}
+html[theme=whiteBlack] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #000;
+}
+html[theme=whiteBlack] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #9D9D9D;
+}
+html[theme=embraerBlue] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #00AC3F;
+}
+html[theme=embraerBlue] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #6F97EB;
+}
+html[theme=whiteBlueFendi] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #11A3EA;
+}
+html[theme=whiteBlueFendi] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #9D9D9D;
+}
+html[theme=venetaGrey] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #F3E7CB;
+}
+html[theme=venetaGrey] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #A0D3B3;
+}
+html[theme=martinPurple] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #9A9A9B;
+}
+html[theme=martinPurple] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #9A9A9B;
+}
+html[theme=usdtGreen] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #89F1CD;
+}
+html[theme=usdtGreen] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #89F1CD;
+}
+html[theme=whiteGreenCindy] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #9D9D9D;
+}
+html[theme=whiteGreenCindy] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: #9D9D9D;
+}
+html[theme=microsoftRed] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #FFF;
+}
+html[theme=microsoftRed] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: rgba(255, 255, 255, 0.6);
+}
+html[theme=celineBrownWhite] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #9D9D9D;
+}
+html[theme=celineBrownWhite] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: rgba(157, 157, 157, 0.6);
+}
+html[theme=ferrariBlack] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #68707B;
+}
+html[theme=ferrariBlack] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: rgba(104, 112, 123, 0.6);
+}
+html[theme=burberryBlueWhite] ._homebarsBox_tecje_55 > div svg *[stroke] {
+  stroke: #111F34;
+}
+html[theme=burberryBlueWhite] ._homebarsBox_tecje_55 > div svg *[fill] {
+  fill: rgba(17, 31, 52, 0.6);
+}
+._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: var(--theme-main-color);
+}
+html[theme=black] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #2FA33F;
+}
+html[theme=blue] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #EAB700;
+}
+html[theme=whiteGreen] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #1E8C58;
+}
+html[theme=purple] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #FFDC82;
+}
+html[theme=oilyGreen] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #FEE004;
+}
+html[theme=versaceYellow] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #373638;
+}
+html[theme=lancomePeach] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #FFE2C9;
+}
+html[theme=whiteRed] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #CB3034;
+}
+html[theme=hermesOrange] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #551F0E;
+}
+html[theme=whiteBlue] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #5378BF;
+}
+html[theme=sk2] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #E9C86F;
+}
+html[theme=whiteYellow] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #DF9A1C;
+}
+html[theme=lightBrown] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #FED39D;
+}
+html[theme=whiteOrange] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #FA9447;
+}
+html[theme=furlaBlue] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #FFFCD2;
+}
+html[theme=whitePink] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #EF7A7B;
+}
+html[theme=bvGreen] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #FFF45D;
+}
+html[theme=whiteBrown] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #fff;
+}
+html[theme=whitePurple] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #610862;
+}
+html[theme=burgundyRed] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #FE3856;
+}
+html[theme=whiteDarkGreen] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #054146;
+}
+html[theme=greenGold] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #FDD981;
+}
+html[theme=whiteBrownLauren] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #9C6638;
+}
+html[theme=whiteRedGucci] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #520E23;
+}
+html[theme=elsaPink] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #FFF0BC;
+}
+html[theme=bvlgariBrown] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #FFD581;
+}
+html[theme=whiteBlack] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #000;
+}
+html[theme=embraerBlue] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #00AC3F;
+}
+html[theme=whiteBlueFendi] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #11A3EA;
+}
+html[theme=venetaGrey] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #F3E7CB;
+}
+html[theme=martinPurple] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #2F137A;
+}
+html[theme=usdtGreen] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #FFFFFF;
+}
+html[theme=whiteGreenCindy] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #5F7B10;
+}
+html[theme=microsoftRed] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #FFF;
+}
+html[theme=celineBrownWhite] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #42281C;
+}
+html[theme=ferrariBlack] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #F0C059;
+}
+html[theme=burberryBlueWhite] ._homebarsBox_tecje_55 > div svg .cusPath[stroke] {
+  stroke: #111F34;
+}
+._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: var(--theme-main-color);
+}
+html[theme=black] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #2FA33F;
+}
+html[theme=blue] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #EAB700;
+}
+html[theme=whiteGreen] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #1E8C58;
+}
+html[theme=purple] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #FFDC82;
+}
+html[theme=oilyGreen] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #FEE004;
+}
+html[theme=versaceYellow] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #373638;
+}
+html[theme=lancomePeach] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #FFE2C9;
+}
+html[theme=whiteRed] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #551F0E;
+}
+html[theme=whiteBlue] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #5378BF;
+}
+html[theme=sk2] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #DF9A1C;
+}
+html[theme=lightBrown] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #FED39D;
+}
+html[theme=whiteOrange] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #FA9447;
+}
+html[theme=furlaBlue] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #fff;
+}
+html[theme=whitePurple] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #054146;
+}
+html[theme=greenGold] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #FDD981;
+}
+html[theme=whiteBrownLauren] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #9C6638;
+}
+html[theme=whiteRedGucci] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #520E23;
+}
+html[theme=elsaPink] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #FFF0BC;
+}
+html[theme=bvlgariBrown] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #FFD581;
+}
+html[theme=whiteBlack] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #000;
+}
+html[theme=embraerBlue] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #00AC3F;
+}
+html[theme=whiteBlueFendi] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #11A3EA;
+}
+html[theme=venetaGrey] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #F3E7CB;
+}
+html[theme=martinPurple] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #2F137A;
+}
+html[theme=usdtGreen] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #FFFFFF;
+}
+html[theme=whiteGreenCindy] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #5F7B10;
+}
+html[theme=microsoftRed] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #FFF;
+}
+html[theme=celineBrownWhite] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #42281C;
+}
+html[theme=ferrariBlack] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #F0C059;
+}
+html[theme=burberryBlueWhite] ._homebarsBox_tecje_55 > div svg .cusPath[fill] {
+  fill: #111F34;
+}
+html[theme=black] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #2FA33F;
+}
+html[theme=blue] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #EAB700;
+}
+html[theme=whiteGreen] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #1E8C58;
+}
+html[theme=purple] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FFDC82;
+}
+html[theme=oilyGreen] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FEE004;
+}
+html[theme=versaceYellow] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #373638;
+}
+html[theme=lancomePeach] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FFE2C9;
+}
+html[theme=whiteRed] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #551F0E;
+}
+html[theme=whiteBlue] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #5378BF;
+}
+html[theme=sk2] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #DF9A1C;
+}
+html[theme=lightBrown] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FED39D;
+}
+html[theme=whiteOrange] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FA9447;
+}
+html[theme=furlaBlue] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #fff;
+}
+html[theme=whitePurple] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #054146;
+}
+html[theme=greenGold] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FDD981;
+}
+html[theme=whiteBrownLauren] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #9C6638;
+}
+html[theme=whiteRedGucci] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #520E23;
+}
+html[theme=elsaPink] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FFF0BC;
+}
+html[theme=bvlgariBrown] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FFD581;
+}
+html[theme=whiteBlack] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #000;
+}
+html[theme=embraerBlue] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #00AC3F;
+}
+html[theme=whiteBlueFendi] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #11A3EA;
+}
+html[theme=venetaGrey] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #F3E7CB;
+}
+html[theme=martinPurple] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #2F137A;
+}
+html[theme=usdtGreen] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FFFFFF;
+}
+html[theme=whiteGreenCindy] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #5F7B10;
+}
+html[theme=microsoftRed] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FFF;
+}
+html[theme=celineBrownWhite] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #42281C;
+}
+html[theme=ferrariBlack] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #F0C059;
+}
+html[theme=burberryBlueWhite] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #111F34;
+}
+html[theme=black] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #2FA33F;
+}
+html[theme=blue] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #EAB700;
+}
+html[theme=whiteGreen] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #1E8C58;
+}
+html[theme=purple] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FFDC82;
+}
+html[theme=oilyGreen] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FEE004;
+}
+html[theme=versaceYellow] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #373638;
+}
+html[theme=lancomePeach] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FFE2C9;
+}
+html[theme=whiteRed] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #551F0E;
+}
+html[theme=whiteBlue] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #5378BF;
+}
+html[theme=sk2] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #DF9A1C;
+}
+html[theme=lightBrown] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FED39D;
+}
+html[theme=whiteOrange] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FA9447;
+}
+html[theme=furlaBlue] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #fff;
+}
+html[theme=whitePurple] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #054146;
+}
+html[theme=greenGold] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FDD981;
+}
+html[theme=whiteBrownLauren] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #9C6638;
+}
+html[theme=whiteRedGucci] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #520E23;
+}
+html[theme=elsaPink] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FFF0BC;
+}
+html[theme=bvlgariBrown] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FFD581;
+}
+html[theme=whiteBlack] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #000;
+}
+html[theme=embraerBlue] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #00AC3F;
+}
+html[theme=whiteBlueFendi] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #11A3EA;
+}
+html[theme=venetaGrey] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #F3E7CB;
+}
+html[theme=martinPurple] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #2F137A;
+}
+html[theme=usdtGreen] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FFFFFF;
+}
+html[theme=whiteGreenCindy] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #5F7B10;
+}
+html[theme=microsoftRed] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FFF;
+}
+html[theme=celineBrownWhite] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #42281C;
+}
+html[theme=ferrariBlack] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #F0C059;
+}
+html[theme=burberryBlueWhite] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #111F34;
+}
+html[theme=black] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #2FA33F;
+}
+html[theme=blue] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #EAB700;
+}
+html[theme=whiteGreen] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #1E8C58;
+}
+html[theme=purple] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FFDC82;
+}
+html[theme=oilyGreen] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FEE004;
+}
+html[theme=versaceYellow] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #373638;
+}
+html[theme=lancomePeach] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FFE2C9;
+}
+html[theme=whiteRed] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #551F0E;
+}
+html[theme=whiteBlue] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #5378BF;
+}
+html[theme=sk2] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #DF9A1C;
+}
+html[theme=lightBrown] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FED39D;
+}
+html[theme=whiteOrange] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FA9447;
+}
+html[theme=furlaBlue] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #fff;
+}
+html[theme=whitePurple] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #054146;
+}
+html[theme=greenGold] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FDD981;
+}
+html[theme=whiteBrownLauren] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #9C6638;
+}
+html[theme=whiteRedGucci] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #520E23;
+}
+html[theme=elsaPink] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FFF0BC;
+}
+html[theme=bvlgariBrown] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FFD581;
+}
+html[theme=whiteBlack] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #000;
+}
+html[theme=embraerBlue] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #00AC3F;
+}
+html[theme=whiteBlueFendi] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #11A3EA;
+}
+html[theme=venetaGrey] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #F3E7CB;
+}
+html[theme=martinPurple] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #2F137A;
+}
+html[theme=usdtGreen] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FFFFFF;
+}
+html[theme=whiteGreenCindy] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #5F7B10;
+}
+html[theme=microsoftRed] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #FFF;
+}
+html[theme=celineBrownWhite] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #42281C;
+}
+html[theme=ferrariBlack] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #F0C059;
+}
+html[theme=burberryBlueWhite] ._homebarsBox_tecje_55 > div svg .cusFill5[fill] {
+  fill: #111F34;
+}
+html[theme=black] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #2FA33F;
+}
+html[theme=blue] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #EAB700;
+}
+html[theme=whiteGreen] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #1E8C58;
+}
+html[theme=purple] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FFDC82;
+}
+html[theme=oilyGreen] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FEE004;
+}
+html[theme=versaceYellow] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #373638;
+}
+html[theme=lancomePeach] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FFE2C9;
+}
+html[theme=whiteRed] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #551F0E;
+}
+html[theme=whiteBlue] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #5378BF;
+}
+html[theme=sk2] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #DF9A1C;
+}
+html[theme=lightBrown] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FED39D;
+}
+html[theme=whiteOrange] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FA9447;
+}
+html[theme=furlaBlue] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #fff;
+}
+html[theme=whitePurple] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #054146;
+}
+html[theme=greenGold] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FDD981;
+}
+html[theme=whiteBrownLauren] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #9C6638;
+}
+html[theme=whiteRedGucci] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #520E23;
+}
+html[theme=elsaPink] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FFF0BC;
+}
+html[theme=bvlgariBrown] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FFD581;
+}
+html[theme=whiteBlack] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #000;
+}
+html[theme=embraerBlue] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #00AC3F;
+}
+html[theme=whiteBlueFendi] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #11A3EA;
+}
+html[theme=venetaGrey] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #F3E7CB;
+}
+html[theme=martinPurple] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #2F137A;
+}
+html[theme=usdtGreen] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FFFFFF;
+}
+html[theme=whiteGreenCindy] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #5F7B10;
+}
+html[theme=microsoftRed] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #FFF;
+}
+html[theme=celineBrownWhite] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #42281C;
+}
+html[theme=ferrariBlack] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #F0C059;
+}
+html[theme=burberryBlueWhite] ._homebarsBox_tecje_55 > div svg .cusFill[fill] {
+  fill: #111F34;
+}
+._homebarsBox_tecje_55 > div span {
+  font-size: 22rem;
+  width: 140rem;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+._homebarsBox_tecje_55::before {
+  content: ""; /* 伪元素需要有内容 */
+  position: absolute; /* 绝对定位 */
+  top: -60px; /* 在元素顶部外部 */
+  left: 0; /* 左边对齐 */
+  right: 0; /* 右边对齐 */
+  height: 60px; /* 渐变的高度 */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%); /* 从上到下的渐变效果 */
+  pointer-events: none; /* 让鼠标事件通过伪元素 */
+}
+._active_tecje_1190 {
+  color: var(--theme-main-color);
+}
+._active_tecje_1190 .cusFill[fill] {
+  fill: #2FA33F !important;
+}
+._active_tecje_1190 .cusFill4[fill] {
+  fill: #A7B7D7 !important;
+}
+._active_tecje_1190 .cusFill5[fill] {
+  fill: #A7B7D7 !important;
+}
+._active_tecje_1190 svg *[stroke] {
+  stroke: var(--theme-main-color) !important;
+}
+._active_tecje_1190 svg *[fill] {
+  fill: var(--theme-main-color) !important;
+}
+html[theme=black] ._active_tecje_1190 {
+  color: #2FA33F;
+}
+html[theme=black] ._active_tecje_1190 svg *[stroke] {
+  stroke: #2FA33F;
+}
+html[theme=black] ._active_tecje_1190 svg *[fill] {
+  fill: #2FA33F;
+}
+html[theme=black] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #2FA33F !important;
+}
+html[theme=black] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #A7B7D7 !important;
+}
+html[theme=black] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #2FA33F !important;
+}
+html[theme=blue] ._active_tecje_1190 {
+  color: #EAB700;
+}
+html[theme=blue] ._active_tecje_1190 svg *[stroke] {
+  stroke: #EAB700 !important;
+}
+html[theme=blue] ._active_tecje_1190 svg *[fill] {
+  fill: #EAB700 !important;
+}
+html[theme=blue] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #EAB700 !important;
+}
+html[theme=blue] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #fff !important;
+}
+html[theme=blue] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #EAB700 !important;
+}
+html[theme=whiteGreen] ._active_tecje_1190 {
+  color: #1E8C58;
+}
+html[theme=whiteGreen] ._active_tecje_1190 svg *[stroke] {
+  stroke: #1E8C58 !important;
+}
+html[theme=whiteGreen] ._active_tecje_1190 svg *[fill] {
+  fill: #1E8C58 !important;
+}
+html[theme=whiteGreen] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #1E8C58 !important;
+}
+html[theme=whiteGreen] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #333322 !important;
+}
+html[theme=whiteGreen] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #1E8C58 !important;
+}
+html[theme=purple] ._active_tecje_1190 {
+  color: #FFDC82;
+}
+html[theme=purple] ._active_tecje_1190 svg *[stroke] {
+  stroke: #FFDC82 !important;
+}
+html[theme=purple] ._active_tecje_1190 svg *[fill] {
+  fill: #FFDC82 !important;
+}
+html[theme=purple] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #FFDC82 !important;
+}
+html[theme=purple] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #fff !important;
+}
+html[theme=purple] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #FFDC82 !important;
+}
+html[theme=oilyGreen] ._active_tecje_1190 {
+  color: #FEE004;
+}
+html[theme=oilyGreen] ._active_tecje_1190 svg *[stroke] {
+  stroke: #FEE004 !important;
+}
+html[theme=oilyGreen] ._active_tecje_1190 svg *[fill] {
+  fill: #FEE004 !important;
+}
+html[theme=oilyGreen] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #FEE004 !important;
+}
+html[theme=oilyGreen] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #fff !important;
+}
+html[theme=oilyGreen] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #FEE004 !important;
+}
+html[theme=versaceYellow] ._active_tecje_1190 {
+  color: #373638;
+}
+html[theme=versaceYellow] ._active_tecje_1190 svg *[stroke] {
+  stroke: #373638 !important;
+}
+html[theme=versaceYellow] ._active_tecje_1190 svg *[fill] {
+  fill: #373638 !important;
+}
+html[theme=versaceYellow] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #373638 !important;
+}
+html[theme=versaceYellow] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #fff !important;
+}
+html[theme=versaceYellow] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #373638 !important;
+}
+html[theme=lancomePeach] ._active_tecje_1190 {
+  color: #FFE2C9;
+}
+html[theme=lancomePeach] ._active_tecje_1190 svg *[stroke] {
+  stroke: #FFE2C9 !important;
+}
+html[theme=lancomePeach] ._active_tecje_1190 svg *[fill] {
+  fill: #FFE2C9 !important;
+}
+html[theme=lancomePeach] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #FFE2C9 !important;
+}
+html[theme=lancomePeach] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #fff !important;
+}
+html[theme=lancomePeach] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #FFE2C9 !important;
+}
+html[theme=whiteRed] ._active_tecje_1190 {
+  color: #CB3034;
+}
+html[theme=whiteRed] ._active_tecje_1190 svg *[stroke] {
+  stroke: #CB3034 !important;
+}
+html[theme=whiteRed] ._active_tecje_1190 svg *[fill] {
+  fill: #CB3034 !important;
+}
+html[theme=whiteRed] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #CB3034 !important;
+}
+html[theme=whiteRed] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #565656 !important;
+}
+html[theme=whiteRed] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #CB3034 !important;
+}
+html[theme=hermesOrange] ._active_tecje_1190 {
+  color: #551F0E;
+}
+html[theme=hermesOrange] ._active_tecje_1190 svg *[stroke] {
+  stroke: #551F0E !important;
+}
+html[theme=hermesOrange] ._active_tecje_1190 svg *[fill] {
+  fill: #551F0E !important;
+}
+html[theme=hermesOrange] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #551F0E !important;
+}
+html[theme=hermesOrange] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #FFF !important;
+}
+html[theme=hermesOrange] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #551F0E !important;
+}
+html[theme=whiteBlue] ._active_tecje_1190 {
+  color: #5378BF;
+}
+html[theme=whiteBlue] ._active_tecje_1190 svg *[stroke] {
+  stroke: #5378BF !important;
+}
+html[theme=whiteBlue] ._active_tecje_1190 svg *[fill] {
+  fill: #5378BF !important;
+}
+html[theme=whiteBlue] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #5378BF !important;
+}
+html[theme=whiteBlue] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #565656 !important;
+}
+html[theme=whiteBlue] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #5378BF !important;
+}
+html[theme=sk2] ._active_tecje_1190 {
+  color: #E9C86F;
+}
+html[theme=sk2] ._active_tecje_1190 svg *[stroke] {
+  stroke: #E9C86F !important;
+}
+html[theme=sk2] ._active_tecje_1190 svg *[fill] {
+  fill: #E9C86F !important;
+}
+html[theme=sk2] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #E9C86F !important;
+}
+html[theme=sk2] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #fff !important;
+}
+html[theme=sk2] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #E9C86F !important;
+}
+html[theme=whiteYellow] ._active_tecje_1190 {
+  color: #DF9A1C;
+}
+html[theme=whiteYellow] ._active_tecje_1190 svg *[stroke] {
+  stroke: #DF9A1C !important;
+}
+html[theme=whiteYellow] ._active_tecje_1190 svg *[fill] {
+  fill: #DF9A1C !important;
+}
+html[theme=whiteYellow] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #DF9A1C !important;
+}
+html[theme=whiteYellow] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #565656 !important;
+}
+html[theme=whiteYellow] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #DF9A1C !important;
+}
+html[theme=lightBrown] ._active_tecje_1190 {
+  color: #FED39D;
+}
+html[theme=lightBrown] ._active_tecje_1190 svg *[stroke] {
+  stroke: #FED39D !important;
+}
+html[theme=lightBrown] ._active_tecje_1190 svg *[fill] {
+  fill: #FED39D !important;
+}
+html[theme=lightBrown] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #FED39D !important;
+}
+html[theme=lightBrown] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #FFF !important;
+}
+html[theme=lightBrown] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #FED39D !important;
+}
+html[theme=whiteOrange] ._active_tecje_1190 {
+  color: #FA9447;
+}
+html[theme=whiteOrange] ._active_tecje_1190 svg *[stroke] {
+  stroke: #FA9447 !important;
+}
+html[theme=whiteOrange] ._active_tecje_1190 svg *[fill] {
+  fill: #FA9447 !important;
+}
+html[theme=whiteOrange] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #FA9447 !important;
+}
+html[theme=whiteOrange] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #363333 !important;
+}
+html[theme=whiteOrange] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #FA9447 !important;
+}
+html[theme=furlaBlue] ._active_tecje_1190 {
+  color: #FFFCD2;
+}
+html[theme=furlaBlue] ._active_tecje_1190 svg *[stroke] {
+  stroke: #FFFCD2 !important;
+}
+html[theme=furlaBlue] ._active_tecje_1190 svg *[fill] {
+  fill: #FFFCD2 !important;
+}
+html[theme=furlaBlue] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #FFFCD2 !important;
+}
+html[theme=furlaBlue] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #FFF !important;
+}
+html[theme=furlaBlue] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #FFFCD2 !important;
+}
+html[theme=whitePink] ._active_tecje_1190 {
+  color: #EF7A7B;
+}
+html[theme=whitePink] ._active_tecje_1190 svg *[stroke] {
+  stroke: #EF7A7B !important;
+}
+html[theme=whitePink] ._active_tecje_1190 svg *[fill] {
+  fill: #EF7A7B !important;
+}
+html[theme=whitePink] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #EF7A7B !important;
+}
+html[theme=whitePink] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #565656 !important;
+}
+html[theme=whitePink] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #EF7A7B !important;
+}
+html[theme=bvGreen] ._active_tecje_1190 {
+  color: #FFF45D;
+}
+html[theme=bvGreen] ._active_tecje_1190 svg *[stroke] {
+  stroke: #FFF45D !important;
+}
+html[theme=bvGreen] ._active_tecje_1190 svg *[fill] {
+  fill: #FFF45D !important;
+}
+html[theme=bvGreen] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #FFF45D !important;
+}
+html[theme=bvGreen] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #FFF !important;
+}
+html[theme=bvGreen] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #FFF45D !important;
+}
+html[theme=whiteBrown] ._active_tecje_1190 {
+  color: #927D6A;
+}
+html[theme=whiteBrown] ._active_tecje_1190 svg *[stroke] {
+  stroke: #927D6A !important;
+}
+html[theme=whiteBrown] ._active_tecje_1190 svg *[fill] {
+  fill: #927D6A !important;
+}
+html[theme=whiteBrown] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #927D6A !important;
+}
+html[theme=whiteBrown] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #565656 !important;
+}
+html[theme=whiteBrown] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #927D6A !important;
+}
+html[theme=AnnaSuiPurple] ._active_tecje_1190 {
+  color: #fff;
+}
+html[theme=AnnaSuiPurple] ._active_tecje_1190 svg *[stroke] {
+  stroke: #fff !important;
+}
+html[theme=AnnaSuiPurple] ._active_tecje_1190 svg *[fill] {
+  fill: #fff !important;
+}
+html[theme=AnnaSuiPurple] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #fff !important;
+}
+html[theme=AnnaSuiPurple] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #FFF !important;
+}
+html[theme=AnnaSuiPurple] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #fff !important;
+}
+html[theme=whitePurple] ._active_tecje_1190 {
+  color: #610862;
+}
+html[theme=whitePurple] ._active_tecje_1190 svg *[stroke] {
+  stroke: #610862 !important;
+}
+html[theme=whitePurple] ._active_tecje_1190 svg *[fill] {
+  fill: #610862 !important;
+}
+html[theme=whitePurple] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #610862 !important;
+}
+html[theme=whitePurple] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #565656 !important;
+}
+html[theme=whitePurple] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #610862 !important;
+}
+html[theme=burgundyRed] ._active_tecje_1190 {
+  color: #FE3856;
+}
+html[theme=burgundyRed] ._active_tecje_1190 svg *[stroke] {
+  stroke: #FE3856 !important;
+}
+html[theme=burgundyRed] ._active_tecje_1190 svg *[fill] {
+  fill: #FE3856 !important;
+}
+html[theme=burgundyRed] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #FE3856 !important;
+}
+html[theme=burgundyRed] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #FFF !important;
+}
+html[theme=burgundyRed] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #FE3856 !important;
+}
+html[theme=whiteDarkGreen] ._active_tecje_1190 {
+  color: #054146;
+}
+html[theme=whiteDarkGreen] ._active_tecje_1190 svg *[stroke] {
+  stroke: #054146 !important;
+}
+html[theme=whiteDarkGreen] ._active_tecje_1190 svg *[fill] {
+  fill: #054146 !important;
+}
+html[theme=whiteDarkGreen] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #054146 !important;
+}
+html[theme=whiteDarkGreen] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #565656 !important;
+}
+html[theme=whiteDarkGreen] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #054146 !important;
+}
+html[theme=greenGold] ._active_tecje_1190 {
+  color: #FDD981;
+}
+html[theme=greenGold] ._active_tecje_1190 svg *[stroke] {
+  stroke: #FDD981 !important;
+}
+html[theme=greenGold] ._active_tecje_1190 svg *[fill] {
+  fill: #FDD981 !important;
+}
+html[theme=greenGold] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #FDD981 !important;
+}
+html[theme=greenGold] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #FFF !important;
+}
+html[theme=greenGold] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #FDD981 !important;
+}
+html[theme=whiteBrownLauren] ._active_tecje_1190 {
+  color: #9C6638;
+}
+html[theme=whiteBrownLauren] ._active_tecje_1190 svg *[stroke] {
+  stroke: #9C6638 !important;
+}
+html[theme=whiteBrownLauren] ._active_tecje_1190 svg *[fill] {
+  fill: #9C6638 !important;
+}
+html[theme=whiteBrownLauren] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #9C6638 !important;
+}
+html[theme=whiteBrownLauren] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #323133 !important;
+}
+html[theme=whiteBrownLauren] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #9C6638 !important;
+}
+html[theme=whiteRedGucci] ._active_tecje_1190 {
+  color: #520E23;
+}
+html[theme=whiteRedGucci] ._active_tecje_1190 svg *[stroke] {
+  stroke: #520E23 !important;
+}
+html[theme=whiteRedGucci] ._active_tecje_1190 svg *[fill] {
+  fill: #520E23 !important;
+}
+html[theme=whiteRedGucci] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #520E23 !important;
+}
+html[theme=whiteRedGucci] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #565656 !important;
+}
+html[theme=whiteRedGucci] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #520E23 !important;
+}
+html[theme=elsaPink] ._active_tecje_1190 {
+  color: #FFF0BC;
+}
+html[theme=elsaPink] ._active_tecje_1190 svg *[stroke] {
+  stroke: #FFF0BC !important;
+}
+html[theme=elsaPink] ._active_tecje_1190 svg *[fill] {
+  fill: #FFF0BC !important;
+}
+html[theme=elsaPink] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #FFF0BC !important;
+}
+html[theme=elsaPink] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #FFF !important;
+}
+html[theme=elsaPink] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #FFF0BC !important;
+}
+html[theme=bvlgariBrown] ._active_tecje_1190 {
+  color: #FFD581;
+}
+html[theme=bvlgariBrown] ._active_tecje_1190 svg *[stroke] {
+  stroke: #FFD581 !important;
+}
+html[theme=bvlgariBrown] ._active_tecje_1190 svg *[fill] {
+  fill: #FFD581 !important;
+}
+html[theme=bvlgariBrown] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #FFD581 !important;
+}
+html[theme=bvlgariBrown] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #FFF !important;
+}
+html[theme=bvlgariBrown] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #FFD581 !important;
+}
+html[theme=whiteBlack] ._active_tecje_1190 {
+  color: #000;
+}
+html[theme=whiteBlack] ._active_tecje_1190 svg *[stroke] {
+  stroke: #000 !important;
+}
+html[theme=whiteBlack] ._active_tecje_1190 svg *[fill] {
+  fill: #000 !important;
+}
+html[theme=whiteBlack] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #000 !important;
+}
+html[theme=whiteBlack] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #565656 !important;
+}
+html[theme=whiteBlack] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #000 !important;
+}
+html[theme=embraerBlue] ._active_tecje_1190 {
+  color: #00AC3F;
+}
+html[theme=embraerBlue] ._active_tecje_1190 svg *[stroke] {
+  stroke: #00AC3F !important;
+}
+html[theme=embraerBlue] ._active_tecje_1190 svg *[fill] {
+  fill: #00AC3F !important;
+}
+html[theme=embraerBlue] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #00AC3F !important;
+}
+html[theme=embraerBlue] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #FFF !important;
+}
+html[theme=embraerBlue] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #00AC3F !important;
+}
+html[theme=whiteBlueFendi] ._active_tecje_1190 {
+  color: #11A3EA;
+}
+html[theme=whiteBlueFendi] ._active_tecje_1190 svg *[stroke] {
+  stroke: #11A3EA !important;
+}
+html[theme=whiteBlueFendi] ._active_tecje_1190 svg *[fill] {
+  fill: #11A3EA !important;
+}
+html[theme=whiteBlueFendi] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #11A3EA !important;
+}
+html[theme=whiteBlueFendi] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #565656 !important;
+}
+html[theme=whiteBlueFendi] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #11A3EA !important;
+}
+html[theme=venetaGrey] ._active_tecje_1190 {
+  color: #F3E7CB;
+}
+html[theme=venetaGrey] ._active_tecje_1190 svg *[stroke] {
+  stroke: #F3E7CB !important;
+}
+html[theme=venetaGrey] ._active_tecje_1190 svg *[fill] {
+  fill: #F3E7CB !important;
+}
+html[theme=venetaGrey] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #F3E7CB !important;
+}
+html[theme=venetaGrey] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #FFF !important;
+}
+html[theme=venetaGrey] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #F3E7CB !important;
+}
+html[theme=martinPurple] ._active_tecje_1190 {
+  color: #2F137A;
+}
+html[theme=martinPurple] ._active_tecje_1190 svg *[stroke] {
+  stroke: #2F137A !important;
+}
+html[theme=martinPurple] ._active_tecje_1190 svg *[fill] {
+  fill: #2F137A !important;
+}
+html[theme=martinPurple] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #2F137A !important;
+}
+html[theme=martinPurple] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #2E2E2E !important;
+}
+html[theme=martinPurple] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #2F137A !important;
+}
+html[theme=usdtGreen] ._active_tecje_1190 {
+  color: #FFF;
+}
+html[theme=usdtGreen] ._active_tecje_1190 svg *[stroke] {
+  stroke: #FFF !important;
+}
+html[theme=usdtGreen] ._active_tecje_1190 svg *[fill] {
+  fill: #FFF !important;
+}
+html[theme=usdtGreen] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #FFF !important;
+}
+html[theme=usdtGreen] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #FFF !important;
+}
+html[theme=usdtGreen] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #FFF !important;
+}
+html[theme=whiteGreenCindy] ._active_tecje_1190 {
+  color: #5F7B10;
+}
+html[theme=whiteGreenCindy] ._active_tecje_1190 svg *[stroke] {
+  stroke: #5F7B10 !important;
+}
+html[theme=whiteGreenCindy] ._active_tecje_1190 svg *[fill] {
+  fill: #5F7B10 !important;
+}
+html[theme=whiteGreenCindy] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #5F7B10 !important;
+}
+html[theme=whiteGreenCindy] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #565656 !important;
+}
+html[theme=whiteGreenCindy] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #5F7B10 !important;
+}
+html[theme=microsoftRed] ._active_tecje_1190 {
+  color: #FFF;
+}
+html[theme=microsoftRed] ._active_tecje_1190 svg *[stroke] {
+  stroke: #FFF !important;
+}
+html[theme=microsoftRed] ._active_tecje_1190 svg *[fill] {
+  fill: #FFF !important;
+}
+html[theme=microsoftRed] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #FFF !important;
+}
+html[theme=microsoftRed] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #fff !important;
+}
+html[theme=microsoftRed] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #FFF !important;
+}
+html[theme=celineBrownWhite] ._active_tecje_1190 {
+  color: #42281C;
+}
+html[theme=celineBrownWhite] ._active_tecje_1190 svg *[stroke] {
+  stroke: #42281C !important;
+}
+html[theme=celineBrownWhite] ._active_tecje_1190 svg *[fill] {
+  fill: #42281C !important;
+}
+html[theme=celineBrownWhite] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #42281C !important;
+}
+html[theme=celineBrownWhite] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #565656 !important;
+}
+html[theme=celineBrownWhite] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #42281C !important;
+}
+html[theme=ferrariBlack] ._active_tecje_1190 {
+  color: #F0C059;
+}
+html[theme=ferrariBlack] ._active_tecje_1190 svg *[stroke] {
+  stroke: #F0C059 !important;
+}
+html[theme=ferrariBlack] ._active_tecje_1190 svg *[fill] {
+  fill: #F0C059 !important;
+}
+html[theme=ferrariBlack] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #F0C059 !important;
+}
+html[theme=ferrariBlack] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #fff !important;
+}
+html[theme=ferrariBlack] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #F0C059 !important;
+}
+html[theme=burberryBlueWhite] ._active_tecje_1190 {
+  color: #111F34;
+}
+html[theme=burberryBlueWhite] ._active_tecje_1190 svg *[stroke] {
+  stroke: #111F34 !important;
+}
+html[theme=burberryBlueWhite] ._active_tecje_1190 svg *[fill] {
+  fill: #111F34 !important;
+}
+html[theme=burberryBlueWhite] ._active_tecje_1190 svg .cusFill[fill] {
+  fill: #111F34 !important;
+}
+html[theme=burberryBlueWhite] ._active_tecje_1190 svg .cusFill4[fill] {
+  fill: #565656 !important;
+}
+html[theme=burberryBlueWhite] ._active_tecje_1190 svg .cusFill5[fill] {
+  fill: #111F34 !important;
+}
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_1kkts_3 * {
+  fill: #054146;
+}
+
+._festival_1kkts_55 {
+  position: absolute;
+  width: auto !important;
+  display: block !important;
+  margin: 0rem !important;
+}

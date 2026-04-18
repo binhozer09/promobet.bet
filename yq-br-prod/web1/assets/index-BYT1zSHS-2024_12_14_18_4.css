@@ -1,0 +1,255 @@
+@charset "UTF-8";
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_1w32m_3 * {
+  fill: #054146;
+}
+
+._missao_container_1w32m_55 {
+  display: flex;
+  padding: 20rem 10rem;
+}
+._missao_container_1w32m_55 ._left_nav_1w32m_59 {
+  padding: 20rem;
+}
+._missao_container_1w32m_55 ._left_nav_item_1w32m_62 {
+  width: 150rem;
+  height: 70rem;
+  font-size: 18rem;
+  border-radius: 10rem;
+  margin-bottom: 20rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--theme-main-color);
+  color: var(--theme-text-button);
+  justify-content: center;
+}
+._missao_container_1w32m_55 ._left_nav_item_1w32m_62 span {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* 这里是超出几行省略 */
+  overflow: hidden;
+  text-align: center;
+  width: 140rem;
+}
+._missao_container_1w32m_55 ._left_nav_button_1w32m_83 {
+  width: 120rem;
+  font-size: 20rem;
+  padding: 10rem;
+  border-radius: 10rem;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  word-break: break-all;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--theme-tips);
+  background-color: var(--theme-template-color);
+}
+._missao_container_1w32m_55 ._rightContainer_1w32m_96 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+._missao_container_1w32m_55 ._rightItem_1w32m_102 {
+  margin-bottom: 20rem;
+  padding: 10rem;
+  border-radius: 10rem;
+  font-size: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--theme-template-color);
+  display: flex;
+  align-items: center;
+}
+._missao_container_1w32m_55 ._rightItem_1w32m_102 ._missao_title_box_1w32m_114 {
+  display: flex;
+  align-items: center;
+  color: var(--theme-tite-color);
+}
+._missao_container_1w32m_55 ._rightItem_1w32m_102 ._missao_title_box_1w32m_114 img {
+  width: 60rem;
+  height: 60rem;
+}
+._missao_container_1w32m_55 ._rightItem_1w32m_102 ._missao_bonus_1w32m_123 {
+  margin-top: 10rem;
+}
+._missao_container_1w32m_55 ._rightItem_1w32m_102 ._missao_bonus_1w32m_123 ._missao_bonus_label_1w32m_126 {
+  color: var(--theme-tips);
+}
+._missao_container_1w32m_55 ._rightItem_1w32m_102 ._missao_bonus_1w32m_123 ._missao_bonus_val_1w32m_129 {
+  margin-left: 8rem;
+  color: var(--theme-money);
+}
+html[dir=rtl] ._missao_container_1w32m_55 ._rightItem_1w32m_102 ._missao_bonus_1w32m_123 ._missao_bonus_val_1w32m_129 {
+  margin-left: 0;
+  margin-right: 8rem;
+}
+._missao_container_1w32m_55 ._rightItem_1w32m_102 ._missao_bonus_1w32m_123 ._missao_disabled_1w32m_137 {
+  color: #C0C0C0 !important;
+  transform: none;
+}
+._missao_container_1w32m_55 ._rightItem_1w32m_102 ._btn_1w32m_141, ._missao_container_1w32m_55 ._rightItem_1w32m_102 ._oper_btn_1w32m_141, ._missao_container_1w32m_55 ._rightItem_1w32m_102 ._bonus_btn_1w32m_141 {
+  width: 120rem;
+  padding: 15rem 0rem;
+  border-radius: 10rem;
+  flex-shrink: 0;
+  text-align: center;
+  border: none;
+}
+._missao_container_1w32m_55 ._rightItem_1w32m_102 ._bonus_btn_1w32m_141 {
+  color: #fff;
+  background: #00d552;
+}
+html[theme=lancomePeach] ._missao_container_1w32m_55 ._rightItem_1w32m_102 ._bonus_btn_1w32m_141 {
+  background: #76e886;
+}
+html[theme=whiteGreen] ._missao_container_1w32m_55 ._rightItem_1w32m_102 ._bonus_btn_1w32m_141 {
+  background-color: #5bbc90;
+  color: #fff;
+}
+html[theme=purple] ._missao_container_1w32m_55 ._rightItem_1w32m_102 ._bonus_btn_1w32m_141 {
+  background: #42d31b;
+}
+html[theme=furlaBlue] ._missao_container_1w32m_55 ._rightItem_1w32m_102 ._bonus_btn_1w32m_141 {
+  background-color: #51de85;
+}
+html[theme=whitePink] ._missao_container_1w32m_55 ._rightItem_1w32m_102 ._bonus_btn_1w32m_141 {
+  background-color: #1cc245;
+}
+html[theme=bvGreen] ._missao_container_1w32m_55 ._rightItem_1w32m_102 ._bonus_btn_1w32m_141 {
+  background-color: #00e717;
+}
+html[theme=burgundyRed] ._missao_container_1w32m_55 ._rightItem_1w32m_102 ._bonus_btn_1w32m_141 {
+  background-color: #00d552;
+}
+html[theme=whiteDarkGreen] ._missao_container_1w32m_55 ._rightItem_1w32m_102 ._bonus_btn_1w32m_141 {
+  background-color: #00d552;
+}
+html[theme=whiteBrownLauren] ._missao_container_1w32m_55 ._rightItem_1w32m_102 ._bonus_btn_1w32m_141 {
+  background-color: #1CC245;
+}
+html[theme=embraerBlue] ._missao_container_1w32m_55 ._rightItem_1w32m_102 ._bonus_btn_1w32m_141 {
+  background-color: #00D552;
+}
+html[theme=whiteRedGucci] ._missao_container_1w32m_55 ._rightItem_1w32m_102 ._bonus_btn_1w32m_141 {
+  background-color: #FF820E;
+}
+html[theme=versaceYellow] ._missao_container_1w32m_55 ._rightItem_1w32m_102 ._bonus_btn_1w32m_141 {
+  background-color: #E6AA07;
+}
+html[theme=elsaPink] ._missao_container_1w32m_55 ._rightItem_1w32m_102 ._bonus_btn_1w32m_141 {
+  background-color: #00D552;
+}
+._missao_container_1w32m_55 ._rightItem_1w32m_102 ._bonus_btn_1w32m_141:disabled {
+  background-color: #c0c0c0 !important;
+  transform: none;
+}
+._missao_container_1w32m_55 ._rightItem_1w32m_102 ._oper_btn_1w32m_141 {
+  background-color: var(--theme-main-color);
+  color: var(--theme-text-button);
+}
+._missao_container_1w32m_55 ._rule_details_1w32m_201 {
+  padding: 25rem 20rem;
+  font-size: 20rem;
+  border-radius: 10rem;
+  background-color: var(--theme-template-color);
+  line-height: 125%;
+}
+._missao_container_1w32m_55 ._rule_details_1w32m_201 ._rule_title_1w32m_208 {
+  color: var(--theme-tite-color);
+}
+._missao_container_1w32m_55 ._rule_details_1w32m_201 ._rule_context_1w32m_211 {
+  color: var(--theme-tips);
+}
+
+._noBankTip_1w32m_215 {
+  width: 690rem;
+  height: 224rem;
+  padding: 32rem;
+  font-size: 24rem;
+  border-radius: 20rem;
+  background-color: var(--theme-template-color);
+}
+._noBankTip_1w32m_215 ._tip_context_1w32m_223 {
+  line-height: 120%;
+  color: var(--theme-tite-color);
+}
+._noBankTip_1w32m_215 ._noBankTip_btns_1w32m_227 {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+._noBankTip_1w32m_215 ._noBankTip_btns_1w32m_227 button {
+  outline: none;
+  border: none;
+  display: flex;
+  width: 297rem;
+  height: 70rem;
+  padding: 24rem;
+  border-radius: 12rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32rem;
+  background-color: rgba(255, 255, 255, 0);
+}
+._noBankTip_1w32m_215 ._noBankTip_btns_1w32m_227 button + button {
+  margin-left: 20rem;
+}
+._noBankTip_1w32m_215 ._noBankTip_btns_1w32m_227 button._cancel_1w32m_248 {
+  color: var(--theme-tite-color);
+  background-color: var(--theme-header-color);
+}
+._noBankTip_1w32m_215 ._noBankTip_btns_1w32m_227 button._sure_1w32m_252 {
+  background-color: var(--theme-main-color);
+  color: var(--theme-text-button);
+}

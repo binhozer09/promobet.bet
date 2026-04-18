@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_1sy93_3 * {
+  fill: #054146;
+}
+
+._container_1sy93_55 {
+  padding: 0 24rem;
+}
+._container_1sy93_55 ._tips1_1sy93_58 {
+  width: 654rem;
+  margin: 24rem auto;
+  color: var(--theme-withdraw-money);
+  text-align: center;
+  font-size: 24rem;
+  font-weight: 400;
+}
+._container_1sy93_55 ._tips2_1sy93_66 {
+  color: var(--theme-tite-color);
+  font-weight: bold;
+  font-size: 24rem;
+}
+._container_1sy93_55 ._tips3_1sy93_71 {
+  margin: 24rem 0;
+  text-align: center;
+  color: var(--theme-money);
+  font-size: 24rem;
+}

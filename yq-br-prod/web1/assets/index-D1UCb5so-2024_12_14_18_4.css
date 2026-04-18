@@ -1,0 +1,3528 @@
+@charset "UTF-8";@keyframes skeleton-loading {
+  0% {
+      background-position: 100% 50%
+  }
+
+  100% {
+      background-position: 0 50%
+  }
+}
+@-moz-keyframes skeleton-loading {
+  0% {
+      background-position: 100% 50%
+  }
+
+  100% {
+      background-position: 0 50%
+  }
+}
+@-webkit-keyframes skeleton-loading {
+  0% {
+      background-position: 100% 50%
+  }
+
+  100% {
+      background-position: 0 50%
+  }
+}
+@-o-keyframes skeleton-loading {
+  0% {
+      background-position: 100% 50%
+  }
+
+  100% {
+      background-position: 0 50%
+  }
+}
+
+/* --------- 整体页面背景色 -------------- */
+.skeletonPageBg {
+  background-color: var(--theme-bg-color);
+}
+/* --------- 部分整体高亮背景色 1 -------------- */
+.skeletonBoxLightBg {
+  background-color: var(--theme-top-bar);
+}
+/* --------- 部分整体高亮背景色 2 -------------- */
+.skeletonBoxLightBg2 {
+  background-color: var(--theme-template-color);
+}
+/* --------- 流光块底色 -------------- */
+.skeletonBg {
+  overflow: hidden;
+  background-color: var(--theme-header-color);
+}
+.skeleton-paragraph {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(156, 186, 67, 0) 25%, var(--theme-template-color) 37%, rgba(156, 186, 67, 0) 63%);
+  background-size: 400% 100%;
+  animation-name: skeleton-loading;
+  animation-duration: 1.2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_t5y6x_3 * {
+  fill: #054146;
+}
+
+._h5_skeleton_t5y6x_55 {
+  width: 100%;
+  height: 100%;
+}
+._h5_skeleton_t5y6x_55 ._headerBox_t5y6x_59 {
+  width: 100%;
+  height: 90rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+html[nested="1"] ._h5_skeleton_t5y6x_55 ._headerBox_t5y6x_59 {
+  width: 750rem;
+  margin: auto;
+}
+._h5_skeleton_t5y6x_55 ._headerBox_t5y6x_59 ._leftIcon_t5y6x_71 {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 20rem;
+  margin-left: 20rem;
+}
+._h5_skeleton_t5y6x_55 ._headerBox_t5y6x_59 ._rightBox_t5y6x_77 {
+  display: flex;
+  flex-direction: row;
+}
+._h5_skeleton_t5y6x_55 ._headerBox_t5y6x_59 ._rightItemBox1_t5y6x_81 {
+  width: 100rem;
+  height: 54rem;
+  margin-right: 30rem;
+  border-radius: 12rem;
+}
+._h5_skeleton_t5y6x_55 ._headerBox_t5y6x_59 ._rightItemBox2_t5y6x_87 {
+  width: 54rem;
+  height: 54rem;
+  margin-right: 20rem;
+  border-radius: 30rem;
+}
+._h5_skeleton_t5y6x_55 ._carouselBox_t5y6x_93 {
+  width: 710rem;
+  height: 210rem;
+  margin-top: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20rem;
+}
+._h5_skeleton_t5y6x_55 ._noticeBox_t5y6x_101 {
+  margin-top: 40rem;
+  width: 710rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+._h5_skeleton_t5y6x_55 ._noticeBox_t5y6x_101 ._noticeItemBox1_t5y6x_111 {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 40rem;
+}
+._h5_skeleton_t5y6x_55 ._noticeBox_t5y6x_101 ._noticeItemBox2_t5y6x_116 {
+  width: 655rem;
+  height: 20rem;
+  border-radius: 10rem;
+}
+._h5_skeleton_t5y6x_55 ._typeSelectBox_t5y6x_121 {
+  margin-top: 40rem;
+  width: 710rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+._h5_skeleton_t5y6x_55 ._typeSelectBox_t5y6x_121 ._typeSelectItemBox_t5y6x_131 {
+  width: 120rem;
+  height: 60rem;
+  border-radius: 12rem;
+}
+._h5_skeleton_t5y6x_55 ._gameLogoBox_t5y6x_136 {
+  margin-top: 20rem;
+  width: 710rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+._h5_skeleton_t5y6x_55 ._gameLogoBox_t5y6x_136 ._gameLogoItem1_t5y6x_146 {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 40rem;
+}
+._h5_skeleton_t5y6x_55 ._gameLogoBox_t5y6x_136 ._gameLogoItem2_t5y6x_151 {
+  width: 100rem;
+  height: 20rem;
+  border-radius: 10rem;
+  margin-left: 10rem;
+}
+._h5_skeleton_t5y6x_55 ._gameListBox_t5y6x_157 {
+  margin-top: 20rem;
+  width: 710rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+._h5_skeleton_t5y6x_55 ._gameListBox_t5y6x_157 ._gameListItemBox_t5y6x_168 {
+  width: 218rem;
+  height: 290rem;
+  margin-bottom: 20rem;
+  border-radius: 20rem;
+}
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_ovjwc_3 * {
+  fill: #054146;
+}
+
+._pc_skeleton_ovjwc_55 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+._pc_skeleton_ovjwc_55 ._headerBox_ovjwc_61 {
+  width: 100%;
+  height: 80rem;
+}
+._pc_skeleton_ovjwc_55 ._headerBox_ovjwc_61 ._headerBoxInBox_ovjwc_65 {
+  min-height: 80rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+._pc_skeleton_ovjwc_55 ._headerBox_ovjwc_61 ._logoItem_ovjwc_71 {
+  width: 200rem;
+  height: 30rem;
+  border-radius: 20rem;
+}
+._pc_skeleton_ovjwc_55 ._headerBox_ovjwc_61 ._contentBox_ovjwc_76 {
+  width: 1200rem;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+._pc_skeleton_ovjwc_55 ._headerBox_ovjwc_61 ._contentBox_ovjwc_76 ._blanceBox_ovjwc_85 {
+  width: 230rem;
+  height: 40rem;
+  border-radius: 20rem;
+  margin-right: 20rem;
+}
+._pc_skeleton_ovjwc_55 ._headerBox_ovjwc_61 ._contentBox_ovjwc_76 ._headerRightItemBox1_ovjwc_91 {
+  width: 100rem;
+  height: 40rem;
+  margin-right: 20rem;
+  border-radius: 10rem;
+}
+._pc_skeleton_ovjwc_55 ._headerBox_ovjwc_61 ._contentBox_ovjwc_76 ._headerRightItemBox2_ovjwc_97 {
+  width: 56rem;
+  height: 56rem;
+  margin-right: 20rem;
+  border-radius: 20rem;
+}
+._pc_skeleton_ovjwc_55 ._headerBox_ovjwc_61 ._contentBox_ovjwc_76 ._headerRightItemBox3_ovjwc_103 {
+  width: 150rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+._pc_skeleton_ovjwc_55 ._headerBox_ovjwc_61 ._contentBox_ovjwc_76 ._headerRightItemBox3_ovjwc_103 ._item3_1_ovjwc_111 {
+  width: 50rem;
+  height: 10rem;
+  border-radius: 10rem;
+}
+._pc_skeleton_ovjwc_55 ._headerBox_ovjwc_61 ._contentBox_ovjwc_76 ._headerRightItemBox3_ovjwc_103 ._item3_2_ovjwc_116 {
+  width: 150rem;
+  height: 10rem;
+  border-radius: 10rem;
+}
+._pc_skeleton_ovjwc_55 ._leftBox_ovjwc_121 {
+  width: 240rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+._pc_skeleton_ovjwc_55 ._rightBox_ovjwc_128 {
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 {
+  flex: 1;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._btmContentBoxIn_ovjwc_136 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._btmContentBoxIn_ovjwc_136 ._sliderBox_ovjwc_142 {
+  width: 240rem;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 14rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._btmContentBoxIn_ovjwc_136 ._sliderBox_ovjwc_142 ._sliderItemBox1_ovjwc_151 {
+  display: inline-block;
+  width: 100rem;
+  height: 70rem;
+  border-radius: 10rem;
+  margin-right: 10rem;
+  margin-top: 10rem;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._btmContentBoxIn_ovjwc_136 ._sliderBox_ovjwc_142 ._sliderItemBox2_ovjwc_159 {
+  width: 210rem;
+  height: 60rem;
+  margin-top: 10rem;
+  border-radius: 10rem;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._btmContentBoxIn_ovjwc_136 ._sliderBox_ovjwc_142 ._sliderItemBox3_ovjwc_165 {
+  width: 210rem;
+  height: 50rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._btmContentBoxIn_ovjwc_136 ._sliderBox_ovjwc_142 ._sliderItemBox3_ovjwc_165 ._sliderItemBox3_1_ovjwc_174 {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 30rem;
+  margin-right: 10rem;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._btmContentBoxIn_ovjwc_136 ._sliderBox_ovjwc_142 ._sliderItemBox3_ovjwc_165 ._sliderItemBox3_2_ovjwc_180 {
+  width: 140rem;
+  height: 10rem;
+  border-radius: 10rem;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 {
+  width: 1200rem;
+  margin: auto;
+  margin-top: 20rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 ._carouselBox_ovjwc_193 {
+  width: 1200rem;
+  height: 250rem;
+  position: relative;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 ._carouselBox_ovjwc_193 ._underBox_ovjwc_198 {
+  top: 25rem;
+  position: absolute;
+  width: 100%;
+  height: 200rem;
+  border-radius: 20rem;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 ._carouselBox_ovjwc_193 ._upBox_ovjwc_205 {
+  position: absolute;
+  top: 0;
+  left: 174rem;
+  width: 848rem;
+  height: 250rem;
+  border-radius: 20rem;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 ._noticeBox_ovjwc_213 {
+  width: 100%;
+  height: 70rem;
+  margin-top: 20rem;
+  border-radius: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 ._noticeBox_ovjwc_213 ._noticeItemBox1_ovjwc_222 {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 30rem;
+  margin-left: 20rem;
+  margin-right: 10rem;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 ._noticeBox_ovjwc_213 ._noticeItemBox2_ovjwc_229 {
+  width: 1120rem;
+  height: 10rem;
+  border-radius: 10rem;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 ._typeSelectBox_ovjwc_234 {
+  width: 100%;
+  height: 100rem;
+  margin-top: 20rem;
+  border-radius: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20rem;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 ._typeSelectBox_ovjwc_234 ._typeSelectItemBox_ovjwc_244 {
+  width: 100rem;
+  height: 60rem;
+  border-radius: 10rem;
+  margin-right: 20rem;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 ._gameListBox_ovjwc_250 {
+  width: 100%;
+  height: fit-content;
+  border-radius: 10rem;
+  margin-top: 20rem;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 ._gameListBox_ovjwc_250 ._jockpotBox_ovjwc_256 {
+  width: 1140rem;
+  height: 253rem;
+  margin-top: 20rem;
+  border-radius: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 ._gameListBox_ovjwc_250 ._gameItemBox_ovjwc_264 {
+  width: 1140rem;
+  height: fit-content;
+  margin-top: 20rem;
+  border-radius: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 ._gameListBox_ovjwc_250 ._gameItemBox_ovjwc_264 ._gameItemTitleBox_ovjwc_274 {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 ._gameListBox_ovjwc_250 ._gameItemBox_ovjwc_264 ._gameItemTitleBox_ovjwc_274 ._titleBox1_ovjwc_281 {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 30rem;
+  margin-right: 10rem;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 ._gameListBox_ovjwc_250 ._gameItemBox_ovjwc_264 ._gameItemTitleBox_ovjwc_274 ._titleBox2_ovjwc_287 {
+  width: 100rem;
+  height: 10rem;
+  border-radius: 10rem;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 ._gameListBox_ovjwc_250 ._gameItemBox_ovjwc_264 ._listItemBox_ovjwc_292 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20rem;
+  gap: 24rem;
+}
+._pc_skeleton_ovjwc_55 ._btmContentBox_ovjwc_133 ._contentBox2_ovjwc_185 ._gameListBox_ovjwc_250 ._gameItemBox_ovjwc_264 ._listItemBox_ovjwc_292 ._gameItem_ovjwc_264 {
+  width: 170rem;
+  height: 226rem;
+  border-radius: 20rem;
+}/*
+  设置通用字体
+  F_Regu 无法加粗
+  F_Bold 只有粗体
+*/
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url('https://dl-br-cf.sadslj88.com/yq-br-prod/web1/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url('https://dl-br-cf.sadslj88.com/yq-br-prod/web1/fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'HYYakuHei';
+  src: url('https://dl-br-cf.sadslj88.com/yq-br-prod/web1/fonts/HYYakuHei.ttf') format('truetype');
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-size: 22rem;
+}
+[pc='2'] * {
+  font-size: 20rem;
+}
+html,
+body,
+#root {
+  width: 100vw;
+  height: 100% !important;
+  height: 100dvh !important;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+#fullScreen {
+  width: 100%;
+  height: 100%;
+}
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.g-signin2 {
+  width: 100%;
+  height: 80rem;
+}
+.geetest_logo, .geetest_box_logo, .geetest_feedback {
+  display: none !important;
+}
+#root {
+  /* z-index: 10; */
+}
+
+/* 雪花飘落动画 */
+.snow_down{
+  position: fixed;
+  left: 10vw;
+  top: 100vh;
+  animation-name: fall;
+  animation-timing-function: linear; /* 设置缓动函数 */
+  animation-duration: 15s; /* 动画持续时间为3秒 */
+  z-index: 100;
+  pointer-events: none;
+}
+
+/* 烟花特效 */
+.flower_boom{
+  position: fixed;
+  z-index: 100;
+  pointer-events: none;
+}
+
+/* 雪花飘落的动画 */
+@keyframes fall {
+  0% {
+    transform: rotate(0deg) translateX(0rem);
+    top: -120rem;
+  }
+  100% {
+    top: 100vh;
+    transform: rotate(720deg) translateX(30rem); /* 完成从顶部到底部的飘落 */
+  }
+}
+
+/* 针对 Chrome、Safari、Edge、Opera */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* 针对 Firefox */
+input[type="number"] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+
+#logRegBlock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1000000000;
+}
+img {
+  display: block;
+}
+input {
+  outline: none;
+  border: 0;
+  background-color: transparent !important;
+  background-clip: content-box;
+  padding: 1rem;
+}
+input:focus {
+  background: transparent;
+  background-clip: content-box;
+}
+input:-internal-autofill-selected {
+  background-image: none !important;
+  background-color: transparent !important;
+  -webkit-appearance: menulist-button;
+  appearance: menulist-button;
+}
+
+.button {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+
+/* 黑绿色主题配置修改 */
+html[theme='black'],
+html[theme='black'] body,
+html[theme='black'] #root {
+  background-color: #263040;
+  color: #A7B7D7;
+}
+html[theme='black'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #161D29 inset !important;
+  -webkit-text-fill-color: #fff;
+}
+html[theme='black'] input::placeholder {
+  color: rgba(167, 183, 215, 0.5);
+}
+
+/* 绿色主题配置修改 */
+html[theme='blue'],
+html[theme='blue'] body,
+html[theme='blue'] #root {
+  background-color: #5D98E2;
+  color: #B5E4FF;
+}
+html[theme='blue'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #015ed4 inset !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.6);
+}
+html[theme='blue'] input::placeholder {
+  color: rgba(255, 255, 255, 0.60);
+}
+
+/* 白绿色主题配置修改 */
+html[theme='whiteGreen'],
+html[theme='whiteGreen'] body,
+html[theme='whiteGreen'] #root {
+  background-color: #E1E1E1;
+  color: #1E8C58;
+}
+html[theme='whiteGreen'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #f5f5f5 inset !important;
+  -webkit-text-fill-color: #333333;
+}
+html[theme='whiteGreen'] input::placeholder {
+  color: #999999;
+}
+
+/* 紫色色主题配置修改 */
+html[theme='purple'],
+html[theme='purple'] body,
+html[theme='purple'] #root {
+  background-color: #1D286A;
+  color: rgba(255, 255, 255, 0.60);
+}
+html[theme='purple'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #060730 inset !important;
+  -webkit-text-fill-color: #fff;
+}
+html[theme='purple'] input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* 白红主题配置修改 */
+html[theme='whiteRed'],
+html[theme='whiteRed'] body,
+html[theme='whiteRed'] #root {
+  background-color: #EBEBEB;
+  color: #CB3034;
+}
+html[theme='whiteRed'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #565656;
+}
+html[theme='whiteRed'] input::placeholder {
+  color: #9D9D9D;
+}
+
+/* 绿色主题配置修改 */
+html[theme='oilyGreen'],
+html[theme='oilyGreen'] body,
+html[theme='oilyGreen'] #root {
+  background-color: #3BAC65;
+  color: #C4FFD9;
+}
+html[theme='oilyGreen'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #067831 inset !important;
+  -webkit-text-fill-color: #fff;
+}
+html[theme='oilyGreen'] input::placeholder {
+  color: #87D1A2;
+}
+
+/* 范思哲黄色主题配置修改 */
+html[theme='versaceYellow'],
+html[theme='versaceYellow'] body,
+html[theme='versaceYellow'] #root {
+  background-color: #FFE08A;
+  color: #FFFFFF;
+}
+html[theme='versaceYellow'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F5B90C inset !important;
+  -webkit-text-fill-color: #3F3F3F;
+}
+html[theme='versaceYellow'] input::placeholder {
+  color: rgba(255, 255, 255, 0.60);
+}
+
+
+/* 蜜桃色主题配置修改 */
+html[theme='lancomePeach'],
+
+html[theme='lancomePeach'] #root {
+
+  background-color: #FFCFBB;
+  color: #fff;
+}
+
+html[theme='lancomePeach'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #EE7879 inset !important;
+  -webkit-text-fill-color: #fff;
+}
+html[theme='lancomePeach'] input::placeholder {
+  color: #FEE0E0;
+}
+/* 橙色主题配置修改 */
+html[theme='hermesOrange'],
+html[theme='hermesOrange'] body,
+html[theme='hermesOrange'] #root {
+  background-color: #FFBD89;
+  color: #fff;
+}
+html[theme='hermesOrange'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F26E0A inset !important;
+  -webkit-text-fill-color: #fff;
+}
+html[theme='hermesOrange'] input::placeholder {
+  color: #FFBE8B;
+}
+
+/* 白蓝色主题配置修改 */
+html[theme='whiteBlue'],
+html[theme='whiteBlue'] body,
+html[theme='whiteBlue'] #root {
+  background-color: #ACB8D3;
+  color: #565656;
+}
+html[theme='whiteBlue'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #333333;
+}
+html[theme='whiteBlue'] input::placeholder {
+  color: #9D9D9D;
+}
+
+/* sk2色主题配置修改 */
+html[theme='sk2'],
+html[theme='sk2'] body,
+html[theme='sk2'] #root {
+  background-color: #4E0416;
+  color: #fff;
+}
+html[theme='sk2'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #4E0416 inset !important;
+  -webkit-text-fill-color: #fff;
+}
+html[theme='sk2'] input::placeholder {
+  color: #FFC5C8;
+}
+
+/* 白黄色主题配置修改 */
+html[theme='whiteYellow'],
+html[theme='whiteYellow'] body,
+html[theme='whiteYellow'] #root {
+  background-color: #E7CF9D;
+  color: #565656;
+}
+html[theme='whiteYellow'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #565656;
+}
+html[theme='whiteYellow'] input::placeholder {
+  color: #9D9D9D;
+}
+
+/* 浅棕色主题配置修改 */
+html[theme='lightBrown'],
+html[theme='lightBrown'] body,
+html[theme='lightBrown'] #root {
+  background-color: #B7A697;
+  color: #fff;
+}
+html[theme='lightBrown'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #9B8977 inset !important;
+  -webkit-text-fill-color: #fff;
+}
+html[theme='lightBrown'] input::placeholder {
+  color: #E7D2C2;
+}
+
+
+/* 白橘色主题配置修改 */
+html[theme='whiteOrange'],
+html[theme='whiteOrange'] body,
+html[theme='whiteOrange'] #root {
+  background-color: #e5e4e5;
+  color: #363333;
+}
+html[theme='whiteOrange'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F9F9F9 inset !important;
+  -webkit-text-fill-color: #363333;
+}
+html[theme='whiteOrange'] input::placeholder {
+  color: #9A9A9A;
+}
+
+/* furlaBlue主题配置修改 */
+html[theme='furlaBlue'],
+html[theme='furlaBlue'] body,
+html[theme='furlaBlue'] #root {
+  background-color: #ABBBE9;
+  color: #D4DDFE;
+}
+html[theme='furlaBlue'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #5375D1 inset !important;
+  -webkit-text-fill-color: #fff;
+}
+html[theme='furlaBlue'] input::placeholder {
+  color: #D4DDFE;
+}
+
+/* whitePink主题配置修改 */
+html[theme='whitePink'],
+html[theme='whitePink'] body,
+html[theme='whitePink'] #root {
+  background-color: #EAC7C9;
+  color: #565656;
+}
+html[theme='whitePink'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #565656;
+}
+html[theme='whitePink'] input::placeholder {
+  color: #9D9D9D;
+}
+
+
+/* bvGreen主题配置修改 */
+html[theme='bvGreen'],
+html[theme='bvGreen'] body,
+html[theme='bvGreen'] #root {
+  background-color: #9CBE1F;
+  color: #fff;
+}
+html[theme='bvGreen'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #7B9A1E inset !important;
+  -webkit-text-fill-color: #fff;
+}
+html[theme='bvGreen'] input::placeholder {
+  color: #D1E676;
+}
+/* whiteBrown主题配置修改 */
+html[theme='whiteBrown'],
+html[theme='whiteBrown'] body,
+html[theme='whiteBrown'] #root {
+  background-color: #B6AA9C;
+  color: #565656;
+}
+html[theme='whiteBrown'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #565656;
+}
+html[theme='whiteBrown'] input::placeholder {
+  color: #9D9D9D;
+}
+/* AnnaSuiPurple主题配置修改 */
+html[theme='AnnaSuiPurple'],
+html[theme='AnnaSuiPurple'] body,
+html[theme='AnnaSuiPurple'] #root {
+  background-color: #A592C9;
+  color: #fff;
+}
+html[theme='AnnaSuiPurple'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #6B53A2 inset !important;
+  -webkit-text-fill-color: #fff;
+}
+html[theme='AnnaSuiPurple'] input::placeholder {
+  color: #BFA9CC;
+}
+
+/* whitePurple 主题配置修改 */
+html[theme='whitePurple'],
+html[theme='whitePurple'] body,
+html[theme='whitePurple'] #root {
+  background-color: #C197C1;
+  color: #565656;
+}
+html[theme='whitePurple'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #565656;
+}
+html[theme='whitePurple'] input::placeholder {
+  color: #9D9D9D;
+}
+
+/* burgundyRed 主题配置修改 */
+html[theme='burgundyRed'],
+html[theme='burgundyRed'] body,
+html[theme='burgundyRed'] #root {
+  background-color: #8F2B40;
+  color: #fff;
+}
+html[theme='burgundyRed'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #630B20 inset !important;
+  -webkit-text-fill-color: #fff;
+}
+html[theme='burgundyRed'] input::placeholder {
+  color: #E08EA3;
+}
+/* whiteDarkGreen 主题配置修改 */
+html[theme='whiteDarkGreen'],
+html[theme='whiteDarkGreen'] body,
+html[theme='whiteDarkGreen'] #root {
+  background-color: #4A6365;
+  color: #323133;
+}
+html[theme='whiteDarkGreen'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #565656;
+}
+html[theme='whiteDarkGreen'] input::placeholder {
+  color: #9D9D9D;
+}
+
+
+/* greenGold 主题配置修改 */
+html[theme='greenGold'],
+html[theme='greenGold'] body,
+html[theme='greenGold'] #root {
+  background-color: #05584F;
+  color: #fff;
+}
+html[theme='greenGold'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #003E37 inset !important;
+  -webkit-text-fill-color: #fff;
+}
+html[theme='greenGold'] input::placeholder {
+  color: #039685;
+}
+
+/* whiteBrownLauren 主题配置修改 */
+html[theme='whiteBrownLauren'],
+html[theme='whiteBrownLauren'] body,
+html[theme='whiteBrownLauren'] #root {
+  background-color: #CDCECF;
+  color: #323133;
+}
+html[theme='whiteBrownLauren'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F9F9F9 inset !important;
+  -webkit-text-fill-color: #323133;
+}
+html[theme='whiteBrownLauren'] input::placeholder {
+  color: #9A9A9B;
+}
+
+/* whiteRedGucci 主题配置修改 */
+html[theme='whiteRedGucci'],
+html[theme='whiteRedGucci'] body,
+html[theme='whiteRedGucci'] #root {
+  background-color: #7D6067;
+  color: #565656;
+}
+html[theme='whiteRedGucci'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #565656;
+}
+html[theme='whiteRedGucci'] input::placeholder {
+  color: #9D9D9D;
+}
+
+/* embraerBlue 主题配置修改 */
+html[theme='embraerBlue'],
+html[theme='embraerBlue'] body,
+html[theme='embraerBlue'] #root {
+  background-color: #214A9C;
+  color: #fff;
+}
+html[theme='embraerBlue'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #082C71 inset !important;
+  -webkit-text-fill-color: #fff;
+}
+html[theme='embraerBlue'] input::placeholder {
+  color: #6F97EB;
+}
+
+/* elsaPink 主题配置修改 */
+html[theme='elsaPink'],
+html[theme='elsaPink'] body,
+html[theme='elsaPink'] #root {
+  background-color: #ED89A5;
+  color: #FFFFFF;
+}
+html[theme='elsaPink'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #C3607C inset !important;
+  -webkit-text-fill-color: #fff;
+}
+html[theme='elsaPink'] input::placeholder {
+  color: rgba(255, 255, 255, 0.6)
+}
+
+/* bvlgariBrown 主题配置修改 */
+html[theme='bvlgariBrown'],
+html[theme='bvlgariBrown'] body,
+html[theme='bvlgariBrown'] #root {
+  background-color: #836658;
+  color: #FFFFFF;
+}
+html[theme='bvlgariBrown'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #3B2317 inset !important;
+  -webkit-text-fill-color: #fff;
+}
+html[theme='bvlgariBrown'] input::placeholder {
+  color: rgba(255, 255, 255, 0.60)
+}
+
+/* whiteBlack 主题配置修改 */
+html[theme='whiteBlack'],
+html[theme='whiteBlack'] body,
+html[theme='whiteBlack'] #root {
+  background-color: #898788;
+  color: #565656;
+}
+html[theme='whiteBlack'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #565656;
+}
+html[theme='whiteBlack'] input::placeholder {
+  color: #9D9D9D;
+}
+
+/* whiteBlueFendi 主题配置修改 */
+html[theme='whiteBlueFendi'],
+html[theme='whiteBlueFendi'] body,
+html[theme='whiteBlueFendi'] #root {
+  background-color: #D8D8D8;
+  color: #565656;
+}
+html[theme='whiteBlueFendi'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #565656;
+}
+html[theme='whiteBlueFendi'] input::placeholder {
+  color: #9D9D9D;
+}
+/* venetaGrey 主题配置修改 */
+html[theme='venetaGrey'],
+html[theme='venetaGrey'] body,
+html[theme='venetaGrey'] #root {
+  background-color: #A0D3B3;
+  color: #D8FEE6;
+}
+html[theme='venetaGrey'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #565656;
+}
+html[theme='venetaGrey'] input::placeholder {
+  color: #A0D3B3;
+}
+/* martinPurple 主题配置修改 */
+html[theme='martinPurple'],
+html[theme='martinPurple'] body,
+html[theme='martinPurple'] #root {
+  background-color: #d1d1d1;
+  color: #9A9A9B;
+}
+html[theme='martinPurple'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #565656;
+}
+html[theme='martinPurple'] input::placeholder {
+  color: #9A9A9B;
+}
+/* usdtGreen 主题配置修改 */
+html[theme='usdtGreen'],
+html[theme='usdtGreen'] body,
+html[theme='usdtGreen'] #root {
+  background-color: #64C0A4;
+  color: #FFFFFF;
+}
+html[theme='usdtGreen'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #21A57D inset !important;
+  -webkit-text-fill-color: #89F1CD;
+}
+html[theme='usdtGreen'] input::placeholder {
+  color: #89F1CD;
+}
+
+
+/* whiteGreenCindy 主题配置修改 */
+html[theme='whiteGreenCindy'],
+html[theme='whiteGreenCindy'] body,
+html[theme='whiteGreenCindy'] #root {
+  background-color: #A6B185;
+  color: #565656;
+}
+html[theme='whiteGreenCindy'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #f5f5f5 inset !important;
+  -webkit-text-fill-color: #333333;
+}
+html[theme='whiteGreenCindy'] input::placeholder {
+  color: #9D9D9D;
+}
+
+
+/* whiteGreenCindy 主题配置修改 */
+html[theme='microsoftRed'],
+html[theme='microsoftRed'] body,
+html[theme='microsoftRed'] #root {
+  background-color: #F47E62;
+  color: rgba(255, 255, 255, 0.80);
+}
+html[theme='microsoftRed'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #D14D28 inset !important;
+  -webkit-text-fill-color: #FFF;
+}
+html[theme='microsoftRed'] input::placeholder {
+  color: rgba(255, 255, 255, 0.60);
+}
+
+/* whiteGreenCindy 主题配置修改 */
+html[theme='celineBrownWhite'],
+html[theme='celineBrownWhite'] body,
+html[theme='celineBrownWhite'] #root {
+  background-color: #887670;
+  color: #565656;
+}
+html[theme='celineBrownWhite'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #565656;
+}
+html[theme='celineBrownWhite'] input::placeholder {
+  color: #9D9D9D;
+}
+
+
+/* ferrariBlack 主题配置修改 */
+html[theme='ferrariBlack'],
+html[theme='ferrariBlack'] body,
+html[theme='ferrariBlack'] #root {
+  background-color: #CDCECF;
+  color: #68707B;
+}
+html[theme='ferrariBlack'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #1B1E22 inset !important;
+  -webkit-text-fill-color: #FFF;
+}
+html[theme='ferrariBlack'] input::placeholder {
+  color: #68707B;
+}
+
+
+/* ferrariBlack 主题配置修改 */
+html[theme='burberryBlueWhite'],
+html[theme='burberryBlueWhite'] body,
+html[theme='burberryBlueWhite'] #root {
+  background-color: #fff;
+  color: #565656;
+}
+html[theme='burberryBlueWhite'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #565656;
+}
+html[theme='burberryBlueWhite'] input::placeholder {
+  color: #9D9D9D;
+}
+
+/* windbellGreen 主题配置修改 */
+html[theme='windbellGreen'],
+html[theme='windbellGreen'] body,
+html[theme='windbellGreen'] #root {
+  background-color: #00ce47;
+  color: #9FFDBD;
+}
+html[theme='windbellGreen'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #00AD09 inset !important;
+  -webkit-text-fill-color: #fff;
+}
+html[theme='windbellGreen'] input::placeholder {
+  color: #9FFDBD;
+}
+
+/* diorPurpleWhite 主题配置修改 */
+html[theme='diorPurpleWhite'],
+html[theme='diorPurpleWhite'] body,
+html[theme='diorPurpleWhite'] #root {
+  background-color: #d8d8d8;
+  color: #565656;
+}
+html[theme='diorPurpleWhite'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #565656;
+}
+html[theme='diorPurpleWhite'] input::placeholder {
+  color: #9D9D9D;
+}
+
+
+/* almondYellow 主题配置修改 */
+html[theme='almondYellow'],
+html[theme='almondYellow'] body,
+html[theme='almondYellow'] #root {
+  background-color: #EBA470;
+  color: #FFEAC4;
+}
+html[theme='almondYellow'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #D48951 inset !important;
+  -webkit-text-fill-color: #FFF;
+}
+html[theme='almondYellow'] input::placeholder {
+  color: #FFEAC4;
+}
+
+/* montblancBluewhite 主题配置修改 */
+html[theme='montblancBluewhite'],
+html[theme='montblancBluewhite'] body,
+html[theme='montblancBluewhite'] #root {
+  background-color: #D8D8D8;
+  color: #565656;
+}
+html[theme='montblancBluewhite'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #565656;
+}
+html[theme='montblancBluewhite'] input::placeholder {
+  color: #9D9D9D;
+}
+/* bondiBlue 主题配置修改 */
+html[theme='bondiBlue'],
+html[theme='bondiBlue'] body,
+html[theme='bondiBlue'] #root {
+  background-color: rgba(255, 255, 255, 0.36);
+  color: #FFF;
+}
+html[theme='bondiBlue'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #004584 inset !important;
+  -webkit-text-fill-color: #FFF;
+}
+html[theme='bondiBlue'] input::placeholder {
+  color: var(--theme-tips);
+}
+/* wasabiYellowWhite 主题配置修改 */
+html[theme='wasabiYellowWhite'],
+html[theme='wasabiYellowWhite'] body,
+html[theme='wasabiYellowWhite'] #root {
+  background-color: #D8D8D8;
+  color: #595959;
+}
+html[theme='wasabiYellowWhite'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw #F6F6F6 inset !important;
+  -webkit-text-fill-color: #595959;
+}
+html[theme='wasabiYellowWhite'] input::placeholder {
+  color: #9D9D9D;
+}
+/* gemRed 主题配置修改 */
+html[theme='gemRed'],
+html[theme='gemRed'] body,
+html[theme='gemRed'] #root {
+  background-color: var(--theme-light-line-color);
+  color: var(--theme-tite-color);
+}
+html[theme='gemRed'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw var(--theme-template-color) inset !important;
+  -webkit-text-fill-color: var(--theme-tite-color);
+}
+html[theme='gemRed'] input::placeholder {
+  color: var(--theme-tips);
+}
+/* coralPurpleWhite 主题配置修改 */
+html[theme='coralPurpleWhite'],
+html[theme='coralPurpleWhite'] body,
+html[theme='coralPurpleWhite'] #root {
+  background-color: var(--theme-light-line-color);
+  color: var(--theme-tite-color);
+}
+html[theme='coralPurpleWhite'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw var(--theme-template-color) inset !important;
+  -webkit-text-fill-color: var(--theme-tite-color);
+}
+html[theme='coralPurpleWhite'] input::placeholder {
+  color: var(--theme-tips);
+}
+/* elegantPinkWhite 主题配置修改 */
+html[theme='elegantPinkWhite'],
+html[theme='elegantPinkWhite'] body,
+html[theme='elegantPinkWhite'] #root {
+  background-color: var(--theme-light-line-color);
+  color: var(--theme-tite-color);
+}
+html[theme='elegantPinkWhite'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw var(--theme-template-color) inset !important;
+  -webkit-text-fill-color: var(--theme-tite-color);
+}
+html[theme='elegantPinkWhite'] input::placeholder {
+  color: var(--theme-tips);
+}
+/* lemonGreenWhite 主题配置修改 */
+html[theme='lemonGreenWhite'],
+html[theme='lemonGreenWhite'] body,
+html[theme='lemonGreenWhite'] #root {
+  background-color: var(--theme-light-line-color);
+  color: var(--theme-tite-color);
+}
+html[theme='lemonGreenWhite'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw var(--theme-template-color) inset !important;
+  -webkit-text-fill-color: var(--theme-tite-color);
+}
+html[theme='lemonGreenWhite'] input::placeholder {
+  color: var(--theme-tips);
+}
+/* caramelYelloWhite 主题配置修改 */
+html[theme='caramelYelloWhite'],
+html[theme='caramelYelloWhite'] body,
+html[theme='caramelYelloWhite'] #root {
+  background-color: var(--theme-light-line-color);
+  color: var(--theme-tite-color);
+}
+html[theme='caramelYelloWhite'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw var(--theme-template-color) inset !important;
+  -webkit-text-fill-color: var(--theme-tite-color);
+}
+html[theme='caramelYelloWhite'] input::placeholder {
+  color: var(--theme-tips);
+}
+/* camelliaRedWhite 主题配置修改 */
+html[theme='camelliaRedWhite'],
+html[theme='camelliaRedWhite'] body,
+html[theme='camelliaRedWhite'] #root {
+  background-color: var(--theme-light-line-color);
+  color: var(--theme-tite-color);
+}
+html[theme='camelliaRedWhite'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw var(--theme-template-color) inset !important;
+  -webkit-text-fill-color: var(--theme-tite-color);
+}
+html[theme='camelliaRedWhite'] input::placeholder {
+  color: var(--theme-tips);
+}
+/* coralPurple 主题配置修改 */
+html[theme='coralPurple'],
+html[theme='coralPurple'] body,
+html[theme='coralPurple'] #root {
+  background-color: var(--theme-light-line-color);
+  color: var(--theme-tite-color);
+}
+html[theme='coralPurple'] input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100vw var(--theme-template-color) inset !important;
+  -webkit-text-fill-color: var(--theme-tite-color);
+}
+html[theme='coralPurple'] input::placeholder {
+  color: var(--theme-tips);
+}
+/* 兼容笔记本设备显示 */
+html[theme=blue] .svg_theme_fill_color * {
+  fill: #EAB700;
+}
+html[theme=purple] .svg_theme_fill_color * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] .svg_theme_fill_color * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] .svg_theme_fill_color * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] .svg_theme_fill_color * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] .svg_theme_fill_color * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] .svg_theme_fill_color * {
+  fill: #551f0e;
+}
+html[theme=sk2] .svg_theme_fill_color * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] .svg_theme_fill_color * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] .svg_theme_fill_color * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] .svg_theme_fill_color * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] .svg_theme_fill_color * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] .svg_theme_fill_color * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] .svg_theme_fill_color * {
+  fill: #fff;
+}
+html[theme=whitePurple] .svg_theme_fill_color * {
+  fill: #610862;
+}
+html[theme=burgundyRed] .svg_theme_fill_color * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] .svg_theme_fill_color * {
+  fill: #054146;
+}
+[theme=windbellGreen] {
+  --theme-withdraw-money: #00ff62;
+  --theme-sidebar-color: #00c335;
+  --theme-money: #ffc700;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #ff5d3a;
+  --theme-default-icon: #daffd8;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #fff;
+  --theme-text-button: #77a900;
+  --theme-tite-color: #fff;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #0AB744;
+  --theme-main-color: #e6fb00;
+  --theme-header-color: #00b72e;
+  --theme-top-bar: #0ca60e;
+  --theme-bg-color: #159942;
+  --theme-template-color: #00ad09;
+  --theme-search-icon: #9afdbc;
+  --theme-reduce-money: #00ff62;
+  --theme-tips: #9ffdbd;
+  --theme-rises-money: #00ff62;
+  --theme-white-color: #fff;
+  --theme-top-default-icon: #9AD997;
+  --theme-top-button-text1: #77A900;
+  --theme-top-button-text2: #C2D20A;
+  --theme-top-money: #FFC700;
+  --theme-person-text: rgba(0, 0, 0, 0.4);
+  --theme-home-icon1: #C1D10A;
+  --theme-home-linear-icon1: #159942;
+  --theme-home-linear-icon2: #00B00A;
+  --theme-home-icon2: #C2D20A;
+  --theme-home-linear-btn1: #159942;
+  --theme-home-linear-btn2: #00B00A;
+  /** 特殊处理*/
+  --theme-head-button-bg: #e6fb00;
+  --theme-head-button-text: #77a900;
+}
+/*
+var(--theme-money);
+**/
+[theme=black] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #1f2837;
+  --theme-money: #fed205;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #e0153a;
+  --theme-default-icon: #a7b7d7;
+  --theme-float: rgba(182, 201, 244, 0.1);
+  --theme-top-button: #1f2837;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: #2d343e;
+  --theme-light-line-color: rgba(255, 255, 255, 0.3);
+  --theme-main-color: #2fa33f;
+  --theme-header-color: #1f2837;
+  --theme-top-bar: #18212f;
+  --theme-bg-color: #0d131c;
+  --theme-template-color: #161d29;
+  --theme-search-icon: #a7b7d7;
+  --theme-reduce-money: #e0153a;
+  --theme-tips: #717e97;
+  --theme-rises-money: #fed205;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #FEE7CA;
+  --theme-top-button-text1: #FFF;
+  --theme-top-button-text2: #2FA33F;
+  --theme-top-money: #FDED06;
+  --theme-person-text: rgba(0,0,0,0.4);
+  --theme-home-icon1: #2FA33F;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #2FA33F;
+  --theme-home-linear-btn1: #272D37;
+  --theme-home-linear-btn2: #161D29;
+  /** 特殊处理*/
+  --theme-head-button-bg: #2fa33f;
+  --theme-head-button-text: #ffffff;
+}
+[theme=blue] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #2b7de4;
+  --theme-money: #eab700;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #ed463f;
+  --theme-default-icon: #b5e4ff;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #152837;
+  --theme-text-button: #1f2837;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: rgba(255, 255, 255, 0.3);
+  --theme-main-color: #eab700;
+  --theme-header-color: #2b7dea;
+  --theme-top-bar: #015ed4;
+  --theme-bg-color: #2078e5;
+  --theme-template-color: #186cd5;
+  --theme-search-icon: #2fe6ff;
+  --theme-reduce-money: #2bdf44;
+  --theme-tips: rgba(255, 255, 255, 0.6);
+  --theme-rises-money: #ff5851;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #b5e4ff;
+  --theme-top-button-text1: #1f2837;
+  --theme-top-button-text2: #daac08;
+  --theme-top-money: #eab700;
+  --theme-person-text: rgba(0, 0, 0, 0.4);
+  --theme-home-icon1: #F1DC28;
+  --theme-home-linear-icon1: #4191FF;
+  --theme-home-linear-icon2: #0071FF;
+  --theme-home-icon2: #E9B10D;
+  --theme-home-linear-btn1: #2078E5;
+  --theme-home-linear-btn2: #186CD5;
+  /** 特殊处理*/
+  --theme-head-button-bg: #eab700;
+  --theme-head-button-text: #1f2837;
+}
+[theme=diorPurpleWhite] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #fff;
+  --theme-money: #ff891c;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #ee4e3f;
+  --theme-default-icon: #b5a4df;
+  --theme-float: rgba(255, 179, 187, 0.1);
+  --theme-top-button: #3f3f3f;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #d8d8d8;
+  --theme-main-color: #8165c2;
+  --theme-header-color: #e9e9e9;
+  --theme-top-bar: #8165c2;
+  --theme-bg-color: #ffffff;
+  --theme-template-color: #f6f6f6;
+  --theme-search-icon: #999a9b;
+  --theme-reduce-money: #1cc245;
+  --theme-tips: #9d9d9d;
+  --theme-rises-money: #ff820e;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #d0befe;
+  --theme-top-button-text1: #8165c2;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #d0befe;
+  --theme-home-icon1: #B5A4DF;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #8165C2;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #8165C2;
+}
+[theme=whiteGreen] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #ffffff;
+  --theme-money: #ffaa09;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #e0153a;
+  --theme-default-icon: #158058;
+  --theme-float: #f5f5f5;
+  --theme-top-button: #FFFFFF;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #133333;
+  --theme-line-color: rgba(255, 255, 255, 0.5);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #1E8C58;
+  --theme-header-color: #FEFFFE;
+  --theme-top-bar: #076237;
+  --theme-bg-color: #FFFFFF;
+  --theme-template-color: #F5F5F5;
+  --theme-search-icon: #1E8058;
+  --theme-reduce-money: #E0153A;
+  --theme-tips: #999999;
+  --theme-rises-money: #FFAAO9;
+  --theme-white-color: #ffffff;
+  --theme-darker-tips: #5BBC90;
+  --theme-top-default-icon: #5bbc90;
+  --theme-top-button-text1: #076237;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #69d4a3;
+  --theme-home-icon1: #5BBC90;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #1E8C58;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #1E8C58;
+}
+[theme=purple] {
+  --theme-withdraw-money: #2BDF44;
+  --theme-sidebar-color: #121B53;
+  --theme-money: #F6A42D;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #E0153A;
+  --theme-default-icon: rgba(255, 255, 255, 0.6);
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #FFFFFF;
+  --theme-text-button: #5E095D;
+  --theme-tite-color: #FFFFFF;
+  --theme-line-color: rgba(255, 255, 255, 0.32);
+  --theme-light-line-color: rgba(255, 255, 255, 0.32);
+  --theme-main-color: #FEDC82;
+  --theme-header-color: #121B53;
+  --theme-top-bar: #060730;
+  --theme-bg-color: #060730;
+  --theme-template-color: #060730;
+  --theme-search-icon: #F077F9;
+  --theme-reduce-money: #2BDF44;
+  --theme-tips: rgba(255, 255, 255, 0.6);
+  --theme-rises-money: #FF5851;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: rgba(255, 255, 255, 0.6);
+  --theme-top-button-text1: #060730;
+  --theme-top-button-text2: #ffdc82;
+  --theme-top-money: #f6a42d;
+  --theme-person-text: rgba(0, 0, 0, 0.44);
+  --theme-home-icon1: #FFDC82;
+  --theme-home-linear-icon1: #060730;
+  --theme-home-linear-icon2: #060730;
+  --theme-home-icon2: #F8D57B;
+  --theme-home-linear-btn1: #060730;
+  --theme-home-linear-btn2: #060730;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FEDC82;
+  --theme-head-button-text: #5E095D;
+}
+[theme=oilyGreen] {
+  --theme-withdraw-money: #00D552;
+  --theme-sidebar-color: #058536;
+  --theme-money: #FFAA09;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EA4E3D;
+  --theme-default-icon: #CAFfD9;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #067831;
+  --theme-text-button: #067831;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #3BAC65;
+  --theme-main-color: #FEE004;
+  --theme-header-color: #0C913F;
+  --theme-top-bar: #0D5E2B;
+  --theme-bg-color: #0C913F;
+  --theme-template-color: #067831;
+  --theme-search-icon: #CAFfD9;
+  --theme-reduce-money: #E0153A;
+  --theme-tips: #87D1A2;
+  --theme-rises-money: #FFAA09;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #FEE7CA;
+  --theme-top-button-text1: #067831;
+  --theme-top-button-text2: #FEE004;
+  --theme-top-money: #FFAA09;
+  --theme-person-text: rgba(0, 0, 0, 0.4);
+  --theme-home-icon1: #FEE004;
+  --theme-home-linear-icon1: #0C913F;
+  --theme-home-linear-icon2: #067831;
+  --theme-home-icon2: #FEE004;
+  --theme-home-linear-btn1: #0C913F;
+  --theme-home-linear-btn2: #067831;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FEE004;
+  --theme-head-button-text: #067831;
+}
+[theme=versaceYellow] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #FEC626;
+  --theme-money: #FFF104;
+  --theme-unclickable: #E6AA07;
+  --theme-error: #EA4E3D;
+  --theme-default-icon: #Fff7E0;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #FFFFFF;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.1);
+  --theme-light-line-color: #FFE08A;
+  --theme-main-color: #373638;
+  --theme-header-color: #FfCD3E;
+  --theme-top-bar: #F4B305;
+  --theme-bg-color: #E6B938;
+  --theme-template-color: #F5B90B;
+  --theme-search-icon: #Fff7E0;
+  --theme-reduce-money: #E0153A;
+  --theme-tips: #FFF0C1;
+  --theme-rises-money: #FfF500;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #FFF7E0;
+  --theme-top-button-text1: #FFF;
+  --theme-top-button-text2: #373638;
+  --theme-top-money: #FFF104;
+  --theme-person-text: rgba(255, 255, 255, 0.4);
+  --theme-home-icon1: #373638;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #373638;
+  --theme-home-linear-btn1: #E6B938;
+  --theme-home-linear-btn2: #F5B90B;
+  /** 特殊处理*/
+  --theme-head-button-bg: #373638;
+  --theme-head-button-text: #ffffff;
+}
+[theme=lancomePeach] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #f88486;
+  --theme-money: #f4da80;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #ed0002;
+  --theme-default-icon: rgba(255, 255, 255, 0.8);
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #df6061;
+  --theme-text-button: #df6061;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.4);
+  --theme-light-line-color: rgba(255, 255, 255, 0.4);
+  --theme-main-color: #ffe2c9;
+  --theme-header-color: #fc9c9d;
+  --theme-top-bar: #df6061;
+  --theme-bg-color: #f59e8f;
+  --theme-template-color: #ee7879;
+  --theme-search-icon: #fee0e0;
+  --theme-reduce-money: #76e886;
+  --theme-tips: #fee0e0;
+  --theme-rises-money: #f4da80;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: rgba(255, 255, 255, 0.8);
+  --theme-top-button-text1: #df6061;
+  --theme-top-button-text2: #ffe2c9;
+  --theme-top-money: #f4da80;
+  --theme-person-text: rgba(0, 0, 0, 0.44);
+  --theme-home-icon1: #FFE2C9;
+  --theme-home-linear-icon1: #F59E8F;
+  --theme-home-linear-icon2: #EE7879;
+  --theme-home-icon2: #F7D6BA;
+  --theme-home-linear-btn1: #F59E8F;
+  --theme-home-linear-btn2: #EE7879;
+  /** 特殊处理*/
+  --theme-head-button-bg: #ffe2c9;
+  --theme-head-button-text: #df6061;
+}
+[theme=whiteYellow] {
+  --theme-withdraw-money: #00D552;
+  --theme-sidebar-color: #FAFAFA;
+  --theme-money: #ff6600;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #d92c1b;
+  --theme-default-icon: #9A6A16;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #fff;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #DF9A1C;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #DF9A1C;
+  --theme-bg-color: #FFFFFF;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #FFD589;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FF820E;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #ffd589;
+  --theme-top-button-text1: #df9a1c;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #ffd589;
+  --theme-home-icon1: #9A6A16;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #DF9A1C;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #DF9A1C;
+}
+[theme=sk2] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #58071B;
+  --theme-money: #FfAA09;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #FFE209;
+  --theme-default-icon: #FFC5C8;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #FFC5C8;
+  --theme-text-button: #4E0416;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.4);
+  --theme-light-line-color: rgba(255, 255, 255, 0.4);
+  --theme-main-color: #E9C86F;
+  --theme-header-color: #330215;
+  --theme-top-bar: #330215;
+  --theme-bg-color: #4E0416;
+  --theme-template-color: #4E0416;
+  --theme-search-icon: rgba(255, 255, 255, 0.72);
+  --theme-reduce-money: #66FFA1;
+  --theme-tips: #FfC5C8;
+  --theme-rises-money: #FEE004;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #fdb3b7;
+  --theme-top-button-text1: #330215;
+  --theme-top-button-text2: #E9C86F;
+  --theme-top-money: #ffaa09;
+  --theme-person-text: rgba(0, 0, 0, 0.44);
+  --theme-home-icon1: #E9C86F;
+  --theme-home-linear-icon1: #4E0416;
+  --theme-home-linear-icon2: #4E0416;
+  --theme-home-icon2: #EACA69;
+  --theme-home-linear-btn1: #4E0416;
+  --theme-home-linear-btn2: #4E0416;
+  /** 特殊处理*/
+  --theme-head-button-bg: #E9C86F;
+  --theme-head-button-text: #ffffff;
+}
+[theme=whiteOrange] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #fff;
+  --theme-money: #F4BD36;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EE4E3F;
+  --theme-default-icon: #FFD29A;
+  --theme-float: #E9E9E9;
+  --theme-top-button: #F37509;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #363333;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #E5E4E5;
+  --theme-main-color: #FA9447;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #F37509;
+  --theme-bg-color: #F3F3F3;
+  --theme-template-color: #F9F9F9;
+  --theme-search-icon: #E5E4E5;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9A9A9A;
+  --theme-rises-money: #FABD36;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #ffd2ad;
+  --theme-top-button-text1: #f37509;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #ffd2ad;
+  --theme-home-icon1: #FFB77C;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #FA9447;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #FA9447;
+}
+[theme=hermesOrange] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #FA831D;
+  --theme-money: #FDED06;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #E60101;
+  --theme-default-icon: #FEE7CA;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #fff;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #FEBD89;
+  --theme-main-color: #551F0E;
+  --theme-header-color: #FC9E4F;
+  --theme-top-bar: #F26305;
+  --theme-bg-color: #F48E39;
+  --theme-template-color: #EC7215;
+  --theme-search-icon: #FEC08C;
+  --theme-reduce-money: #E0153A;
+  --theme-tips: #FFBE8B;
+  --theme-rises-money: #FDED06;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #FEE7CA;
+  --theme-top-button-text1: #ffffff;
+  --theme-top-button-text2: #551F0E;
+  --theme-top-money: #FDED06;
+  --theme-person-text: #fc9e4f;
+  --theme-home-icon1: #551F0E;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #551F0E;
+  --theme-home-linear-btn1: #F48E39;
+  --theme-home-linear-btn2: #EC7215;
+  /** 特殊处理*/
+  --theme-head-button-bg: #551F0E;
+  --theme-head-button-text: #ffffff;
+}
+[theme=lightBrown] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #A49485;
+  --theme-money: #FFD600;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EA4E3D;
+  --theme-default-icon: #FFEFE0;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #FFF;
+  --theme-text-button: #9B8977;
+  --theme-tite-color: #FFF;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #B7A697;
+  --theme-main-color: #FED39D;
+  --theme-header-color: #AD9986;
+  --theme-top-bar: #8C7A66;
+  --theme-bg-color: #A49485;
+  --theme-template-color: #9B8977;
+  --theme-search-icon: #E5D2C0;
+  --theme-reduce-money: #E0153A;
+  --theme-tips: #E7D2C2;
+  --theme-rises-money: #FFD600;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #FFF7E0;
+  --theme-top-button-text1: #9B8977;
+  --theme-top-button-text2: #FED39D;
+  --theme-top-money: #FFD600;
+  --theme-person-text: rgba(0, 0, 0, 0.4);
+  --theme-home-icon1: #ADB6C3;
+  --theme-home-linear-icon1: #FFDF9A;
+  --theme-home-linear-icon2: #F0C059;
+  --theme-home-icon2: #6D7481;
+  --theme-home-linear-btn1: #A49485;
+  --theme-home-linear-btn2: #9B8977;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FED39D;
+  --theme-head-button-text: #9B8977;
+}
+[theme=furlaBlue] {
+  --theme-withdraw-money: #51DE85;
+  --theme-sidebar-color: #7996E3;
+  --theme-money: #F9B205;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #E94D3D;
+  --theme-default-icon: rgba(255, 255, 255, 0.6);
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #FFF;
+  --theme-text-button: #4969C2;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: rgba(255, 255, 255, 0.3);
+  --theme-main-color: #FFFCD2;
+  --theme-header-color: #7996E3;
+  --theme-top-bar: #4969C2;
+  --theme-bg-color: #8EABFA;
+  --theme-template-color: #5375D1;
+  --theme-search-icon: rgba(255, 255, 255, 0.72);
+  --theme-reduce-money: #51DE85;
+  --theme-tips: #D4DDFE;
+  --theme-rises-money: #FFAA09;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: rgba(255, 255, 255, 0.6);
+  --theme-top-button-text1: #4969c2;
+  --theme-top-button-text2: #fffcd2;
+  --theme-top-money: #f9b205;
+  --theme-person-text: rgba(0, 0, 0, 0.52);
+  --theme-home-icon1: #FFFCD2;
+  --theme-home-linear-icon1: #8EABFA;
+  --theme-home-linear-icon2: #5375D1;
+  --theme-home-icon2: #F7F4C5;
+  --theme-home-linear-btn1: #8EACFA;
+  --theme-home-linear-btn2: #5375D1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FFFCD2;
+  --theme-head-button-text: #4969C2;
+}
+[theme=whitePink] {
+  --theme-withdraw-money: #00D552;
+  --theme-sidebar-color: #FAFAFA;
+  --theme-money: #FF820E;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EE4E3F;
+  --theme-default-icon: #FDAAAE;
+  --theme-float: #E9E9E9;
+  --theme-top-button: #FFF;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #EF7A7B;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #EE777D;
+  --theme-bg-color: #FFF;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #F2CDD1;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FF820E;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #f2cdd1;
+  --theme-top-button-text1: #ee777d;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #f2cdd1;
+  --theme-home-icon1: #FDAAAE;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #EF7A7B;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #EF7A7B;
+}
+[theme=bvGreen] {
+  --theme-withdraw-money: #00E717;
+  --theme-sidebar-color: #88AA22;
+  --theme-money: #FF8A00;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EA4E3D;
+  --theme-default-icon: #F2FBB7;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #FFF;
+  --theme-text-button: #7B9A1E;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #9CBE1F;
+  --theme-main-color: #FFF45D;
+  --theme-header-color: #9CBA43;
+  --theme-top-bar: #5C780B;
+  --theme-bg-color: #8BA638;
+  --theme-template-color: #7B9A1E;
+  --theme-search-icon: #D1E676;
+  --theme-reduce-money: #E0153A;
+  --theme-tips: #D1E676;
+  --theme-rises-money: #FFAA09;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #FFF7E0;
+  --theme-top-button-text1: #7B9A1E;
+  --theme-top-button-text2: #FFF45D;
+  --theme-top-money: #FF8A00;
+  --theme-person-text: rgba(0, 0, 0, 0.4);
+  --theme-home-icon1: #FFF45D;
+  --theme-home-linear-icon1: #6F9400;
+  --theme-home-linear-icon2: #749B00;
+  --theme-home-icon2: #E3D300;
+  --theme-home-linear-btn1: #8BA638;
+  --theme-home-linear-btn2: #7B9A1E;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FFF45D;
+  --theme-head-button-text: #7B9A1E;
+}
+[theme=whiteBrown] {
+  --theme-withdraw-money: #00D552;
+  --theme-sidebar-color: #fff;
+  --theme-money: #FF820E;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EE4E3F;
+  --theme-default-icon: #C8AE94;
+  --theme-float: #E9E9E9;
+  --theme-top-button: #3F3F3F;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #927D6A;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #8C7A66;
+  --theme-bg-color: #FFFFFF;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #D0C3B1;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FF820E;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #e3d5c2;
+  --theme-top-button-text1: #8c7a66;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #e3d5c2;
+  --theme-home-icon1: #C8AE94;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #927D6A;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #927D6A;
+}
+[theme=AnnaSuiPurple] {
+  --theme-withdraw-money: #00D552;
+  --theme-sidebar-color: #755CAD;
+  --theme-money: #FFDC82;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #E94C3D;
+  --theme-default-icon: rgba(255, 255, 255, 0.72);
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #8870B8;
+  --theme-text-button: #8870B8;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.24);
+  --theme-light-line-color: rgba(255, 255, 255, 0.24);
+  --theme-main-color: #FFF;
+  --theme-header-color: #8870B8;
+  --theme-top-bar: #58418C;
+  --theme-bg-color: #8870B8;
+  --theme-template-color: #6B53A2;
+  --theme-search-icon: rgba(255, 255, 255, 0.72);
+  --theme-reduce-money: #1BC246;
+  --theme-tips: #BFA9CC;
+  --theme-rises-money: #F9B205;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: rgba(255, 255, 255, 0.8);
+  --theme-top-button-text1: #58418c;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #ffdc82;
+  --theme-person-text: rgba(0, 0, 0, 0.52);
+  --theme-home-icon1: #FFFFFF;
+  --theme-home-linear-icon1: #8870B8;
+  --theme-home-linear-icon2: #6B53A2;
+  --theme-home-icon2: #FFF7F7;
+  --theme-home-linear-btn1: #8870B8;
+  --theme-home-linear-btn2: #6B53A2;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FFF;
+  --theme-head-button-text: #8870B8;
+}
+[theme=whitePurple] {
+  --theme-withdraw-money: #00D552;
+  --theme-sidebar-color: #fff;
+  --theme-money: #FF820E;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EE4E3F;
+  --theme-default-icon: #D765DE;
+  --theme-float: #E9E9E9;
+  --theme-top-button: #3F3F3F;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #610862;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #610C61;
+  --theme-bg-color: #FFF;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #FFAEFF;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FF820E;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #ffaeff;
+  --theme-top-button-text1: #610c61;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #ffaeff;
+  --theme-home-icon1: #D765DE;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #610862;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #610862;
+}
+[theme=burgundyRed] {
+  --theme-withdraw-money: #00BDAE;
+  --theme-sidebar-color: #781830;
+  --theme-money: #F7BB32;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #E02743;
+  --theme-default-icon: #E08EA3;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #FEFFFF;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.24);
+  --theme-light-line-color: #8F2B40;
+  --theme-main-color: #FE3856;
+  --theme-header-color: #811E35;
+  --theme-top-bar: #630B20;
+  --theme-bg-color: #781830;
+  --theme-template-color: #630B20;
+  --theme-search-icon: #E08EA3;
+  --theme-reduce-money: #00BDAE;
+  --theme-tips: #E08EA3;
+  --theme-rises-money: #F7BB32;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #ffa4bb;
+  --theme-top-button-text1: #fff;
+  --theme-top-button-text2: #e52c48;
+  --theme-top-money: #f7bb32;
+  --theme-person-text: rgba(255, 255, 255, 0.52);
+  --theme-home-icon1: #E52C48;
+  --theme-home-linear-icon1: #781830;
+  --theme-home-linear-icon2: #630B20;
+  --theme-home-icon2: #DB1E3B;
+  --theme-home-linear-btn1: #781830;
+  --theme-home-linear-btn2: #630B20;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FE3856;
+  --theme-head-button-text: #ffffff;
+}
+[theme=whiteDarkGreen] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #FAFAFA;
+  --theme-money: #FF820E;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EE4E3F;
+  --theme-default-icon: #23919C;
+  --theme-float: #E9E9E9;
+  --theme-top-button: #3F3F3F;
+  --theme-text-button: #fff;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #054146;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #054146;
+  --theme-bg-color: #FFFFFF;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #67B5BC;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FF820E;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #67b5bc;
+  --theme-top-button-text1: #054146;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #67b5bc;
+  --theme-home-icon1: #23919C;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #054146;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #054146;
+}
+[theme=greenGold] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #05584F;
+  --theme-money: #FFD600;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EA4E3D;
+  --theme-default-icon: #4FCABC;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #FFF;
+  --theme-text-button: #00352F;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #05584F;
+  --theme-main-color: #FDD981;
+  --theme-header-color: #08655B;
+  --theme-top-bar: #00352F;
+  --theme-bg-color: #014D45;
+  --theme-template-color: #003E37;
+  --theme-search-icon: #4EC7B9;
+  --theme-reduce-money: #E0153A;
+  --theme-tips: #039685;
+  --theme-rises-money: #FED600;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #FFF7E0;
+  --theme-top-button-text1: #00352F;
+  --theme-top-button-text2: #FDD981;
+  --theme-top-money: #FFD600;
+  --theme-person-text: rgba(0, 0, 0, 0.4);
+  --theme-home-icon1: #007F71;
+  --theme-home-linear-icon1: #FDD981;
+  --theme-home-linear-icon2: #E7A70A;
+  --theme-home-icon2: #05584F;
+  --theme-home-linear-btn1: #014D45;
+  --theme-home-linear-btn2: #003E37;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FDD981;
+  --theme-head-button-text: #00352F;
+}
+[theme=whiteBrownLauren] {
+  --theme-withdraw-money: #1CC245;
+  --theme-sidebar-color: #fafafa;
+  --theme-money: #F9B105;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #FD5048;
+  --theme-default-icon: #CB9878;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #FFF;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #323133;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #CDCECF;
+  --theme-main-color: #9C6638;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #A95E34;
+  --theme-bg-color: #FFFFFF;
+  --theme-template-color: #F9F9F9;
+  --theme-search-icon: #CB9878;
+  --theme-reduce-money: #EE4E3F;
+  --theme-tips: #9A9A9B;
+  --theme-rises-money: #F9B105;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #ffc4a0;
+  --theme-top-button-text1: #a95e34;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #ffc4a0;
+  --theme-home-icon1: #CB9878;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #9C6638;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #9C6638;
+}
+[theme=whiteRedGucci] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #FAFAFA;
+  --theme-money: #FF820E;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EE4E3F;
+  --theme-default-icon: #B9919C;
+  --theme-float: #E9E9E9;
+  --theme-top-button: #3F3F3F;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #520E23;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #650022;
+  --theme-bg-color: #FFF;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #BA9CA2;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FF820E;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #b9919c;
+  --theme-top-button-text1: #650c22;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #b9919c;
+  --theme-home-icon1: #B99B9C;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #520E23;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #520E23;
+}
+[theme=embraerBlue] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #0c3589;
+  --theme-money: #FFD600;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EA4E3D;
+  --theme-default-icon: #FFEFE0;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #FFF;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #214A9C;
+  --theme-main-color: #00AC3F;
+  --theme-header-color: #174196;
+  --theme-top-bar: #092C71;
+  --theme-bg-color: #0c3588;
+  --theme-template-color: #082C71;
+  --theme-search-icon: #B9C8E9;
+  --theme-reduce-money: #E0153A;
+  --theme-tips: #6F97EB;
+  --theme-rises-money: #FFD600;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #FFEFE0;
+  --theme-top-button-text1: #FFF;
+  --theme-top-button-text2: #00AC3F;
+  --theme-top-money: #FFD600;
+  --theme-person-text: rgba(255, 255, 255, 0.6);
+  --theme-home-icon1: #00AC3F;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #00AC3F;
+  --theme-home-linear-btn1: #0C3588;
+  --theme-home-linear-btn2: #082C71;
+  /** 特殊处理*/
+  --theme-head-button-bg: #00AC3F;
+  --theme-head-button-text: #ffffff;
+}
+[theme=elsaPink] {
+  --theme-withdraw-money: #3FCD39;
+  --theme-sidebar-color: #d36684;
+  --theme-money: #FFD205;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #FF9495;
+  --theme-default-icon: rgba(255, 255, 255, 0.8);
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #FFF;
+  --theme-text-button: #B94B6B;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.24);
+  --theme-light-line-color: rgba(255, 255, 255, 0.24);
+  --theme-main-color: #FFF0BC;
+  --theme-header-color: #D36684;
+  --theme-top-bar: #B94B6B;
+  --theme-bg-color: #D57490;
+  --theme-template-color: #C3607C;
+  --theme-search-icon: #FEBEC3;
+  --theme-reduce-money: #3FCD39;
+  --theme-tips: rgba(255, 255, 255, 0.6);
+  --theme-rises-money: #FFD205;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: rgba(255, 255, 255, 0.8);
+  --theme-top-button-text1: #b94b6b;
+  --theme-top-button-text2: #fff0bc;
+  --theme-top-money: #ffd205;
+  --theme-person-text: rgba(0, 0, 0, 0.4);
+  --theme-home-icon1: #FFF0BC;
+  --theme-home-linear-icon1: #D57490;
+  --theme-home-linear-icon2: #C3607C;
+  --theme-home-icon2: #F1E1AA;
+  --theme-home-linear-btn1: #D57490;
+  --theme-home-linear-btn2: #C3607C;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FFF0BC;
+  --theme-head-button-text: #B94B6B;
+}
+[theme=bvlgariBrown] {
+  --theme-withdraw-money: #25A620;
+  --theme-sidebar-color: #543728;
+  --theme-money: #F9B205;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #E94D3D;
+  --theme-default-icon: rgba(255, 255, 255, 0.6);
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #FFF;
+  --theme-text-button: #57433A;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.36);
+  --theme-light-line-color: rgba(255, 255, 255, 0.36);
+  --theme-main-color: #FFD581;
+  --theme-header-color: #73594D;
+  --theme-top-bar: #43281C;
+  --theme-bg-color: #544038;
+  --theme-template-color: #3B2317;
+  --theme-search-icon: #C2B5B2;
+  --theme-reduce-money: #25A620;
+  --theme-tips: rgba(255, 255, 255, 0.6);
+  --theme-rises-money: #F9B205;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: rgba(255, 255, 255, 0.6);
+  --theme-top-button-text1: #43281C;
+  --theme-top-button-text2: #FFD581;
+  --theme-top-money: #f9b205;
+  --theme-person-text: rgba(0, 0, 0, 0.4);
+  --theme-home-icon1: #FFD581;
+  --theme-home-linear-icon1: #544038;
+  --theme-home-linear-icon2: #3B2317;
+  --theme-home-icon2: #F5A581;
+  --theme-home-linear-btn1: #544038;
+  --theme-home-linear-btn2: #3B2317;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FFD581;
+  --theme-head-button-text: #57433A;
+}
+[theme=whiteBlack] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #FFF;
+  --theme-money: #FF820E;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EE4E3F;
+  --theme-default-icon: #9D9D9D;
+  --theme-float: rgba(0, 0, 0, 0.1);
+  --theme-top-button: #3F3F3F;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #000000;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #000000;
+  --theme-bg-color: #FFFFFF;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #9B9A9A;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FABD36;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #9d9d9d;
+  --theme-top-button-text1: #000;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #9d9d9d;
+  --theme-home-icon1: #9D9D9D;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #000000;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #000000;
+}
+[theme=whiteBlueFendi] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #FAFAFA;
+  --theme-money: #FF820E;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EE4E3F;
+  --theme-default-icon: #6BCCFA;
+  --theme-float: #E9E9E9;
+  --theme-top-button: #3F3F3F;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #11A3EA;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #0D9FE8;
+  --theme-bg-color: #FFF;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #2FE6FF;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FF820E;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #2fe6ff;
+  --theme-top-button-text1: #0d9fe8;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #2fe6ff;
+  --theme-home-icon1: #6BCCFA;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #11A3EA;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #11A3EA;
+}
+[theme=venetaGrey] {
+  --theme-withdraw-money: #00E717;
+  --theme-sidebar-color: #759882;
+  --theme-money: #F5BB30;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EA4E3D;
+  --theme-default-icon: #D8FEE6;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #D8FEE6;
+  --theme-text-button: #648872;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #9AAFA1;
+  --theme-main-color: #F3E7CB;
+  --theme-header-color: #587C65;
+  --theme-top-bar: #537760;
+  --theme-bg-color: #799B86;
+  --theme-template-color: #648872;
+  --theme-search-icon: #D7FDE5;
+  --theme-reduce-money: #E0153A;
+  --theme-tips: #A0D3B3;
+  --theme-rises-money: #FFAA09;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #D8FEE6;
+  --theme-top-button-text1: #648872;
+  --theme-top-button-text2: #F3E7CB;
+  --theme-top-money: #F5BB30;
+  --theme-person-text: rgba(0, 0, 0, 0.4);
+  --theme-home-icon1: #F3E7CB;
+  --theme-home-linear-icon1: #799B86;
+  --theme-home-linear-icon2: #799B86;
+  --theme-home-icon2: #F3E7CB;
+  --theme-home-linear-btn1: #799B86;
+  --theme-home-linear-btn2: #648872;
+  /** 特殊处理*/
+  --theme-head-button-bg: #F3E7CB;
+  --theme-head-button-text: #648872;
+}
+[theme=martinPurple] {
+  --theme-withdraw-money: #1CC245;
+  --theme-sidebar-color: #FFF;
+  --theme-money: #F9B206;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EE4E3F;
+  --theme-default-icon: #9775DE;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #FFF;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #2E2E2E;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D1D1D1;
+  --theme-main-color: #2F137A;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #2B0A75;
+  --theme-bg-color: #F9F9F9;
+  --theme-template-color: #F3F3F3;
+  --theme-search-icon: #9775DE;
+  --theme-reduce-money: #EE4E3F;
+  --theme-tips: #9A9A9B;
+  --theme-rises-money: #F9B206;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #be9fff;
+  --theme-top-button-text1: #2b0a75;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #be9fff;
+  --theme-home-icon1: #9775DE;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #2F137A;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #2F137A;
+}
+[theme=usdtGreen] {
+  --theme-withdraw-money: #46E53F;
+  --theme-sidebar-color: #40B18A;
+  --theme-money: #FFC022;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EE5345;
+  --theme-default-icon: rgba(255, 255, 255, 0.8);
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #21A57D;
+  --theme-text-button: #21A57D;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: rgba(255, 255, 255, 0.3);
+  --theme-main-color: #FFF;
+  --theme-header-color: #40B18A;
+  --theme-top-bar: #278D6A;
+  --theme-bg-color: #4EBB95;
+  --theme-template-color: #21A57D;
+  --theme-search-icon: #C4FFD9;
+  --theme-reduce-money: #46F53F;
+  --theme-tips: #89F1CD;
+  --theme-rises-money: #F8B305;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: rgba(255, 255, 255, 0.8);
+  --theme-top-button-text1: #21a57d;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #ffc022;
+  --theme-person-text: rgba(0, 0, 0, 0.4);
+  --theme-home-icon1: #FFFFFF;
+  --theme-home-linear-icon1: #4EBB95;
+  --theme-home-linear-icon2: #21A57D;
+  --theme-home-icon2: #EEF9F2;
+  --theme-home-linear-btn1: #4EBB95;
+  --theme-home-linear-btn2: #21A57D;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FFF;
+  --theme-head-button-text: #21A57D;
+}
+[theme=whiteGreenCindy] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #fff;
+  --theme-money: #ff891c;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #ee4e3f;
+  --theme-default-icon: #A9C575;
+  --theme-float: rgba(0, 0, 0, 0.1);
+  --theme-top-button: #3f3f3f;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #5F7B10;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #5F7B10;
+  --theme-bg-color: #fff;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #C5D29E;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FF820E;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #ffff99;
+  --theme-top-button-text1: #5f7b10;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #ffff99;
+  --theme-home-icon1: #A9C575;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #5F7B10;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #5F7B10;
+}
+[theme=microsoftRed] {
+  --theme-withdraw-money: #3ccb34;
+  --theme-sidebar-color: #DE5833;
+  --theme-money: #F8B305;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #FED205;
+  --theme-default-icon: rgba(255, 255, 255, 0.8);
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #D14D28;
+  --theme-text-button: #D14D28;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: rgba(255, 255, 255, 0.3);
+  --theme-main-color: #FFF;
+  --theme-header-color: #DE5833;
+  --theme-top-bar: #D14D28;
+  --theme-bg-color: #E5603B;
+  --theme-template-color: #D14D28;
+  --theme-search-icon: rgba(255, 255, 255, 0.8);
+  --theme-reduce-money: #3CCB34;
+  --theme-tips: rgba(255, 255, 255, 0.6);
+  --theme-rises-money: #F8B305;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: rgba(255, 255, 255, 0.8);
+  --theme-top-button-text1: #d14d28;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #ffc022;
+  --theme-person-text: rgba(0, 0, 0, 0.4);
+  --theme-home-icon1: #FFFFFF;
+  --theme-home-linear-icon1: #E5603B;
+  --theme-home-linear-icon2: #D14D28;
+  --theme-home-icon2: #F7F8EA;
+  --theme-home-linear-btn1: #E5603B;
+  --theme-home-linear-btn2: #D14D28;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FFF;
+  --theme-head-button-text: #D14D28;
+}
+[theme=celineBrownWhite] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #FFF;
+  --theme-money: #ff891c;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #ee4e3f;
+  --theme-default-icon: #956D56;
+  --theme-float: rgba(66, 40, 28, 0.1);
+  --theme-top-button: #3F3F3F;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #42281C;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #42271C;
+  --theme-bg-color: #FFF;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #B8A194;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FABD36;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #b8a194;
+  --theme-top-button-text1: #42271c;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #b8a194;
+  --theme-home-icon1: #956D56;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #42281C;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #42281C;
+  --theme-head-button-text: #ffffff;
+}
+[theme=ferrariBlack] {
+  --theme-withdraw-money: #04BE02;
+  --theme-sidebar-color: #22242A;
+  --theme-money: #FFAA09;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EA4E3D;
+  --theme-default-icon: #ADB6C3;
+  --theme-float: #1E2024;
+  --theme-top-button: #FFF;
+  --theme-text-button: #874404;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #313843;
+  --theme-main-color: #F0C059;
+  --theme-header-color: #202329;
+  --theme-top-bar: #1C1E23;
+  --theme-bg-color: #212329;
+  --theme-template-color: #1B1E22;
+  --theme-search-icon: #ADB6C3;
+  --theme-reduce-money: #04BE02;
+  --theme-tips: #68707B;
+  --theme-rises-money: #FFAA09;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #FFF7E0;
+  --theme-top-button-text1: #874404;
+  --theme-top-button-text2: #F0C059;
+  --theme-top-money: #FFAA09;
+  --theme-person-text: rgba(0, 0, 0, 0.4);
+  --theme-home-icon1: #ADB6C3;
+  --theme-home-linear-icon1: #FFDF9A;
+  --theme-home-linear-icon2: #F0C059;
+  --theme-home-icon2: #6D7481;
+  --theme-home-linear-btn1: #212329;
+  --theme-home-linear-btn2: #1B1E22;
+  /** 特殊处理*/
+  --theme-head-button-bg: #F0C059;
+  --theme-head-button-text: #874404;
+}
+[theme=burberryBlueWhite] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #FFF;
+  --theme-money: #ff891c;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #ee4e3f;
+  --theme-default-icon: #51627C;
+  --theme-float: rgba(255, 179, 187, 0.1);
+  --theme-top-button: #3F3F3F;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #111F34;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #111F34;
+  --theme-bg-color: #FFFFFF;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #999A9B;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FF820E;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #748bae;
+  --theme-top-button-text1: #111f34;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #748bae;
+  --theme-home-icon1: #51627C;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #111F34;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #111F34;
+}
+[theme=whiteBlue] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #fff;
+  --theme-money: #FF820E;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #E94D3E;
+  --theme-default-icon: #A1B8ED;
+  --theme-float: rgba(182, 201, 244, 0.1);
+  --theme-top-button: #3F3F3F;
+  --theme-text-button: #ffffff;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #5378BF;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #5674CC;
+  --theme-bg-color: #fff;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #ADC1ED;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FF820E;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #b8cffe;
+  --theme-top-button-text1: #5674cc;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #b9cffe;
+  --theme-home-icon1: #A1B8ED;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #5378BF;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #5378BF;
+}
+[theme=whiteRed] {
+  --theme-withdraw-money: #00D552;
+  --theme-sidebar-color: #FFFFFF;
+  --theme-money: #FF820E;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #E94D3E;
+  --theme-default-icon: #FF8094;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #3f3f3f;
+  --theme-text-button: #FFFFFF;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #CB3034;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #D2393D;
+  --theme-bg-color: #FAFAFA;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #FFBEC3;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FF820E;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #ffd2ad;
+  --theme-top-button-text1: #f37509;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #ffd2ad;
+  --theme-home-icon1: #FF8094;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #C52226;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #CB3034;
+}
+[theme=almondYellow] {
+  --theme-withdraw-money: #00ED5B;
+  --theme-sidebar-color: #DF9965;
+  --theme-money: #FFD600;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #FF004B;
+  --theme-default-icon: #FEF0E4;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #fff;
+  --theme-text-button: #A97A00;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.24);
+  --theme-light-line-color: #EBA470;
+  --theme-main-color: #FAF975;
+  --theme-header-color: #E49E6C;
+  --theme-top-bar: #BF7236;
+  --theme-bg-color: #E0955E;
+  --theme-template-color: #D48951;
+  --theme-search-icon: #EDD1AF;
+  --theme-reduce-money: #2BDF44;
+  --theme-tips: #FFEAC4;
+  --theme-rises-money: #FF5851;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: rgba(255, 255, 255, 0.80);
+  --theme-top-button-text1: #A97A00;
+  --theme-top-button-text2: #FAF975;
+  --theme-top-money: #FFD600;
+  --theme-person-text: rgba(0, 0, 0, 0.4);
+  --theme-home-icon1: #E0955E;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #D48951;
+  --theme-home-linear-btn1: #E0955E;
+  --theme-home-linear-btn2: #D48951;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FAF975;
+  --theme-head-button-text: #A97A00;
+}
+[theme=montblancBluewhite] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #fff;
+  --theme-money: #FF891c;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #E94D3E;
+  --theme-default-icon: #82A2FB;
+  --theme-float: rgba(6, 63, 214, 0.1);
+  --theme-top-button: #3F3F3F;
+  --theme-text-button: #fff;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #063FD6;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #043DD2;
+  --theme-bg-color: #fff;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #8AA2E1;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FABD36;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #a2bbff;
+  --theme-top-button-text1: #043dd2;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #a2bbff;
+  --theme-home-icon1: #82A2FB;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #063FD6;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #063FD6;
+}
+[theme=bondiBlue] {
+  --theme-withdraw-money: #27FFAD;
+  --theme-sidebar-color: #00509A;
+  --theme-money: #FFC700;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #EE6E6E;
+  --theme-default-icon: rgba(255, 255, 255, 0.8);
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #004584;
+  --theme-text-button: #004584;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.24);
+  --theme-light-line-color: #6ad0f0;
+  --theme-main-color: #04CCF3;
+  --theme-header-color: #37BDE0;
+  --theme-top-bar: #004584;
+  --theme-bg-color: #004584;
+  --theme-template-color: #004584;
+  --theme-search-icon: rgba(255, 255, 255, 0.6);
+  --theme-reduce-money: #27FFAD;
+  --theme-tips: rgba(255, 255, 255, 0.6);
+  --theme-rises-money: #FF5851;
+  --theme-white-color: #fff;
+  --theme-top-default-icon: rgba(255, 255, 255, 0.80);
+  --theme-top-button-text1: #004584;
+  --theme-top-button-text2: #04CCF3;
+  --theme-top-money: #FFC700;
+  --theme-person-text: rgba(0, 0, 0, 0.4);
+  --theme-home-icon1: #04CCF3;
+  --theme-home-linear-icon1: #004584;
+  --theme-home-linear-icon2: #004584;
+  --theme-home-icon2: #ECEBB2;
+  --theme-home-linear-btn1: #004584;
+  --theme-home-linear-btn2: #004584;
+  /** 特殊处理*/
+  --theme-head-button-bg: #04CCF3;
+  --theme-head-button-text: #004584;
+}
+[theme=wasabiYellowWhite] {
+  --theme-withdraw-money: #00d552;
+  --theme-sidebar-color: #fff;
+  --theme-money: #ff891c;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #ee4e3f;
+  --theme-default-icon: #CABF40;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #fff;
+  --theme-text-button: #fff;
+  --theme-tite-color: #595959;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #AC9906;
+  --theme-header-color: #EEEEEE;
+  --theme-top-bar: #AA9B04;
+  --theme-bg-color: #F2F2F2;
+  --theme-template-color: #f7f7f7;
+  --theme-search-icon: #F4EEA6;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FF820E;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #f4eea6;
+  --theme-top-button-text1: #aa9b04;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #f4eea6;
+  --theme-home-icon1: #CABF40;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #AC9906;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #AC9906;
+}
+[theme=gemRed] {
+  --theme-withdraw-money: #5EC62D;
+  --theme-sidebar-color: #AB2B38;
+  --theme-money: #FFC700;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #FF0000;
+  --theme-default-icon: #fff;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #fff;
+  --theme-text-button: #9C1524;
+  --theme-tite-color: #ffffff;
+  --theme-line-color: rgba(255, 255, 255, 0.36);
+  --theme-light-line-color: rgba(255, 255, 255, 0.36);
+  --theme-main-color: #FADD11;
+  --theme-header-color: #AB2039;
+  --theme-top-bar: #870A1A;
+  --theme-bg-color: #A92231;
+  --theme-template-color: #9B1524;
+  --theme-search-icon: rgba(255, 255, 255, 0.60);
+  --theme-reduce-money: #5EC62D;
+  --theme-tips: rgba(255, 255, 255, 0.60);
+  --theme-rises-money: #FF0000;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: rgba(255, 255, 255, 0.80);
+  --theme-top-button-text1: #9C1524;
+  --theme-top-button-text2: #FADD11;
+  --theme-top-money: #FFC700;
+  --theme-person-text: rgba(0, 0, 0, 0.4);
+  --theme-home-icon1: #FADD11;
+  --theme-home-linear-icon1: #A92231;
+  --theme-home-linear-icon2: #9B1524;
+  --theme-home-icon2: #EDD10C;
+  --theme-home-linear-btn1: #A92231;
+  --theme-home-linear-btn2: #9B1524;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #FADD11;
+}
+[theme=coralPurpleWhite] {
+  --theme-withdraw-money: #00D552;
+  --theme-sidebar-color: #fff;
+  --theme-money: #ff891c;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #ee4e3f;
+  --theme-default-icon: #DF84AC;
+  --theme-float: #E9E9E9;
+  --theme-top-button: #fff;
+  --theme-text-button: #fff;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #C5006B;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #C5006A;
+  --theme-bg-color: #FAFAFA;
+  --theme-template-color: #F1F1F1;
+  --theme-search-icon: #C5006B;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #Ff820e;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #ff9cc7;
+  --theme-top-button-text1: #c5006a;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #ff9cc7;
+  --theme-home-icon1: #DF84AC;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #C5006B;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #fff;
+  --theme-head-button-text: #C5006B;
+}
+[theme=elegantPinkWhite] {
+  --theme-withdraw-money: #00D552;
+  --theme-sidebar-color: #FFF;
+  --theme-money: #ff891c;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #ee4e3f;
+  --theme-default-icon: #DCA3AB;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #3F3F3F;
+  --theme-text-button: #FFF;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #BE627C;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #BE627C;
+  --theme-bg-color: #FAFAFA;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #F8C2D3;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FABD36;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #f8c2d3;
+  --theme-top-button-text1: #be627c;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #f8c2d3;
+  --theme-home-icon1: #DCA3AB;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #BE627C;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FFF;
+  --theme-head-button-text: #BE627C;
+}
+[theme=lemonGreenWhite] {
+  --theme-withdraw-money: #00D552;
+  --theme-sidebar-color: #FFF;
+  --theme-money: #ff891c;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #ee4e3f;
+  --theme-default-icon: #4BCA5B;
+  --theme-float: rgba(76, 171, 66,0.1);
+  --theme-top-button: #3F3F3F;
+  --theme-text-button: #FFF;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #00A200;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #00A300;
+  --theme-bg-color: #FAFAFA;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #ABF9AB;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FABD36;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #abf9ab;
+  --theme-top-button-text1: #00a300;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #abf9ab;
+  --theme-home-icon1: #4BCA5B;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #00A200;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FFF;
+  --theme-head-button-text: #00A200;
+}
+[theme=caramelYelloWhite] {
+  --theme-withdraw-money: #00D552;
+  --theme-sidebar-color: #FFF;
+  --theme-money: #ff891c;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #ee4e3f;
+  --theme-default-icon: #CAAB96;
+  --theme-float: rgba(187, 108, 35, 0.1);
+  --theme-top-button: #3F3F3F;
+  --theme-text-button: #FFF;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #C9783F;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #C67D4A;
+  --theme-bg-color: #FAFAFA;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #F5D2B8;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FABD36;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #f5d2b8;
+  --theme-top-button-text1: #c67d4a;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #f5d2b8;
+  --theme-home-icon1: #FFB77C;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #FA9447;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FFF;
+  --theme-head-button-text: #C9783F;
+}
+[theme=camelliaRedWhite] {
+  --theme-withdraw-money: #00D552;
+  --theme-sidebar-color: #FFF;
+  --theme-money: #ff891c;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #ee4e3f;
+  --theme-default-icon: #D2A294;
+  --theme-float: rgba(171, 75, 58, 0.1);
+  --theme-top-button: #3F3F3F;
+  --theme-text-button: #FFF;
+  --theme-tite-color: #565656;
+  --theme-line-color: rgba(255, 255, 255, 0.3);
+  --theme-light-line-color: #D8D8D8;
+  --theme-main-color: #AD4D3B;
+  --theme-header-color: #E9E9E9;
+  --theme-top-bar: #B14E3C;
+  --theme-bg-color: #FAFAFA;
+  --theme-template-color: #F6F6F6;
+  --theme-search-icon: #E5BAAE;
+  --theme-reduce-money: #1CC245;
+  --theme-tips: #9D9D9D;
+  --theme-rises-money: #FABD36;
+  --theme-white-color: #ffffff;
+  --theme-top-default-icon: #e5baae;
+  --theme-top-button-text1: #b14e3c;
+  --theme-top-button-text2: #fff;
+  --theme-top-money: #fff;
+  --theme-person-text: #e5baae;
+  --theme-home-icon1: #D2A294;
+  --theme-home-linear-icon1: #F6E553;
+  --theme-home-linear-icon2: #E9B10D;
+  --theme-home-icon2: #AD4D3B;
+  --theme-home-linear-btn1: #F6F6F6;
+  --theme-home-linear-btn2: #E1E1E1;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FFF;
+  --theme-head-button-text: #AD4D3B;
+}
+[theme=coralPurple] {
+  --theme-withdraw-money: #00D552;
+  --theme-sidebar-color: #CE357C;
+  --theme-money: #FFA653;
+  --theme-unclickable: #c0c0c0;
+  --theme-error: #FF5D4E;
+  --theme-default-icon: #FFADD1;
+  --theme-float: rgba(255, 255, 255, 0.1);
+  --theme-top-button: #C5006A;
+  --theme-text-button: #C5006A;
+  --theme-tite-color: #FFFFFF;
+  --theme-line-color: rgba(255, 255, 255, 0.36);
+  --theme-light-line-color: #DF84AC;
+  --theme-main-color: #FFFFFF;
+  --theme-header-color: #D13284;
+  --theme-top-bar: #C5006A;
+  --theme-bg-color: #C43578;
+  --theme-template-color: #BD216A;
+  --theme-search-icon: #DF84AC;
+  --theme-reduce-money: #3FCD39;
+  --theme-tips: #FFA6CD;
+  --theme-rises-money: #FFD205;
+  --theme-white-color: #FFFFFF;
+  --theme-top-default-icon: #FFADD1;
+  --theme-top-button-text1: #C5006A;
+  --theme-top-button-text2: #FFFFFF;
+  --theme-top-money: #FFA653;
+  --theme-person-text: #DF84AC;
+  --theme-home-icon1: #FFFFFF;
+  --theme-home-linear-icon1: #DA74A1;
+  --theme-home-linear-icon2: #C5006B;
+  --theme-home-icon2: #FFD4E7;
+  --theme-home-linear-btn1: #DA74A1;
+  --theme-home-linear-btn2: #C5006B;
+  /** 特殊处理*/
+  --theme-head-button-bg: #FFFFFF;
+  --theme-head-button-text: #C5006A;
+}
+
+._broadcast_hmo4k_55 {
+  position: relative;
+  padding: 20rem;
+}
+._broadcast_hmo4k_55 img {
+  width: 100%;
+}
+
+._style_3_hmo4k_139 ._box_hmo4k_63 {
+  width: 500rem;
+}
+._style_3_hmo4k_139 ._box_hmo4k_63 ._items_hmo4k_72 ._item_hmo4k_72 {
+  background: rgba(149, 134, 255, 0.3);
+}
+
+._box_hmo4k_63 {
+  position: absolute;
+  height: 138rem;
+  left: 0;
+  right: 0;
+  top: 65rem;
+  margin: auto;
+  overflow: hidden;
+}
+._box_hmo4k_63 ._items_hmo4k_72 ._item_hmo4k_72 {
+  border-radius: 12rem;
+  width: 100%;
+  height: 46rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12rem;
+  font-size: 20rem;
+  color: #FFF;
+}
+._box_hmo4k_63 ._items_hmo4k_72 ._item_hmo4k_72 > span {
+  font-size: 20rem;
+  color: #F2C021;
+  width: 100rem;
+  text-align: right;
+  white-space: nowrap;
+}
+html[dir=rtl] ._box_hmo4k_63 ._items_hmo4k_72 ._item_hmo4k_72 > span {
+  text-align: left;
+}
+._box_hmo4k_63 ._items_hmo4k_72 ._item_hmo4k_72 > div {
+  display: flex;
+  align-items: center;
+  font-size: 20rem;
+  width: 150rem;
+  white-space: nowrap; /* 防止文本换行 */
+  overflow: hidden; /* 隐藏超出部分 */
+}
+._box_hmo4k_63 ._items_hmo4k_72 ._item_hmo4k_72 ._logo_hmo4k_101 {
+  border: 3rem solid #FFF;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  background-color: #EBEBEB;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 12rem;
+}
+html[dir=rtl] ._box_hmo4k_63 ._items_hmo4k_72 ._item_hmo4k_72 ._logo_hmo4k_101 {
+  margin-left: 12rem;
+  margin-right: 0;
+}
+._box_hmo4k_63 ._items_hmo4k_72 ._item_hmo4k_72 ._logo_hmo4k_101 img {
+  width: 24rem;
+  height: 24rem;
+  border-radius: 50%;
+}
+._box_hmo4k_63 ._items_hmo4k_72 ._item_hmo4k_72:nth-child(even) {
+  background-color: transparent !important;
+}
+
+._style_1_hmo4k_125 ._box_hmo4k_63 {
+  width: 600rem;
+}
+._style_1_hmo4k_125 ._box_hmo4k_63 ._items_hmo4k_72 ._item_hmo4k_72 {
+  background: rgba(251, 152, 97, 0.4);
+}
+
+._style_2_hmo4k_132 ._box_hmo4k_63 {
+  width: 480rem;
+}
+._style_2_hmo4k_132 ._box_hmo4k_63 ._items_hmo4k_72 ._item_hmo4k_72 {
+  background: rgba(255, 255, 255, 0.15);
+}

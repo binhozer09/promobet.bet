@@ -1,0 +1,1312 @@
+@charset "UTF-8";
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_k8i6u_3 * {
+  fill: #054146;
+}
+
+._defaultCss_k8i6u_55 {
+  fill: var(--theme-default-icon);
+}
+html[theme=blue] ._defaultCss_k8i6u_55 {
+  fill: white;
+}
+html[theme=whiteGreen] ._defaultCss_k8i6u_55 {
+  fill: #999999;
+}
+html[theme=oilyGreen] ._defaultCss_k8i6u_55 {
+  fill: #c4ffd9;
+}
+html[theme=versaceYellow] ._defaultCss_k8i6u_55 {
+  fill: #fff7e0;
+}
+html[theme=lancomePeach] ._defaultCss_k8i6u_55 {
+  fill: rgba(255, 255, 255, 0.8);
+}
+html[theme=hermesOrange] ._defaultCss_k8i6u_55 {
+  fill: #ffbe8b;
+}
+html[theme=whiteBlue] ._defaultCss_k8i6u_55 {
+  fill: #9d9d9d;
+}
+html[theme=sk2] ._defaultCss_k8i6u_55 {
+  fill: #ffc5c8;
+}
+html[theme=lightBrown] ._defaultCss_k8i6u_55 {
+  fill: #e7d2c2;
+}
+html[theme=whiteOrange] ._defaultCss_k8i6u_55 {
+  fill: #9a9a9a;
+}
+html[theme=furlaBlue] ._defaultCss_k8i6u_55 {
+  fill: #d4ddfe;
+}
+html[theme=whitePink] ._defaultCss_k8i6u_55 {
+  fill: #9d9d9d;
+}
+html[theme=bvGreen] ._defaultCss_k8i6u_55 {
+  fill: #d1e676;
+}
+html[theme=whiteBrown] ._defaultCss_k8i6u_55 {
+  fill: #9d9d9d;
+}
+html[theme=AnnaSuiPurple] ._defaultCss_k8i6u_55 {
+  fill: #cca9aa;
+}
+html[theme=whitePurple] ._defaultCss_k8i6u_55 {
+  fill: #9d9d9d;
+}
+html[theme=burgundyRed] ._defaultCss_k8i6u_55 {
+  fill: #E08EA3;
+}
+html[theme=whiteDarkGreen] ._defaultCss_k8i6u_55 {
+  fill: #9D9D9D;
+}
+html[theme=whiteBrownLauren] ._defaultCss_k8i6u_55 {
+  fill: #9A9A9B;
+}
+html[theme=whiteRedGucci] ._defaultCss_k8i6u_55 {
+  fill: #520E23;
+}
+html[theme=embraerBlue] ._defaultCss_k8i6u_55 {
+  fill: #6F97EB;
+}
+html[theme=elsaPink] ._defaultCss_k8i6u_55 {
+  fill: rgba(255, 255, 255, 0.6);
+}
+html[theme=bvlgariBrown] ._defaultCss_k8i6u_55 {
+  fill: rgba(255, 255, 255, 0.6);
+}
+html[theme=whiteBlack] ._defaultCss_k8i6u_55 {
+  fill: #D8D8D8;
+}
+html[theme=whiteBlueFendi] ._defaultCss_k8i6u_55 {
+  fill: #9D9D9D;
+}
+html[theme=venetaGrey] ._defaultCss_k8i6u_55 {
+  fill: #A0D3B3;
+}
+html[theme=microsoftRed] ._defaultCss_k8i6u_55 {
+  fill: #FFF;
+}
+html[theme=ferrariBlack] ._defaultCss_k8i6u_55 {
+  fill: #ADB6C3;
+}
+html[theme=burberryBlueWhite] ._defaultCss_k8i6u_55 {
+  fill: #51627C;
+}
+html[theme=whiteRed] ._defaultCss_k8i6u_55 {
+  fill: #FF8094;
+}
+html[theme=whiteRed] ._defaultCss_k8i6u_55 * {
+  fill: #FF8094;
+}
+._defaultCss_k8i6u_55 * {
+  fill: var(--theme-default-icon);
+}
+._defaultCss_k8i6u_55 * * {
+  fill: var(--theme-default-icon);
+}
+html[theme=blue] ._defaultCss_k8i6u_55 * {
+  fill: #b5e4ff;
+}
+html[theme=whiteGreen] ._defaultCss_k8i6u_55 * {
+  fill: #999999;
+}
+html[theme=purple] ._defaultCss_k8i6u_55 * {
+  fill: rgba(255, 255, 255, 0.6);
+}
+html[theme=oilyGreen] ._defaultCss_k8i6u_55 * {
+  fill: #87D1A2;
+}
+html[theme=versaceYellow] ._defaultCss_k8i6u_55 * {
+  fill: #fff7e0;
+}
+html[theme=lancomePeach] ._defaultCss_k8i6u_55 * {
+  fill: rgba(255, 255, 255, 0.8);
+}
+html[theme=hermesOrange] ._defaultCss_k8i6u_55 * {
+  fill: #ffbe8b;
+}
+html[theme=whiteBlue] ._defaultCss_k8i6u_55 * {
+  fill: #9d9d9d;
+}
+html[theme=whiteBlue] ._defaultCss_k8i6u_55 * * {
+  fill: #9d9d9d;
+}
+html[theme=sk2] ._defaultCss_k8i6u_55 * {
+  fill: #ffc5c8;
+}
+html[theme=sk2] ._defaultCss_k8i6u_55 * * {
+  fill: #ffc5c8;
+}
+html[theme=whiteYellow] ._defaultCss_k8i6u_55 * {
+  fill: #9d9d9d;
+}
+html[theme=whiteYellow] ._defaultCss_k8i6u_55 * * {
+  fill: #9d9d9d;
+}
+html[theme=lightBrown] ._defaultCss_k8i6u_55 * {
+  fill: #e7d2c2;
+}
+html[theme=lightBrown] ._defaultCss_k8i6u_55 * * {
+  fill: #e7d2c2;
+}
+html[theme=whiteOrange] ._defaultCss_k8i6u_55 * {
+  fill: #9a9a9a;
+}
+html[theme=whiteOrange] ._defaultCss_k8i6u_55 * * {
+  fill: #9a9a9a;
+}
+html[theme=furlaBlue] ._defaultCss_k8i6u_55 * {
+  fill: #d4ddfe;
+}
+html[theme=furlaBlue] ._defaultCss_k8i6u_55 * * {
+  fill: #d4ddfe;
+}
+html[theme=whitePink] ._defaultCss_k8i6u_55 * {
+  fill: #9d9d9d;
+}
+html[theme=whitePink] ._defaultCss_k8i6u_55 * * {
+  fill: #9d9d9d;
+}
+html[theme=bvGreen] ._defaultCss_k8i6u_55 * {
+  fill: #d1e676;
+}
+html[theme=bvGreen] ._defaultCss_k8i6u_55 * * {
+  fill: #d1e676;
+}
+html[theme=whiteBrown] ._defaultCss_k8i6u_55 * {
+  fill: #9d9d9d;
+}
+html[theme=whiteBrown] ._defaultCss_k8i6u_55 * * {
+  fill: #9d9d9d;
+}
+html[theme=AnnaSuiPurple] ._defaultCss_k8i6u_55 * {
+  fill: #bfa9cc;
+}
+html[theme=AnnaSuiPurple] ._defaultCss_k8i6u_55 * * {
+  fill: #bfa9cc;
+}
+html[theme=whitePurple] ._defaultCss_k8i6u_55 * {
+  fill: #9d9d9d;
+}
+html[theme=whitePurple] ._defaultCss_k8i6u_55 * * {
+  fill: #9d9d9d;
+}
+html[theme=whitePurple] ._defaultCss_k8i6u_55 * {
+  fill: #9D9D9D;
+}
+html[theme=whitePurple] ._defaultCss_k8i6u_55 * * {
+  fill: #9D9D9D;
+}
+html[theme=burgundyRed] ._defaultCss_k8i6u_55 * {
+  fill: #E08EA3;
+}
+html[theme=burgundyRed] ._defaultCss_k8i6u_55 * * {
+  fill: #E08EA3;
+}
+html[theme=whiteRedGucci] ._defaultCss_k8i6u_55 * {
+  fill: #9D9D9D;
+}
+html[theme=whiteRedGucci] ._defaultCss_k8i6u_55 * * {
+  fill: #9D9D9D;
+}
+html[theme=whiteDarkGreen] ._defaultCss_k8i6u_55 * {
+  fill: #9D9D9D;
+}
+html[theme=whiteDarkGreen] ._defaultCss_k8i6u_55 * * {
+  fill: #9D9D9D;
+}
+html[theme=greenGold] ._defaultCss_k8i6u_55 * {
+  fill: #039685;
+}
+html[theme=greenGold] ._defaultCss_k8i6u_55 * * {
+  fill: #039685;
+}
+html[theme=whiteBrownLauren] ._defaultCss_k8i6u_55 * {
+  fill: #9A9A9B;
+}
+html[theme=whiteBrownLauren] ._defaultCss_k8i6u_55 * * {
+  fill: #9A9A9B;
+}
+html[theme=embraerBlue] ._defaultCss_k8i6u_55 * {
+  fill: #6F97EB;
+}
+html[theme=embraerBlue] ._defaultCss_k8i6u_55 * * {
+  fill: #6F97EB;
+}
+html[theme=elsaPink] ._defaultCss_k8i6u_55 * {
+  fill: rgba(255, 255, 255, 0.6);
+}
+html[theme=elsaPink] ._defaultCss_k8i6u_55 * * {
+  fill: rgba(255, 255, 255, 0.6);
+}
+html[theme=bvlgariBrown] ._defaultCss_k8i6u_55 * {
+  fill: rgba(255, 255, 255, 0.6);
+}
+html[theme=bvlgariBrown] ._defaultCss_k8i6u_55 * * {
+  fill: rgba(255, 255, 255, 0.6);
+}
+html[theme=whiteBlack] ._defaultCss_k8i6u_55 * {
+  fill: #9D9D9D;
+}
+html[theme=whiteBlack] ._defaultCss_k8i6u_55 * * {
+  fill: #9D9D9D;
+}
+html[theme=whiteBlueFendi] ._defaultCss_k8i6u_55 * {
+  fill: #9D9D9D;
+}
+html[theme=whiteBlueFendi] ._defaultCss_k8i6u_55 * * {
+  fill: #9D9D9D;
+}
+html[theme=venetaGrey] ._defaultCss_k8i6u_55 * {
+  fill: #A0D3B3;
+}
+html[theme=venetaGrey] ._defaultCss_k8i6u_55 * * {
+  fill: #A0D3B3;
+}
+html[theme=martinPurple] ._defaultCss_k8i6u_55 * {
+  fill: #2F137A;
+}
+html[theme=martinPurple] ._defaultCss_k8i6u_55 * * {
+  fill: #2F137A;
+}
+html[theme=usdtGreen] ._defaultCss_k8i6u_55 * {
+  fill: #89F1CD;
+}
+html[theme=usdtGreen] ._defaultCss_k8i6u_55 * * {
+  fill: #89F1CD;
+}
+html[theme=microsoftRed] ._defaultCss_k8i6u_55 * {
+  fill: white;
+}
+html[theme=microsoftRed] ._defaultCss_k8i6u_55 * * {
+  fill: white;
+}
+html[theme=celineBrownWhite] ._defaultCss_k8i6u_55 * {
+  fill: #b8a194;
+}
+html[theme=celineBrownWhite] ._defaultCss_k8i6u_55 * * {
+  fill: #b8a194;
+}
+html[theme=ferrariBlack] ._defaultCss_k8i6u_55 * {
+  fill: #ADB6C3;
+}
+html[theme=burberryBlueWhite] ._defaultCss_k8i6u_55 * {
+  fill: #51627C;
+}
+html[theme=whiteBlue] ._defaultCss_k8i6u_55._SecColor_k8i6u_346 {
+  fill: #5378bf;
+}
+html[theme=whiteBlue] ._defaultCss_k8i6u_55._SecColor_k8i6u_346 * {
+  fill: #5378bf;
+}
+html[theme=sk2] ._defaultCss_k8i6u_55._SecColor_k8i6u_346 {
+  fill: #E9C86F;
+}
+html[theme=sk2] ._defaultCss_k8i6u_55._SecColor_k8i6u_346 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._defaultCss_k8i6u_55._SecColor_k8i6u_346 {
+  fill: #df9a1c;
+}
+html[theme=whiteYellow] ._defaultCss_k8i6u_55._SecColor_k8i6u_346 * {
+  fill: #df9a1c;
+}
+html[theme=bvGreen] ._defaultCss_k8i6u_55._SecColor_k8i6u_346 {
+  fill: #fff45d;
+}
+html[theme=bvGreen] ._defaultCss_k8i6u_55._SecColor_k8i6u_346 * {
+  fill: #fff45d;
+}
+
+._lineStrong_k8i6u_371 {
+  color: #000;
+}
+._lineStrong_k8i6u_371 ._line_k8i6u_371 path:nth-child(n+2) {
+  stroke: #2BDF44;
+}
+._lineStrong_k8i6u_371 ._tool_line_t_k8i6u_377 {
+  color: #2BDF44;
+}
+
+._lineMiddle_k8i6u_381 ._line_k8i6u_371 path:nth-child(2), ._lineMiddle_k8i6u_381 ._line_k8i6u_371 path:nth-child(3) {
+  stroke: #EAB700;
+}
+
+._lineWeak_k8i6u_385 ._line_k8i6u_371 path:nth-child(2) {
+  stroke: #ED463F;
+}
+._lineWeak_k8i6u_385 ._tool_line_t_k8i6u_377 {
+  color: #ED463F;
+}
+
+html[theme=whiteRed] ._lineCyIcon_k8i6u_392 {
+  fill: #CB3034;
+}
+html[theme=whiteRed] ._lineCyIcon_k8i6u_392 circle {
+  stroke: #CB3034;
+}
+html[theme=blue] ._lineCyIcon_k8i6u_392 {
+  fill: #EAB700;
+}
+html[theme=whiteGreen] ._lineCyIcon_k8i6u_392 {
+  fill: #5BBC90;
+}
+html[theme=purple] ._lineCyIcon_k8i6u_392 {
+  fill: #FFDC82;
+}
+html[theme=purple] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #121B53;
+}
+html[theme=purple] ._lineCyIcon_k8i6u_392 ._lineIconCy_k8i6u_410 {
+  fill: #FFDC82;
+}
+html[theme=oilyGreen] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #067831;
+}
+html[theme=versaceYellow] ._lineCyIcon_k8i6u_392 {
+  fill: #373638;
+}
+html[theme=lancomePeach] ._lineCyIcon_k8i6u_392 * {
+  fill: #FFE2C9;
+  stroke: #FFE2C9;
+}
+html[theme=lancomePeach] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #DF6061;
+}
+html[theme=hermesOrange] ._lineCyIcon_k8i6u_392 * {
+  fill: #551F0E;
+  stroke: rgba(255, 255, 255, 0.3);
+}
+html[theme=hermesOrange] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: white;
+}
+html[theme=whiteBlue] ._lineCyIcon_k8i6u_392 * {
+  fill: #5378BF;
+  stroke: rgba(255, 255, 255, 0.3);
+}
+html[theme=whiteBlue] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: white;
+}
+html[theme=whiteYellow] ._lineCyIcon_k8i6u_392 * {
+  fill: #DF9A1C;
+  stroke: rgba(255, 255, 255, 0.3);
+}
+html[theme=whiteYellow] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: white;
+}
+html[theme=sk2] ._lineCyIcon_k8i6u_392 * {
+  fill: #E9C86F;
+  stroke: rgba(255, 255, 255, 0.3);
+}
+html[theme=sk2] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #4E0416;
+}
+html[theme=lightBrown] ._lineCyIcon_k8i6u_392 * {
+  fill: #FED39D;
+  stroke: rgba(255, 255, 255, 0.3);
+}
+html[theme=lightBrown] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #9B8977;
+}
+html[theme=whiteOrange] ._lineCyIcon_k8i6u_392 * {
+  fill: #FA9447;
+  stroke: rgba(255, 255, 255, 0.3);
+}
+html[theme=whiteOrange] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #FFF;
+}
+html[theme=furlaBlue] ._lineCyIcon_k8i6u_392 * {
+  fill: #4969C2;
+  stroke: rgba(255, 252, 210, 0.3);
+}
+html[theme=furlaBlue] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #FFFCD2;
+}
+html[theme=whitePink] ._lineCyIcon_k8i6u_392 * {
+  fill: #EF7A7B;
+  stroke: rgba(255, 255, 255, 0.3);
+}
+html[theme=whitePink] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #FFF;
+}
+html[theme=bvGreen] ._lineCyIcon_k8i6u_392 * {
+  fill: #FEE004;
+  stroke: rgba(6, 120, 49, 0.3);
+}
+html[theme=bvGreen] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #067831;
+}
+html[theme=oilyGreen] ._lineCyIcon_k8i6u_392 * {
+  fill: #FFF45D;
+  stroke: rgba(123, 154, 30, 0.3);
+}
+html[theme=oilyGreen] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #7B9A1E;
+}
+html[theme=whiteBrown] ._lineCyIcon_k8i6u_392 * {
+  fill: #927D6A;
+  stroke: rgba(255, 255, 255, 0.3);
+}
+html[theme=whiteBrown] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #FFF;
+}
+html[theme=AnnaSuiPurple] ._lineCyIcon_k8i6u_392 * {
+  fill: #FFF;
+  stroke: rgba(136, 112, 184, 0.24);
+}
+html[theme=AnnaSuiPurple] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #8870B8;
+}
+html[theme=whitePurple] ._lineCyIcon_k8i6u_392 * {
+  fill: #610862;
+  stroke: rgba(255, 255, 255, 0.3);
+}
+html[theme=whitePurple] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #FFF;
+}
+html[theme=burgundyRed] ._lineCyIcon_k8i6u_392 * {
+  fill: #FE3856;
+  stroke: rgba(255, 255, 255, 0.3);
+}
+html[theme=burgundyRed] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #FFF;
+}
+html[theme=whiteDarkGreen] ._lineCyIcon_k8i6u_392 * {
+  fill: #054146;
+  stroke: rgba(255, 255, 255, 0.3);
+}
+html[theme=whiteDarkGreen] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #FFF;
+}
+html[theme=whiteRedGucci] ._lineCyIcon_k8i6u_392 * {
+  fill: #054146;
+  stroke: rgba(255, 255, 255, 0.3);
+}
+html[theme=whiteRedGucci] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #FFF;
+}
+html[theme=microsoftRed] ._lineCyIcon_k8i6u_392 * {
+  fill: #FFF;
+  stroke: rgba(0, 0, 0, 0.3);
+}
+html[theme=microsoftRed] ._lineCyIcon_k8i6u_392 ._lineIconG_k8i6u_407 {
+  stroke: #FFF;
+}
+
+._downDefault_k8i6u_546 {
+  stroke: var(--theme-tips);
+}
+html[theme=blue] ._downDefault_k8i6u_546 {
+  stroke: white;
+}
+html[theme=whiteGreen] ._downDefault_k8i6u_546 {
+  stroke: rgb(91, 188, 144);
+}
+html[theme=oilyGreen] ._downDefault_k8i6u_546 {
+  stroke: #c4ffd9;
+}
+html[theme=versaceYellow] ._downDefault_k8i6u_546 {
+  stroke: #fff7e0;
+}
+html[theme=lancomePeach] ._downDefault_k8i6u_546 {
+  stroke: rgba(255, 255, 255, 0.8);
+}
+html[theme=hermesOrange] ._downDefault_k8i6u_546 {
+  stroke: #ffbe8b;
+}
+html[theme=whiteBlue] ._downDefault_k8i6u_546 {
+  stroke: #9d9d9d;
+}
+html[theme=sk2] ._downDefault_k8i6u_546 {
+  stroke: #ffc5c8;
+}
+html[theme=lightBrown] ._downDefault_k8i6u_546 {
+  stroke: #e7d2c2;
+}
+html[theme=whiteOrange] ._downDefault_k8i6u_546 {
+  stroke: #9a9a9a;
+}
+html[theme=furlaBlue] ._downDefault_k8i6u_546 {
+  stroke: #d4ddfe;
+}
+html[theme=whitePink] ._downDefault_k8i6u_546 {
+  stroke: #9d9d9d;
+}
+html[theme=bvGreen] ._downDefault_k8i6u_546 {
+  stroke: #d1e676;
+}
+html[theme=whiteBrown] ._downDefault_k8i6u_546 {
+  stroke: #9d9d9d;
+}
+html[theme=AnnaSuiPurple] ._downDefault_k8i6u_546 {
+  stroke: #cca9aa;
+}
+html[theme=whitePurple] ._downDefault_k8i6u_546 {
+  stroke: #9d9d9d;
+}
+html[theme=burgundyRed] ._downDefault_k8i6u_546 {
+  stroke: #fff;
+}
+html[theme=whiteRedGucci] ._downDefault_k8i6u_546 {
+  stroke: #9D9D9D;
+}
+html[theme=whiteDarkGreen] ._downDefault_k8i6u_546 {
+  stroke: #9D9D9D;
+}
+html[theme=whiteBrownLauren] ._downDefault_k8i6u_546 {
+  stroke: #9A9A9B;
+}
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #054146;
+}
+
+._defaultCss_y5nxb_55 {
+  fill: var(--theme-default-icon);
+}
+html[theme=blue] ._defaultCss_y5nxb_55 {
+  fill: white;
+}
+html[theme=whiteGreen] ._defaultCss_y5nxb_55 {
+  fill: rgb(91, 188, 144);
+}
+html[theme=oilyGreen] ._defaultCss_y5nxb_55 {
+  fill: #c4ffd9;
+}
+html[theme=whiteOrange] ._defaultCss_y5nxb_55 {
+  fill: #9d9d9d;
+}
+html[theme=whiteRed] ._defaultCss_y5nxb_55 {
+  fill: #9d9d9d;
+}
+html[theme=versaceYellow] ._defaultCss_y5nxb_55 {
+  fill: #fff7e0;
+}
+html[theme=lancomePeach] ._defaultCss_y5nxb_55 {
+  fill: rgba(255, 255, 255, 0.8);
+}
+html[theme=hermesOrange] ._defaultCss_y5nxb_55 {
+  fill: #ffbe8b;
+}
+html[theme=sk2] ._defaultCss_y5nxb_55 {
+  fill: #ffc5c8;
+}
+html[theme=whiteYellow] ._defaultCss_y5nxb_55 {
+  fill: #9d9d9d;
+}
+html[theme=whitePurple] ._defaultCss_y5nxb_55 {
+  fill: #9d9d9d;
+}
+html[theme=lightBrown] ._defaultCss_y5nxb_55 {
+  fill: #ffefe0;
+}
+html[theme=microsoftRed] ._defaultCss_y5nxb_55 {
+  fill: rgba(255, 255, 255, 0.8);
+}
+html[theme=celineBrownWhite] ._defaultCss_y5nxb_55 {
+  fill: #776050;
+}
+html[theme=ferrariBlack] ._defaultCss_y5nxb_55 {
+  fill: #ADB6C3;
+}
+html[theme=burberryBlueWhite] ._defaultCss_y5nxb_55 {
+  fill: #51627C;
+}
+._defaultCss_y5nxb_55 * {
+  fill: var(--theme-default-icon);
+}
+html[theme=blue] ._defaultCss_y5nxb_55 * {
+  fill: #b5e4ff;
+}
+html[theme=whiteGreen] ._defaultCss_y5nxb_55 * {
+  fill: rgb(91, 188, 144);
+}
+html[theme=oilyGreen] ._defaultCss_y5nxb_55 * {
+  fill: #c4ffd9;
+}
+html[theme=whiteOrange] ._defaultCss_y5nxb_55 * {
+  fill: #9d9d9d;
+}
+html[theme=whiteRed] ._defaultCss_y5nxb_55 * {
+  fill: #9d9d9d;
+}
+html[theme=versaceYellow] ._defaultCss_y5nxb_55 * {
+  fill: #fff7e0;
+}
+html[theme=lancomePeach] ._defaultCss_y5nxb_55 * {
+  fill: rgba(255, 255, 255, 0.8);
+}
+html[theme=hermesOrange] ._defaultCss_y5nxb_55 * {
+  fill: #ffbe8b;
+}
+html[theme=sk2] ._defaultCss_y5nxb_55 * {
+  fill: #ffc5c8;
+}
+html[theme=whiteYellow] ._defaultCss_y5nxb_55 * {
+  fill: #9d9d9d;
+}
+html[theme=whitePurple] ._defaultCss_y5nxb_55 * {
+  fill: #9d9d9d;
+}
+html[theme=lightBrown] ._defaultCss_y5nxb_55 * {
+  fill: #ffefe0;
+}
+html[theme=microsoftRed] ._defaultCss_y5nxb_55 * {
+  fill: rgba(255, 255, 255, 0.8);
+}
+html[theme=celineBrownWhite] ._defaultCss_y5nxb_55 * {
+  fill: #776050;
+}
+html[theme=ferrariBlack] ._defaultCss_y5nxb_55 * {
+  fill: #ADB6C3;
+}
+html[theme=burberryBlueWhite] ._defaultCss_y5nxb_55 * {
+  fill: #51627C;
+}
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_y5nxb_3 * {
+  fill: #054146;
+}
+
+._defaultCss_y5nxb_55 {
+  fill: var(--theme-default-icon);
+}
+html[theme=blue] ._defaultCss_y5nxb_55 {
+  fill: white;
+}
+html[theme=whiteGreen] ._defaultCss_y5nxb_55 {
+  fill: rgb(91, 188, 144);
+}
+html[theme=oilyGreen] ._defaultCss_y5nxb_55 {
+  fill: #c4ffd9;
+}
+html[theme=whiteOrange] ._defaultCss_y5nxb_55 {
+  fill: #9d9d9d;
+}
+html[theme=whiteRed] ._defaultCss_y5nxb_55 {
+  fill: #9d9d9d;
+}
+html[theme=versaceYellow] ._defaultCss_y5nxb_55 {
+  fill: #fff7e0;
+}
+html[theme=lancomePeach] ._defaultCss_y5nxb_55 {
+  fill: rgba(255, 255, 255, 0.8);
+}
+html[theme=hermesOrange] ._defaultCss_y5nxb_55 {
+  fill: #ffbe8b;
+}
+html[theme=sk2] ._defaultCss_y5nxb_55 {
+  fill: #ffc5c8;
+}
+html[theme=whiteYellow] ._defaultCss_y5nxb_55 {
+  fill: #9d9d9d;
+}
+html[theme=whitePurple] ._defaultCss_y5nxb_55 {
+  fill: #9d9d9d;
+}
+html[theme=lightBrown] ._defaultCss_y5nxb_55 {
+  fill: #ffefe0;
+}
+html[theme=microsoftRed] ._defaultCss_y5nxb_55 {
+  fill: rgba(255, 255, 255, 0.8);
+}
+html[theme=celineBrownWhite] ._defaultCss_y5nxb_55 {
+  fill: #776050;
+}
+html[theme=ferrariBlack] ._defaultCss_y5nxb_55 {
+  fill: #ADB6C3;
+}
+html[theme=burberryBlueWhite] ._defaultCss_y5nxb_55 {
+  fill: #51627C;
+}
+._defaultCss_y5nxb_55 * {
+  fill: var(--theme-default-icon);
+}
+html[theme=blue] ._defaultCss_y5nxb_55 * {
+  fill: #b5e4ff;
+}
+html[theme=whiteGreen] ._defaultCss_y5nxb_55 * {
+  fill: rgb(91, 188, 144);
+}
+html[theme=oilyGreen] ._defaultCss_y5nxb_55 * {
+  fill: #c4ffd9;
+}
+html[theme=whiteOrange] ._defaultCss_y5nxb_55 * {
+  fill: #9d9d9d;
+}
+html[theme=whiteRed] ._defaultCss_y5nxb_55 * {
+  fill: #9d9d9d;
+}
+html[theme=versaceYellow] ._defaultCss_y5nxb_55 * {
+  fill: #fff7e0;
+}
+html[theme=lancomePeach] ._defaultCss_y5nxb_55 * {
+  fill: rgba(255, 255, 255, 0.8);
+}
+html[theme=hermesOrange] ._defaultCss_y5nxb_55 * {
+  fill: #ffbe8b;
+}
+html[theme=sk2] ._defaultCss_y5nxb_55 * {
+  fill: #ffc5c8;
+}
+html[theme=whiteYellow] ._defaultCss_y5nxb_55 * {
+  fill: #9d9d9d;
+}
+html[theme=whitePurple] ._defaultCss_y5nxb_55 * {
+  fill: #9d9d9d;
+}
+html[theme=lightBrown] ._defaultCss_y5nxb_55 * {
+  fill: #ffefe0;
+}
+html[theme=microsoftRed] ._defaultCss_y5nxb_55 * {
+  fill: rgba(255, 255, 255, 0.8);
+}
+html[theme=celineBrownWhite] ._defaultCss_y5nxb_55 * {
+  fill: #776050;
+}
+html[theme=ferrariBlack] ._defaultCss_y5nxb_55 * {
+  fill: #ADB6C3;
+}
+html[theme=burberryBlueWhite] ._defaultCss_y5nxb_55 * {
+  fill: #51627C;
+}
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_kezss_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_kezss_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_kezss_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_kezss_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_kezss_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_kezss_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_kezss_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_kezss_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_kezss_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_kezss_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_kezss_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_kezss_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_kezss_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_kezss_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_kezss_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_kezss_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_kezss_3 * {
+  fill: #054146;
+}
+
+._defaultCss_kezss_55 {
+  fill: #A7B7D7;
+}
+html[theme=blue] ._defaultCss_kezss_55 {
+  fill: white;
+}
+html[theme=whiteGreen] ._defaultCss_kezss_55 {
+  fill: rgb(91, 188, 144);
+}
+html[theme=oilyGreen] ._defaultCss_kezss_55 {
+  fill: #C4FFD9;
+}
+html[theme=whiteOrange] ._defaultCss_kezss_55 {
+  fill: #9D9D9D;
+}
+html[theme=whiteRed] ._defaultCss_kezss_55 {
+  fill: #9D9D9D;
+}
+html[theme=versaceYellow] ._defaultCss_kezss_55 {
+  fill: #FFF7E0;
+}
+html[theme=lancomePeach] ._defaultCss_kezss_55 {
+  fill: rgba(255, 255, 255, 0.8);
+}
+html[theme=hermesOrange] ._defaultCss_kezss_55 {
+  fill: #FFBE8B;
+}
+html[theme=sk2] ._defaultCss_kezss_55 {
+  fill: #FFC5C8;
+}
+html[theme=whiteYellow] ._defaultCss_kezss_55 {
+  fill: #9D9D9D;
+}
+html[theme=whitePurple] ._defaultCss_kezss_55 {
+  fill: #9D9D9D;
+}
+html[theme=lightBrown] ._defaultCss_kezss_55 {
+  fill: #FFEFE0;
+}
+._defaultCss_kezss_55 * {
+  fill: #A7B7D7;
+}
+html[theme=blue] ._defaultCss_kezss_55 * {
+  fill: #EAB700;
+}
+html[theme=whiteGreen] ._defaultCss_kezss_55 * {
+  fill: rgb(91, 188, 144);
+}
+html[theme=oilyGreen] ._defaultCss_kezss_55 * {
+  fill: #C4FFD9;
+}
+html[theme=whiteOrange] ._defaultCss_kezss_55 * {
+  fill: #9D9D9D;
+}
+html[theme=whiteRed] ._defaultCss_kezss_55 * {
+  fill: #9D9D9D;
+}
+html[theme=versaceYellow] ._defaultCss_kezss_55 * {
+  fill: #FFF7E0;
+}
+html[theme=lancomePeach] ._defaultCss_kezss_55 * {
+  fill: rgba(255, 255, 255, 0.8);
+}
+html[theme=hermesOrange] ._defaultCss_kezss_55 * {
+  fill: #FFBE8B;
+}
+html[theme=sk2] ._defaultCss_kezss_55 * {
+  fill: #FFC5C8;
+}
+html[theme=whiteYellow] ._defaultCss_kezss_55 * {
+  fill: #9D9D9D;
+}
+html[theme=whitePurple] ._defaultCss_kezss_55 * {
+  fill: #9D9D9D;
+}
+html[theme=lightBrown] ._defaultCss_kezss_55 * {
+  fill: #FFEFE0;
+}
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_1q5bq_3 * {
+  fill: #054146;
+}
+
+._defaultCss_1q5bq_55 {
+  fill: #717E97;
+}
+html[theme=blue] ._defaultCss_1q5bq_55 {
+  fill: white;
+}
+html[theme=whiteGreen] ._defaultCss_1q5bq_55 {
+  fill: #9D9D9D;
+}
+html[theme=oilyGreen] ._defaultCss_1q5bq_55 {
+  fill: #c4ffd9;
+}
+html[theme=versaceYellow] ._defaultCss_1q5bq_55 {
+  fill: #fff7e0;
+}
+html[theme=lancomePeach] ._defaultCss_1q5bq_55 {
+  fill: rgba(255, 255, 255, 0.8);
+}
+html[theme=hermesOrange] ._defaultCss_1q5bq_55 {
+  fill: #ffbe8b;
+}
+html[theme=whiteBlue] ._defaultCss_1q5bq_55 {
+  fill: #9d9d9d;
+}
+html[theme=sk2] ._defaultCss_1q5bq_55 {
+  fill: #ffc5c8;
+}
+html[theme=lightBrown] ._defaultCss_1q5bq_55 {
+  fill: #e7d2c2;
+}
+html[theme=whiteOrange] ._defaultCss_1q5bq_55 {
+  fill: #9a9a9a;
+}
+html[theme=furlaBlue] ._defaultCss_1q5bq_55 {
+  fill: #d4ddfe;
+}
+html[theme=whitePink] ._defaultCss_1q5bq_55 {
+  fill: #9d9d9d;
+}
+html[theme=bvGreen] ._defaultCss_1q5bq_55 {
+  fill: #d1e676;
+}
+html[theme=whiteBrown] ._defaultCss_1q5bq_55 {
+  fill: #9d9d9d;
+}
+html[theme=AnnaSuiPurple] ._defaultCss_1q5bq_55 {
+  fill: #cca9aa;
+}
+html[theme=whitePurple] ._defaultCss_1q5bq_55 {
+  fill: #9d9d9d;
+}
+html[theme=burgundyRed] ._defaultCss_1q5bq_55 {
+  fill: #E08EA3;
+}
+html[theme=whiteDarkGreen] ._defaultCss_1q5bq_55 {
+  fill: #9D9D9D;
+}
+html[theme=bvlgariBrown] ._defaultCss_1q5bq_55 {
+  fill: rgba(255, 255, 255, 0.6);
+}
+html[theme=venetaGrey] ._defaultCss_1q5bq_55 {
+  fill: #A0D3B3;
+}
+._defaultCss_1q5bq_55 * {
+  fill: #717E97;
+}
+html[theme=blue] ._defaultCss_1q5bq_55 * {
+  fill: #EAB700;
+}
+html[theme=whiteGreen] ._defaultCss_1q5bq_55 * {
+  fill: #9D9D9D;
+}
+html[theme=purple] ._defaultCss_1q5bq_55 * {
+  fill: rgba(255, 255, 255, 0.6);
+}
+html[theme=oilyGreen] ._defaultCss_1q5bq_55 * {
+  fill: #c4ffd9;
+}
+html[theme=whiteRed] ._defaultCss_1q5bq_55 * {
+  fill: #9d9d9d;
+}
+html[theme=versaceYellow] ._defaultCss_1q5bq_55 * {
+  fill: #fff7e0;
+}
+html[theme=lancomePeach] ._defaultCss_1q5bq_55 * {
+  fill: rgba(255, 255, 255, 0.8);
+}
+html[theme=hermesOrange] ._defaultCss_1q5bq_55 * {
+  fill: #ffbe8b;
+}
+html[theme=whiteBlue] ._defaultCss_1q5bq_55 * {
+  fill: #9d9d9d;
+}
+html[theme=whiteBlue] ._defaultCss_1q5bq_55 * * {
+  fill: #9d9d9d;
+}
+html[theme=sk2] ._defaultCss_1q5bq_55 * {
+  fill: #ffc5c8;
+}
+html[theme=sk2] ._defaultCss_1q5bq_55 * * {
+  fill: #ffc5c8;
+}
+html[theme=whiteYellow] ._defaultCss_1q5bq_55 * {
+  fill: #9d9d9d;
+}
+html[theme=whiteYellow] ._defaultCss_1q5bq_55 * * {
+  fill: #9d9d9d;
+}
+html[theme=lightBrown] ._defaultCss_1q5bq_55 * {
+  fill: #e7d2c2;
+}
+html[theme=lightBrown] ._defaultCss_1q5bq_55 * * {
+  fill: #e7d2c2;
+}
+html[theme=whiteOrange] ._defaultCss_1q5bq_55 * {
+  fill: #9a9a9a;
+}
+html[theme=whiteOrange] ._defaultCss_1q5bq_55 * * {
+  fill: #9a9a9a;
+}
+html[theme=furlaBlue] ._defaultCss_1q5bq_55 * {
+  fill: #d4ddfe;
+}
+html[theme=furlaBlue] ._defaultCss_1q5bq_55 * * {
+  fill: #d4ddfe;
+}
+html[theme=whitePink] ._defaultCss_1q5bq_55 * {
+  fill: #9d9d9d;
+}
+html[theme=whitePink] ._defaultCss_1q5bq_55 * * {
+  fill: #9d9d9d;
+}
+html[theme=bvGreen] ._defaultCss_1q5bq_55 * {
+  fill: #d1e676;
+}
+html[theme=bvGreen] ._defaultCss_1q5bq_55 * * {
+  fill: #d1e676;
+}
+html[theme=whiteBrown] ._defaultCss_1q5bq_55 * {
+  fill: #9d9d9d;
+}
+html[theme=whiteBrown] ._defaultCss_1q5bq_55 * * {
+  fill: #9d9d9d;
+}
+html[theme=AnnaSuiPurple] ._defaultCss_1q5bq_55 * {
+  fill: #bfa9cc;
+}
+html[theme=AnnaSuiPurple] ._defaultCss_1q5bq_55 * * {
+  fill: #bfa9cc;
+}
+html[theme=whitePurple] ._defaultCss_1q5bq_55 * {
+  fill: #9d9d9d;
+}
+html[theme=whitePurple] ._defaultCss_1q5bq_55 * * {
+  fill: #9d9d9d;
+}
+html[theme=whitePurple] ._defaultCss_1q5bq_55 * {
+  fill: #9D9D9D;
+}
+html[theme=whitePurple] ._defaultCss_1q5bq_55 * * {
+  fill: #9D9D9D;
+}
+html[theme=burgundyRed] ._defaultCss_1q5bq_55 * {
+  fill: #E08EA3;
+}
+html[theme=burgundyRed] ._defaultCss_1q5bq_55 * * {
+  fill: #E08EA3;
+}
+html[theme=whiteDarkGreen] ._defaultCss_1q5bq_55 * {
+  fill: #9D9D9D;
+}
+html[theme=whiteDarkGreen] ._defaultCss_1q5bq_55 * * {
+  fill: #9D9D9D;
+}
+html[theme=bvlgariBrown] ._defaultCss_1q5bq_55 * {
+  fill: rgba(255, 255, 255, 0.6);
+}
+html[theme=bvlgariBrown] ._defaultCss_1q5bq_55 * * {
+  fill: rgba(255, 255, 255, 0.6);
+}
+html[theme=venetaGrey] ._defaultCss_1q5bq_55 * {
+  fill: #A0D3B3;
+}
+html[theme=venetaGrey] ._defaultCss_1q5bq_55 * * {
+  fill: #A0D3B3;
+}
+html[theme=whiteBlue] ._defaultCss_1q5bq_55._SecColor_1q5bq_241 {
+  fill: #5378bf;
+}
+html[theme=whiteBlue] ._defaultCss_1q5bq_55._SecColor_1q5bq_241 * {
+  fill: #5378bf;
+}
+html[theme=sk2] ._defaultCss_1q5bq_55._SecColor_1q5bq_241 {
+  fill: #E9C86F;
+}
+html[theme=sk2] ._defaultCss_1q5bq_55._SecColor_1q5bq_241 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._defaultCss_1q5bq_55._SecColor_1q5bq_241 {
+  fill: #df9a1c;
+}
+html[theme=whiteYellow] ._defaultCss_1q5bq_55._SecColor_1q5bq_241 * {
+  fill: #df9a1c;
+}
+html[theme=bvGreen] ._defaultCss_1q5bq_55._SecColor_1q5bq_241 {
+  fill: #fff45d;
+}
+html[theme=bvGreen] ._defaultCss_1q5bq_55._SecColor_1q5bq_241 * {
+  fill: #fff45d;
+}

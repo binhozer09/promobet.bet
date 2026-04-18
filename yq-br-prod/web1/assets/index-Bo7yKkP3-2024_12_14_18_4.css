@@ -1,0 +1,355 @@
+@charset "UTF-8";
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_1yxjv_3 * {
+  fill: #054146;
+}
+
+._str_1yxjv_55 {
+  width: 12rem;
+  height: 36rem;
+  margin-bottom: 8rem;
+}
+._str_1yxjv_55 img {
+  width: 12rem;
+  height: 34rem;
+}
+
+._num_1yxjv_65 {
+  width: 27rem;
+  height: 484rem;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(0);
+  transition: all 2s ease-out;
+}
+._num_1yxjv_65 img {
+  margin-bottom: 8rem;
+  width: 27rem;
+  height: 36rem;
+}
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_1dse6_3 * {
+  fill: #054146;
+}
+
+._pot_container_1dse6_55 {
+  margin: 0 20rem;
+  margin-top: 20rem;
+  position: relative;
+  max-height: 232rem;
+  display: flex;
+  flex-direction: column;
+}
+._pot_container_1dse6_55 ._bg_1dse6_63 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50;
+  bottom: 0;
+  margin: auto;
+  object-fit: contain;
+}
+._pot_container_1dse6_55 ._bg_1_1dse6_73 {
+  width: 10rem;
+  height: 150rem;
+}
+._pot_container_1dse6_55 ._bg_2_1dse6_77 {
+  width: 10rem;
+  height: 183rem;
+}
+._pot_container_1dse6_55 ._bg_3_1dse6_81 {
+  width: 10rem;
+  height: 183rem;
+}
+._pot_container_1dse6_55 ._bg_4_1dse6_85 {
+  width: 710rem;
+  height: 500rem;
+  margin-top: -2%;
+}
+._pot_container_1dse6_55 ._numsBox_1dse6_89 {
+  position: absolute;
+  width: 350rem;
+  height: 36rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+}
+._pot_container_1dse6_55 ._numsBox_1_1dse6_98 {
+  top: 80rem;        /* A imagem tamanho dos jackpot */
+  left: 183rem;
+}
+._pot_container_1dse6_55 ._numsBox_2_1dse6_102 {
+  top: 98rem;
+  left: 150rem;
+}
+._pot_container_1dse6_55 ._numsBox_3_1dse6_106 {
+  top: 75rem;
+  left: 150rem;
+}
+._pot_container_1dse6_55 ._numsBox_4_1dse6_110 {
+  top: 80rem;
+  left: 150rem;
+}
+/* 兼容笔记本设备显示 */
+html[theme=blue] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #EAB700;
+}
+html[theme=purple] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #ffdc82;
+}
+html[theme=oilyGreen] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #fee004;
+}
+html[theme=whiteGreen] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #1e8c58;
+}
+html[theme=versaceYellow] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #ffffff;
+}
+html[theme=whiteRed] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #CB3034;
+}
+html[theme=hermesOrange] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #551f0e;
+}
+html[theme=sk2] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #E9C86F;
+}
+html[theme=whiteYellow] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #DF9A1C;
+}
+html[theme=furlaBlue] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #FFFCD2;
+}
+html[theme=whitePink] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #EF7A7B;
+}
+html[theme=bvGreen] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #FFF45D;
+}
+html[theme=whiteBrown] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #927D6A;
+}
+html[theme=AnnaSuiPurple] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #fff;
+}
+html[theme=whitePurple] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #610862;
+}
+html[theme=burgundyRed] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #FE3856;
+}
+html[theme=whiteDarkGreen] ._svg_theme_fill_color_8jr3q_3 * {
+  fill: #054146;
+}
+
+._downloadbg_8jr3q_55, ._download_8jr3q_55 {
+  background-color: var(--theme-top-button);
+}
+html[theme=sk2] ._downloadbg_8jr3q_55, html[theme=sk2] ._download_8jr3q_55 {
+  background:  #f3f3f3
+}
+html[theme=bondiBlue] ._downloadbg_8jr3q_55, html[theme=bondiBlue] ._download_8jr3q_55 {
+  background:  #f3f3f3
+}
+html[theme=whitePink] ._downloadbg_8jr3q_55, html[theme=whitePink] ._download_8jr3q_55 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), var(---, #EE777D);
+}
+html[theme=whiteBlue] ._downloadbg_8jr3q_55, html[theme=whiteBlue] ._download_8jr3q_55 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), var(---, #5378BF);
+}
+html[theme=whiteRed] ._downloadbg_8jr3q_55, html[theme=whiteRed] ._download_8jr3q_55 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), var(---, #D2393D);
+}
+html[theme=whiteYellow] ._downloadbg_8jr3q_55, html[theme=whiteYellow] ._download_8jr3q_55 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), var(---, #DF9A1C);
+}
+html[theme=whiteBrown] ._downloadbg_8jr3q_55, html[theme=whiteBrown] ._download_8jr3q_55 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), var(---, #8C7A66);
+}
+html[theme=whitePurple] ._downloadbg_8jr3q_55, html[theme=whitePurple] ._download_8jr3q_55 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), var(---, #610862);
+}
+html[theme=whiteOrange] ._downloadbg_8jr3q_55, html[theme=whiteOrange] ._download_8jr3q_55 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), var(---, #F37509);
+}
+html[theme=burgundyRed] ._downloadbg_8jr3q_55, html[theme=burgundyRed] ._download_8jr3q_55 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), var(---, #630B20);
+}
+html[theme=whiteBrownLauren] ._downloadbg_8jr3q_55, html[theme=whiteBrownLauren] ._download_8jr3q_55 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), var(---, #A95E34);
+}
+html[theme=whiteRedGucci] ._downloadbg_8jr3q_55, html[theme=whiteRedGucci] ._download_8jr3q_55 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), var(---, #520E23);
+}
+html[theme=embraerBlue] ._downloadbg_8jr3q_55, html[theme=embraerBlue] ._download_8jr3q_55 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), var(---, #082C71);
+}
+html[theme=martinPurple] ._downloadbg_8jr3q_55, html[theme=martinPurple] ._download_8jr3q_55 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), var(---, #2B0A75);
+}
+html[theme=whiteGreenCindy] ._downloadbg_8jr3q_55, html[theme=whiteGreenCindy] ._download_8jr3q_55 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), #5F7B10;
+}
+html[theme=celineBrownWhite] ._downloadbg_8jr3q_55, html[theme=celineBrownWhite] ._download_8jr3q_55 {
+  background-image: url("https://dl-br-cf.sadslj88.com/image-prod/bximages/h5/home/celineBrownWhite/homebgchip.webp");
+  background-size: 250rem;
+}
+
+._download_8jr3q_55 {
+  display: none !important;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24rem;
+  width: 100%;
+  height: 80rem;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), var(--theme-top-bar);
+}
+._download_8jr3q_55 > div {
+  display: flex;
+  align-items: center;
+}
+._download_8jr3q_55 ._closeIcon_8jr3q_115 {
+  width: 32rem;
+  height: 32rem;
+  margin-right: 24rem;
+  border-radius: 16rem;
+  padding: 6rem;
+  background-color: var(--theme-template-color);
+  margin-top: 6rem;
+  border: 1rem solid var(--theme-light-line-color);
+}
+._download_8jr3q_55 ._closeIcon_8jr3q_115 * {
+  fill: var(--theme-main-color);
+  width: 24rem;
+}
+._download_8jr3q_55 ._downloadIcon_8jr3q_129 {
+  width: 373rem;
+}
+._download_8jr3q_55 ._btnIcon_8jr3q_132 {
+  padding: 4rem;
+  width: 150rem;
+  height: 40rem;
+  background-color: var(--theme-main-color);
+  display: flex;
+  border-radius: 12rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+._download_8jr3q_55 ._download2_8jr3q_143 {
+  position: relative;
+}
+._download_8jr3q_55 ._download2_8jr3q_143 ._title_8jr3q_146 {
+  font-size: 14rem;
+  margin-left: 12rem;
+  color: var(--theme-text-button);
+}
+._download_8jr3q_55 ._download2_8jr3q_143 ._loadIcon_8jr3q_151 {
+  height: 35rem;
+  width: 35rem;
+  background-color: inherit;
+  display: none !important;
+}
+._download_8jr3q_55 ._download2_8jr3q_143 ._loadIcon_8jr3q_151 * {
+  fill: var(--theme-text-button);
+}

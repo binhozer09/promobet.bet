@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html[theme='black'] #start_page {
+  background-color: #263040;
+}
+html[theme='blue'] #start_page {
+  background-color: #5D98E2;
+}
+html[theme='whiteGreen'] #start_page {
+  background-color: #1e8c58;
+}
+html[theme='whiteGreen'] #start_page {
+  background-color: #1D286A;
+}
+html[theme='purple'] #start_page {
+  background-color: #1D286A;
+}
+html[theme='whiteRed'] #start_page {
+  background-color: #cb3034;
+}
+html[theme='oilyGreen'] #start_page {
+  background-color: #3BAC65;
+}
+html[theme='versaceYellow'] #start_page {
+  background-color: #f5b90b;
+}
+html[theme='lancomePeach'] #start_page {
+  background-color: #ee7879;
+}
+html[theme='whiteYellow'] #start_page {
+  background-color: #df9a1c;
+}
+html[theme='whiteBlue'] #start_page {
+  background-color: #5378bf;
+}
+html[theme='sk2'] #start_page {
+  background-color: #4E0416;
+}
+html[theme='whiteOrange'] #start_page {
+  background-color: #FEAB6D;
+}
+html[theme='hermesOrange'] #start_page {
+  background-color: #F26E0A;
+}
+html[theme='lightBrown'] #start_page {
+  background-color: #9B8977;
+}
+html[theme='furlaBlue'] #start_page {
+  background-color: #5375D1;
+}
+html[theme='whitePink'] #start_page {
+  background-color: #FDAAAE;
+}
+html[theme='bvGreen'] #start_page {
+  background-color: #9CBE1F;
+}
+html[theme='whiteBrown'] #start_page {
+  background-color: #C8AE94;
+}
+html[theme='AnnaSuiPurple'] #start_page {
+  background-color: #6B53A2;
+}
+html[theme='whitePurple'] #start_page {
+  background-color: #C197C1;
+}
+html[theme='burgundyRed'] #start_page {
+  background-color: #8F2B40;
+}
+html[theme='whiteDarkGreen'] #start_page {
+  background-color: #23919C;
+}
+html[theme='greenGold'] #start_page {
+  background-color: #05584F;
+}
+html[theme='whiteBrownLauren'] #start_page {
+  background-color: #CB9878;
+}
+html[theme='whiteRedGucci'] #start_page {
+  background-color: #B9919C;
+}
+html[theme='embraerBlue'] #start_page {
+  background-color: #214A9C;
+}
+html[theme='elsaPink'] #start_page {
+  background-color: #ED89A5;
+}
+html[theme='bvlgariBrown'] #start_page {
+  background-color: #836658;
+}
+html[theme='whiteBlack'] #start_page {
+  background-color: #898788;
+}
+
+#start_page {
+  margin: 0;
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 10000000;
+}
+#start_page_img {
+  width: 150px;
+  height: auto;
+}
