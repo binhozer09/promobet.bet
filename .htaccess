@@ -1,5 +1,6 @@
 # Configuração compatível com Apache 2.4
 Options -Indexes
+DirectoryIndex index.html index.php
 RewriteEngine On
 RewriteBase /
 
