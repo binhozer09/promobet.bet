@@ -1,5 +1,0 @@
-login
-admin@gmail.com
-admin123
-280324
-2803
