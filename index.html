@@ -3,47 +3,54 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#080d18">
-<meta name="description" content="PROMOBET.BET — página oficial e informações.">
-<title>PROMOBET.BET</title>
+<meta name="theme-color" content="#071426">
+<meta name="description" content="PROMOBET — experiência demonstrativa de entretenimento digital.">
+<title>PROMOBET | Entretenimento</title>
 <style>
-:root{color-scheme:dark;--bg:#080d18;--panel:#111c2d;--mint:#54e0b5;--text:#f5f7fb;--muted:#aebbd0}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif}
-header{max-width:1120px;margin:auto;padding:25px 22px;display:flex;align-items:center;justify-content:space-between}
-.logo{font-size:25px;font-weight:900;letter-spacing:.5px}.logo span{color:var(--mint)}
-.pill{font-size:12px;color:var(--mint);border:1px solid #286d60;padding:8px 12px;border-radius:30px}
-main{max-width:1120px;margin:20px auto 0;padding:0 22px 55px}
-.hero{min-height:430px;border:1px solid #26374e;border-radius:28px;overflow:hidden;display:grid;grid-template-columns:1.05fr .95fr;background:linear-gradient(115deg,#101b2c 0%,#12283a 55%,#0b1725 100%);box-shadow:0 25px 80px #0006}
-.copy{padding:clamp(30px,6vw,72px);align-self:center}.eyebrow{color:var(--mint);font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase}
-h1{font-size:clamp(38px,6vw,66px);line-height:1.02;margin:18px 0}.copy p{font-size:17px;line-height:1.75;color:var(--muted);max-width:490px;margin:0}
-.art{position:relative;min-height:330px;display:grid;place-items:center;overflow:hidden;background:radial-gradient(ellipse at 50% 45%,#1e806f55,transparent 55%)}
-.orbit{width:min(75%,360px);aspect-ratio:1;border-radius:50%;border:1px solid #54e0b555;display:grid;place-items:center;box-shadow:0 0 80px #54e0b51a,inset 0 0 70px #54e0b511;position:relative}
-.orbit:before,.orbit:after{content:"";position:absolute;border:1px solid #54e0b533;border-radius:50%;inset:12%;transform:rotate(35deg) scaleX(1.4)}
-.orbit:after{transform:rotate(-35deg) scaleX(1.4)}
-.core{width:48%;aspect-ratio:1;border-radius:28%;transform:rotate(45deg);background:linear-gradient(135deg,#72f3c8,#178b78 60%,#123e49);box-shadow:0 20px 65px #54e0b544;display:grid;place-items:center}
-.core b{transform:rotate(-45deg);font-size:clamp(36px,6vw,62px);color:#071a20}
-.dot{position:absolute;width:13px;height:13px;border-radius:50%;background:var(--mint);box-shadow:0 0 22px var(--mint)}.d1{top:18%;left:23%}.d2{right:17%;top:30%;width:8px;height:8px}.d3{bottom:18%;left:34%;width:9px;height:9px}
-.info{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
-.card{background:var(--panel);border:1px solid #26374e;border-radius:18px;padding:23px}
-.card strong{display:block;font-size:16px;margin-bottom:9px}.card p{margin:0;color:var(--muted);line-height:1.65;font-size:14px}
-footer{max-width:1120px;margin:auto;padding:0 22px 30px;color:#7889a1;font-size:12px}
-@media(max-width:760px){header{padding:20px}.hero{grid-template-columns:1fr}.copy{padding:38px 28px 12px}.art{min-height:260px}.info{grid-template-columns:1fr}main{margin-top:8px}}
+:root{color-scheme:dark;--bg:#071426;--panel:#10233d;--panel2:#142b49;--blue:#2589ff;--cyan:#42d7ff;--text:#f4f8ff;--muted:#9db1ca;--line:#244363}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 75% -15%,#124b82 0,transparent 38%),var(--bg);color:var(--text);font-family:Inter,system-ui,Arial,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 36px));margin:auto}
+header{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff12}
+.logo{font-weight:950;letter-spacing:.5px;font-size:25px}.logo span{color:var(--cyan)}nav{display:flex;gap:26px;color:var(--muted);font-size:14px}nav a:hover{color:white}
+.demo{border:1px solid #3b8ee0;background:#0e2c4c;color:#a9dcff;border-radius:30px;padding:9px 14px;font-size:11px;font-weight:800;letter-spacing:1px}
+.hero{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:30px;padding:72px 0 58px;min-height:470px}
+.kicker{color:var(--cyan);font-size:12px;font-weight:850;letter-spacing:2px;text-transform:uppercase}
+h1{font-size:clamp(42px,6vw,70px);line-height:.99;letter-spacing:-2px;margin:18px 0}
+h1 em{font-style:normal;color:var(--cyan)}.intro{max-width:520px;color:var(--muted);font-size:17px;line-height:1.75}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{border:0;border-radius:12px;padding:14px 20px;font-weight:850;cursor:pointer}.primary{background:linear-gradient(110deg,var(--blue),#16b9e9);color:white;box-shadow:0 12px 35px #168bdf44}.secondary{background:#142b49;color:#d8eaff;border:1px solid var(--line)}
+.visual{min-height:330px;position:relative;display:grid;place-items:center}.halo{width:min(82%,390px);aspect-ratio:1;border-radius:50%;border:1px solid #36baff55;display:grid;place-items:center;box-shadow:0 0 90px #087bd533,inset 0 0 70px #087bd522;position:relative}
+.halo:before,.halo:after{content:"";position:absolute;inset:12%;border:1px solid #38c8ff44;border-radius:50%;transform:rotate(35deg) scaleX(1.35)}.halo:after{transform:rotate(-35deg) scaleX(1.35)}
+.chip{width:48%;aspect-ratio:1;border-radius:26%;transform:rotate(45deg);background:linear-gradient(140deg,#6be5ff,#1678e7 65%,#123a76);display:grid;place-items:center;box-shadow:0 20px 70px #168bff66}.chip b{transform:rotate(-45deg);font-size:clamp(54px,8vw,90px);text-shadow:0 4px 18px #06346d}
+.spark{position:absolute;width:12px;height:12px;border-radius:50%;background:#64e2ff;box-shadow:0 0 22px #64e2ff}.s1{top:17%;left:20%}.s2{right:12%;top:35%;width:8px;height:8px}.s3{bottom:14%;left:33%;width:9px;height:9px}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin:20px 0}.section-head h2{font-size:28px;margin:0}.section-head p{color:var(--muted);margin:0;font-size:13px}
+.games{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding-bottom:26px}
+.game{background:linear-gradient(160deg,#17365a,#0d2038);border:1px solid var(--line);border-radius:18px;overflow:hidden;transition:transform .2s,border-color .2s}.game:hover{transform:translateY(-4px);border-color:#3b9be7}
+.cover{height:145px;display:grid;place-items:center;font-size:54px;background:radial-gradient(circle at 50% 40%,#1b83c6,#102746 70%)}.game:nth-child(2) .cover{background:radial-gradient(circle at 50% 40%,#5c3eae,#172343 70%)}.game:nth-child(3) .cover{background:radial-gradient(circle at 50% 40%,#087d78,#102746 70%)}.game:nth-child(4) .cover{background:radial-gradient(circle at 50% 40%,#9b5a1e,#172343 70%)}
+.game-info{padding:15px}.game-info strong{display:block;font-size:15px}.game-info small{display:block;color:var(--muted);margin-top:5px}.tag{display:inline-block;margin-top:12px;padding:6px 9px;border-radius:20px;background:#153d60;color:#9edbff;font-size:10px;font-weight:800;letter-spacing:.5px}
+.notice{margin:20px 0 54px;border:1px solid #28527a;background:#0c2038;border-radius:16px;padding:18px 20px;color:#b9cde3;font-size:13px;line-height:1.65}.notice strong{color:#e7f5ff}
+footer{border-top:1px solid #ffffff14;padding:25px 0 34px;color:#8298b4;font-size:12px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+dialog{max-width:420px;width:calc(100% - 32px);border:1px solid #2c6596;border-radius:18px;background:#10233d;color:var(--text);padding:25px;box-shadow:0 24px 90px #000b}dialog::backdrop{background:#020914cc}dialog h3{margin-top:0}dialog p{color:var(--muted);line-height:1.6}dialog button{margin-top:8px}
+@media(max-width:760px){nav{display:none}.hero{grid-template-columns:1fr;padding:54px 0 30px}.visual{min-height:270px}.games{grid-template-columns:repeat(2,1fr)}.section-head{align-items:start;flex-direction:column}}
+@media(max-width:390px){.games{grid-template-columns:1fr}.cover{height:170px}}
 </style>
 </head>
 <body>
-<header><div class="logo">PROMOBET<span>.BET</span></div><div class="pill">PÁGINA OFICIAL</div></header>
-<main>
-<section class="hero">
-<div class="copy"><div class="eyebrow">Bem-vindo</div><h1>Conheça a<br> PROMOBET.</h1><p>Este é o espaço oficial da PROMOBET.BET. Aqui você encontra informações e atualizações da plataforma, com acesso simples pelo celular ou computador.</p></div>
-<div class="art" role="img" aria-label="Arte abstrata em tons verdes representando tecnologia e conexão"><div class="orbit"><div class="core"><b>P</b></div><i class="dot d1"></i><i class="dot d2"></i><i class="dot d3"></i></div></div>
+<header class="wrap"><a class="logo" href="#">PROMOBET<span>.BET</span></a><nav><a href="#inicio">Início</a><a href="#jogos">Experiências</a><a href="#sobre">Sobre</a></nav><span class="demo">MODO DEMONSTRAÇÃO</span></header>
+<main class="wrap">
+<section class="hero" id="inicio">
+<div><div class="kicker">Entretenimento digital</div><h1>Uma nova forma<br>de <em>se divertir.</em></h1><p class="intro">Conheça a identidade PROMOBET: uma experiência digital moderna, feita para navegar com facilidade no celular ou computador.</p><div class="actions"><a class="btn primary" href="#jogos">Explorar experiências</a><a class="btn secondary" href="#sobre">Saiba mais</a></div></div>
+<div class="visual" aria-label="Símbolo abstrato da PROMOBET"><div class="halo"><div class="chip"><b>P</b></div><i class="spark s1"></i><i class="spark s2"></i><i class="spark s3"></i></div></div>
 </section>
-<section class="info">
-<article class="card"><strong>Informações</strong><p>Consulte as informações oficiais e acompanhe as novidades publicadas neste espaço.</p></article>
-<article class="card"><strong>Acesso simples</strong><p>A página foi preparada para funcionar em telas de celular, tablet e computador.</p></article>
-<article class="card"><strong>Atualizações</strong><p>Novos conteúdos e avisos poderão ser publicados aqui conforme forem disponibilizados.</p></article>
-</section>
+<section id="jogos"><div class="section-head"><h2>Explore as experiências</h2><p>Prévia visual — conteúdo demonstrativo</p></div>
+<div class="games">
+<article class="game"><div class="cover">🎰</div><div class="game-info"><strong>Slots</strong><small>Experiência ilustrativa</small><span class="tag">DEMONSTRAÇÃO</span></div></article>
+<article class="game"><div class="cover">🎡</div><div class="game-info"><strong>Roleta</strong><small>Experiência ilustrativa</small><span class="tag">DEMONSTRAÇÃO</span></div></article>
+<article class="game"><div class="cover">🃏</div><div class="game-info"><strong>Cartas</strong><small>Experiência ilustrativa</small><span class="tag">DEMONSTRAÇÃO</span></div></article>
+<article class="game"><div class="cover">💎</div><div class="game-info"><strong>Jogos especiais</strong><small>Experiência ilustrativa</small><span class="tag">DEMONSTRAÇÃO</span></div></article>
+</div></section>
+<section class="notice" id="sobre"><strong>Importante:</strong> esta versão é apenas uma apresentação visual. Não há cadastro real, carteira, depósitos, saques, prêmios ou apostas. Nenhuma transação financeira é realizada neste site.</section>
 </main>
-<footer>© <span id="year"></span> PROMOBET.BET. Todos os direitos reservados.</footer>
-<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
-</body>
-</html>
+<footer class="wrap"><span>© <span id="year"></span> PROMOBET. Todos os direitos reservados.</span><span>Versão demonstrativa • Entretenimento digital</span></footer>
+<dialog id="info"><h3>Experiência demonstrativa</h3><p>Esta área apresenta apenas o conceito visual da PROMOBET. Jogos, apostas e movimentações financeiras não estão habilitados.</p><button class="btn primary" id="close">Entendi</button></dialog>
+<script>document.getElementById('year').textContent=new Date().getFullYear();document.querySelectorAll('.game').forEach(card=>card.addEventListener('click',()=>document.getElementById('info').showModal()));document.getElementById('close').addEventListener('click',()=>document.getElementById('info').close());</script>
+</body></html>
